@@ -11,51 +11,18 @@ importers:
       '@red-cup-engineering/arnold':
         specifier: 0.3.0
         version: 0.3.0
-      '@red-cup-engineering/be-not-so-fearful':
-        specifier: 0.1.0
-        version: 0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/casino-service-561-group':
-        specifier: 0.1.0
-        version: 0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/crucible-561-group':
-        specifier: 0.1.0
-        version: 0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/durante':
-        specifier: 0.1.0
-        version: 0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/gambling-trainer-561-group':
-        specifier: 0.1.0
-        version: 0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/gaming':
         specifier: 0.1.10
         version: 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/git-source-reading-service':
-        specifier: 0.1.0
-        version: 0.1.0
-      '@red-cup-engineering/onestone-561-group':
-        specifier: 0.1.0
-        version: 0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/parlor-service-561-group':
-        specifier: 0.1.0
-        version: 0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/solitaire-561-group':
-        specifier: 0.1.0
-        version: 0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/static-site-publisher':
-        specifier: 0.1.16
-        version: 0.1.16(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/stoke-561-group':
-        specifier: 0.1.0
-        version: 0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+        specifier: 0.1.18
+        version: 0.1.18(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/web-page-tiling-engine':
-        specifier: 0.14.2
-        version: 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+        specifier: 0.16.5-dev.0
+        version: 0.16.5-dev.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/weiqi-engine':
-        specifier: 0.3.1
-        version: 0.3.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/you-are-conscious-service':
-        specifier: 0.1.0
-        version: 0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+        specifier: 0.3.4
+        version: 0.3.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       esbuild:
         specifier: 0.28.1
         version: 0.28.1
@@ -971,6 +938,7 @@ packages:
   '@opentelemetry/sdk-trace-base@2.12.0':
     resolution: {integrity: sha512-JOERgZCxRM06FEJ5kEWxlSRChah6MmXDx3KwCruqEv/iEyLkTokCSemf2y1w8oIHtfrr8EVTpzebq/31vn2Cpg==}
     engines: {node: ^18.19.0 || >=20.6.0}
+    deprecated: Use @opentelemetry/sdk-trace package
     peerDependencies:
       '@opentelemetry/api': '>=1.3.0 <1.10.0'
 
@@ -1002,10 +970,6 @@ packages:
   '@red-cup-engineering/a2a-services-section@0.1.2':
     resolution: {integrity: sha512-zQTc8WA3Rt6QLO49I366v9T/f5tdpggSNn2YtZ2gZ5uQEExFwXlPExfoIR3siX6ChiWZavPP7Oui6CVTLWzj6Q==}
     engines: {node: '>=22'}
-
-  '@red-cup-engineering/abrash@0.1.2':
-    resolution: {integrity: sha512-udJy1KMSmxmW74rpkaV1xP3HuQFMyknMRlI3dYCCZvRmLAzrXvzN6oLxg7WOqP0K4qctKXQQ9sRHhPz5uhGwcA==}
-    engines: {node: '>=20'}
 
   '@red-cup-engineering/account-evidence-reconciliation-service@0.1.7':
     resolution: {integrity: sha512-kbmMNngXd3SJ6E4KujLiQdTgdHoLbAI9aT4GnUcbHVW04pxVbZL5dRSs5mGqLH63eSLT6L/+KBBNyWxeTfUmBg==}
@@ -1073,10 +1037,6 @@ packages:
     resolution: {integrity: sha512-+/7/tIzGUmqThBTRHCX8ecqudk2EGsLUe2yjxkBPhCOQ+/pS15d2nOYFc0pdyqAZd5Tu/3Y74n8AWcK+YoFKcg==}
     engines: {node: '>=22.18'}
 
-  '@red-cup-engineering/be-not-so-fearful@0.1.0':
-    resolution: {integrity: sha512-V2DQPNQtECRwHRn1ZHWBOp666q15FQLG2cGzLoYIH9z7/hS6FQD41Bu9Wr0KxxRV5ivOEifogeAl6Y5R3kwgMw==}
-    engines: {node: '>=24'}
-
   '@red-cup-engineering/bibliography-engineering-services-section@0.5.1':
     resolution: {integrity: sha512-R1pfRD4udg+u6M96mYKuxN/Rrz2gEB3M7D4Ik4szuoaxFOqOH0P4v01UXs3ZHqksazTDKplUGW89yUabsVc2ww==}
     engines: {node: '>=22'}
@@ -1109,27 +1069,15 @@ packages:
     engines: {node: '>=22'}
     hasBin: true
 
-  '@red-cup-engineering/card-table@0.1.1':
-    resolution: {integrity: sha512-i8SXq9nePsL0/jnOA6r1Tuxtd1FxKISisY68THe8VFLvnjfHEeznQYq6ba5w4pO0gRBV6QU3t+JST7q46+kTpQ==}
-    engines: {node: '>=24'}
-
   '@red-cup-engineering/carrier-kind-engineering-services-section@0.1.1':
     resolution: {integrity: sha512-fulSTMj9o5kEam4LfBIwuLgv+ppFpiHja4jNI8DJcUF9oqf921f+SLVnq1CBE7DUtqvyBxxe9FtxP8skc1bABA==}
     engines: {node: '>=22'}
     hasBin: true
 
-  '@red-cup-engineering/casino-service-561-group@0.1.0':
-    resolution: {integrity: sha512-fcSkund7VL0Pk5JeIaEmZ0FkbTyI0vUe+zjImLvo5YOfVESF3WHQ/89iKyJcp4pktL0MigvUuqSfkxl0icyZIA==}
-    engines: {node: '>=24'}
-
   '@red-cup-engineering/cast-set-of-votes-service@0.1.2':
     resolution: {integrity: sha512-ot7ns8hwzmPXvtRDXP6NnqL8VIgXbwF4YssWsllQxTgddnYDS709sQIkXckNuoOj3AaOEnvxaRQIYyfqJSbrbw==}
     engines: {node: '>=24.2.0'}
     hasBin: true
-
-  '@red-cup-engineering/cast@0.1.1':
-    resolution: {integrity: sha512-OKSbGEt3rO/9Cl5P6sXeVAy4XG1Ah/X797920/QvApasXUnYlqLyB+Vq1QlUmaorFB8MxZTTf3EA8QRA/Ym0lg==}
-    engines: {node: '>=24'}
 
   '@red-cup-engineering/category-reference-index-service@0.4.2':
     resolution: {integrity: sha512-3awyxMJgDAeExSA7Dk7C9/6HAf058sFgz+jzc9VIMEMBFyafVnvOV6hj1Rm4xJ++R3o2QbEt6ijsU2l3wcsZSQ==}
@@ -1170,10 +1118,6 @@ packages:
   '@red-cup-engineering/computer-article-engineering-services-section@0.1.2':
     resolution: {integrity: sha512-sX8lLZGeF8MO7fnGvkdrkm9U2ltmfeKkQJFMZkYrAKgbx+STTto2nNv+INBBLv+dooe+F0DFG9q1ovw+5hAIpg==}
 
-  '@red-cup-engineering/computer-audio-engineering-services-section@0.2.0':
-    resolution: {integrity: sha512-hBWl9aP6bvsg/Ii64ibbmcj4XrCSk33me8KyzQUobyF6HSgF93uECNmGs3lG1h8f4D9t66yb025aLvuzcDM2gw==}
-    hasBin: true
-
   '@red-cup-engineering/computer-code-engineering-services-section@0.1.2':
     resolution: {integrity: sha512-wh8wpB1avaCFpo4maDSKSlpwr8wkCHTBPHo5/126hQBnzrgMWvNImXZOTzsHZrOs/fh7YAg/WUHCJlQJlNcd7Q==}
     hasBin: true
@@ -1190,6 +1134,14 @@ packages:
 
   '@red-cup-engineering/computer-data-engineering-services-section@0.2.0':
     resolution: {integrity: sha512-fHoL1GrjGExKOuVosgLfUl0HK6WVQ1EZcOrR4LkC6XN6dUBbvOtA7n+mupaqvSSErWdDENL6SCPiiApgCaUOTQ==}
+    hasBin: true
+
+  '@red-cup-engineering/computer-data-engineering-services-section@0.3.1':
+    resolution: {integrity: sha512-P8SMvW65n+jvHnQpI3lbIKsuMm8V3ilXZxUDKdccRd26gnF7s7w8aXb/ogdLIS+/qiEB+Mjj1Lm266K3cveGAw==}
+    hasBin: true
+
+  '@red-cup-engineering/computer-data-engineering-services-section@0.7.1':
+    resolution: {integrity: sha512-W2LGCDWybchB6N2JeDEvK+v9TT0fDMcJXaaioqi+uRz9g/NLZ5EgP6rE3o+RVDtuwKiRnIOshnOf3lVOVNR5VQ==}
     hasBin: true
 
   '@red-cup-engineering/computer-file-engineering-services-section@0.4.0':
@@ -1245,6 +1197,12 @@ packages:
   '@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section@0.1.1':
     resolution: {integrity: sha512-Bq6QDGY82+ZeIcZzi3zlk3kJ0VTlGllc6D45Vmb9pCiR7ju/xeIJyig+ZuhXu9lU/bnShGwxA3fhf5pYkHDpkQ==}
 
+  '@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section@0.1.2':
+    resolution: {integrity: sha512-W+Aib5PW+VfJn5Tda90AWVV6jrw5gvhIQca2xJcuYw1AMWg/d36dOc13DMQS5qmO16QA9gWHMxcwik0JMfuLsw==}
+
+  '@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section@0.1.4':
+    resolution: {integrity: sha512-OcBOm2DW6MCIDS/gfzhVKdtowga/ANMV/6b/eoHtHb1cy6p2jka7xsbjG6P85K+/h0KtFfa+JRlB1hf5/rLcdw==}
+
   '@red-cup-engineering/computer-web-platform@0.6.1':
     resolution: {integrity: sha512-nj1Gc4WJPy5jT/OoY2iaEIFEwrcjr+xF2KObyF9NDWcx4gpwapwA4ob74xhSuP3T9WW8foqVhJA+mYo9G1RRwQ==}
     engines: {node: '>=22.18'}
@@ -1252,10 +1210,6 @@ packages:
   '@red-cup-engineering/computer-web-server@0.6.2':
     resolution: {integrity: sha512-bCcI1uMHgvAVDvyeX++d+umrXSu0y0fcS+qVEDj0QgOCHSzS7eERBl4o2s308Kte0yq7S2ikYuSvMWu3KVdlkQ==}
     engines: {node: '>=22.18'}
-
-  '@red-cup-engineering/computer@0.4.1':
-    resolution: {integrity: sha512-pbVkN//bpsJhysJY/eb+rIIlQ2NFoslez0SexX72updOblz+5XSK8TxxitcPqFMoGs8acXOXzxxUgBnKjtXRvw==}
-    engines: {node: '>=22'}
 
   '@red-cup-engineering/computing@0.2.2':
     resolution: {integrity: sha512-781dW3j2EheQhjLLduYgIaIjRCyT7JVaHdy+NJIfgsG/Quqtv82lXSRO7pK2YLZegWjspokhM+qhQJZTDV4/UA==}
@@ -1284,10 +1238,6 @@ packages:
   '@red-cup-engineering/cron-services-section@0.1.1':
     resolution: {integrity: sha512-UbIfAyOFHQejw1of3YqMZhzGmLYf91TFMa2hFrOXikkMqZQgrGbOxQFeRyug5IyrnjSePpIronC3yZm6O/OFWg==}
 
-  '@red-cup-engineering/crucible-561-group@0.1.0':
-    resolution: {integrity: sha512-j9w50KVoVMBqz350dJDsOQgdbG7F0h4RvgU6UlcrJUUHtqeRsF0zEj0I7tWGhD1gTUVNuXN3fpgh1uvRKs2tXg==}
-    engines: {node: '>=24'}
-
   '@red-cup-engineering/cryptographic-computer-data-engineering-services-section@0.3.1':
     resolution: {integrity: sha512-5a5fFFLCntjl4f61TGxcUOVGwCyKhjup/k0f4irnsXA/BC5alsZzeij0NPf6NzAW8kAOQ9u72L7tg8L/2ZuhSA==}
     engines: {node: '>=18'}
@@ -1305,18 +1255,21 @@ packages:
     resolution: {integrity: sha512-qgY2WJ6sDh9o6KMJshQL2L/LSm66wybap2YWnRidqNGJMHov+OoPLNf1VNIDoQ1Qtv6gZM+hcFINhrjiJu8E0Q==}
     engines: {node: '>=20'}
 
+  '@red-cup-engineering/csl-json-services-section@0.2.2':
+    resolution: {integrity: sha512-PQbT8DYVUqwzMjkNL8S0iTixNIGB1ZEZWxaTFoWmXSh+y7JXXTU/4nmYn0yqe2cQbC0Myv05XR/xIyEgFATnDQ==}
+    engines: {node: '>=20'}
+
   '@red-cup-engineering/css-services-section@0.1.1':
     resolution: {integrity: sha512-rzZOb790yueYkKfDuq3FlT8vqbYnruE69059N14ezI683oUYgUT+6i2weR7rU1Oq/zl8mr9aB7NjfVQAGAtZXw==}
 
   '@red-cup-engineering/css-services-section@0.1.2':
     resolution: {integrity: sha512-T514ChjORyU8/1Rl4Qb4FOsj25k/OHVypcJ+8GviFdiTAjzUZD4uNsoRMQPqB3SQA/nVGxaxGmTMjX0lER9sAw==}
 
+  '@red-cup-engineering/css-services-section@0.1.3':
+    resolution: {integrity: sha512-9YhXRaiSOL6H1nOMSUoQEOplV2LZrsWw7t11sHZcli+BZvB721JhL6lL4I/9p16hKP1HkMID3hz4slV8D7lNGg==}
+
   '@red-cup-engineering/csv-services-section@0.1.1':
     resolution: {integrity: sha512-SLscCW0bWIYtzthLQ47y8lRBJyJPA10euO2UJfounN15E1+Y3Vf2Osw03ScEVNDDH3UND4ULWcAo1L692kkiRg==}
-
-  '@red-cup-engineering/daleske@0.2.0':
-    resolution: {integrity: sha512-KIRb69hEq3EFxTpfVbhQlSymk5c3NHZ4v5wJHo+v/azeeoPBsIwU2uiAl4Vu1VP3IHzZpHxoGaCCIoCzadTUgA==}
-    engines: {node: '>=20'}
 
   '@red-cup-engineering/data-custody-directory-service@0.3.2':
     resolution: {integrity: sha512-XXC4GQEohqos8HUIjPxR8U/slchZgMcmi2aRbbxJb1UW7/5l5ap/9C5ZL1ReaeoVU98jbbHClkUysVidda0KCw==}
@@ -1345,11 +1298,6 @@ packages:
   '@red-cup-engineering/discord-rest-transport-service@0.6.1':
     resolution: {integrity: sha512-Z7HXycJu0JpgNi3dFB83U8AX0tCY9usrFSNvUzJorPU/FkDVNfAVj9PRWSc6Ksea/oRiKZTWVkPI2mq8GRGTyg==}
     engines: {node: '>=22.18'}
-
-  '@red-cup-engineering/durante@0.1.0':
-    resolution: {integrity: sha512-BxQJFL8p2pWpWVT8RL0JLuuseP5+jDR00nZs2gE9RIdE7xZb8skgqs1Ceq5X5n4ZqzWMWhmYi8d03x9WnQWjcQ==}
-    engines: {node: '>=20'}
-    hasBin: true
 
   '@red-cup-engineering/eavt-services-section@0.10.4':
     resolution: {integrity: sha512-7STe/Sh6W4INFsJxm+d9iSG5H9itGTcKyyek2oJW6FlnZRr3qDx80kW1yXJ9Ik9oUTr9YIFsYdTI9vjJcSG53w==}
@@ -1382,6 +1330,9 @@ packages:
   '@red-cup-engineering/exact-number-data-service@0.1.1':
     resolution: {integrity: sha512-D54dcxY7eqK23lktqbv0HjjNNroY2clDJ1K5TW7pWN2NBeDOGbS53yGv7sAYfToPn3YH8pKrpBVAB1URg8kcuA==}
 
+  '@red-cup-engineering/exact-number-data-service@0.1.2':
+    resolution: {integrity: sha512-324aBhzrMKTu7Pupr79MmyosKmtG30xR7stHapRqklFtXbhijeAWF1sLQdJMAgB1xwRfEIbpElPbzMu7Zx3q+A==}
+
   '@red-cup-engineering/exact-order-book-service@0.1.1':
     resolution: {integrity: sha512-dvRseh5DI4Raia4I6IvakKPgC7Ux2cyWig8bZ9KcmIO2GHgWQwkHpw5DVYL5dNy8lZODIfZ9PwYa1hKAV6bG7g==}
 
@@ -1404,17 +1355,9 @@ packages:
     resolution: {integrity: sha512-Av+0JzqC89CYuoxN1PeEDmg5zIiC+W9rhyMvkiYnB81QcMqtLcTnhp/4r2Hg2mqrarMyWwO0K9ICzy7HA171sQ==}
     engines: {node: '>=22.18'}
 
-  '@red-cup-engineering/footing@0.1.5':
-    resolution: {integrity: sha512-DE1m3GeWyarybKzSIE884NY5sAfPwj2+NCMh2DnDTeCQDT6ezXzM0cfbg4vMTz6S107NI2zCJgxHT9zwbqR0mw==}
-    engines: {node: '>=24'}
-
   '@red-cup-engineering/forecasting@0.5.4':
     resolution: {integrity: sha512-D0W0DqZx+EhDbPLuGHK3KZqQaMhxtKujYTjRAHOxwO4qNDSEu+qJG6DNAPi5J9XwR2lXIia0104nt6vJmOquqQ==}
     engines: {node: '>=22'}
-
-  '@red-cup-engineering/gambling-trainer-561-group@0.1.0':
-    resolution: {integrity: sha512-LbHYrkGdn2CKpANkueY9CgU4dWy869HsjeuxBGfEqjojE3SF2e1HTyQrwDbL7/d+vFhnqyuikMm2yd9buAKWuA==}
-    engines: {node: '>=24'}
 
   '@red-cup-engineering/gaming@0.1.10':
     resolution: {integrity: sha512-HA5AtKn8cUhmCd4p6YryiOUi/Q1eyjKytHDow2PjGivVTBqr4OyhYffHxtjS+4HqTeLHQoAHZhPJXDe5feEhGg==}
@@ -1481,11 +1424,17 @@ packages:
   '@red-cup-engineering/html-engineering-services-section@0.1.2':
     resolution: {integrity: sha512-THAHSuLR7bJMKKDKSLy9ctX+NUDuUF5IgrR92RblKOI99TEirZ22j8fYS1+isfiqp8MQ1Pbd5P/23C34EkEqlQ==}
 
+  '@red-cup-engineering/html-engineering-services-section@0.1.3':
+    resolution: {integrity: sha512-DumioCqecu0XGKg53WHOVB6yUfsK3BBf9hQqUrHqGVIlKWoZki3RiLskV1AYQnZb2Bppnh4hvM+po23g0IAwFA==}
+
   '@red-cup-engineering/html-structural-projection-service@0.3.1':
     resolution: {integrity: sha512-MgLlKYRzEJxj2AUkcwxJ+3ljw9l0+jACPrD+9NnzJjRE18Yiz5uN9UIjUx7pF7yHtMpeNa0Deq457ChbZCwsmQ==}
 
   '@red-cup-engineering/html-structural-projection-service@0.3.2':
     resolution: {integrity: sha512-Qv9E8yWTj3ADiWXO0YoO3X1Kv7sBPQVd6g3++jyHgEYzK/j/McXHQ5u7YI0Zyl50ty2hIXIFNocw7+yAqg/E+A==}
+
+  '@red-cup-engineering/html-structural-projection-service@0.3.3':
+    resolution: {integrity: sha512-DJ+kn8OcOwVPOfXCBIHanFTbwhcn2Xvs0PbOxMuuOGqwAq7/lNhO0Ud1u+S2zDPZiInceYlxNp6jeHXhlzrELQ==}
 
   '@red-cup-engineering/http-services-section@0.6.2':
     resolution: {integrity: sha512-qH00Ov8tCggt3TxtUPH2+C8iDwYOLoaRSh3WtJiPiT4g0+GykoUBg5OT36YUPvR+sGIGwXJjx0FkuvjKuQADLQ==}
@@ -1493,6 +1442,11 @@ packages:
 
   '@red-cup-engineering/immutable-content-custody-service@0.4.1':
     resolution: {integrity: sha512-EDg3ItnELTtNRRvcgkazQej7azbFFuj4jS2H2Vgsaa1u1+JN+jYN9iRpJU0SQz1GmhxeoMSpW9/HTL8D8+XUaA==}
+    engines: {node: '>=22'}
+    hasBin: true
+
+  '@red-cup-engineering/immutable-content-custody-service@0.7.0':
+    resolution: {integrity: sha512-FOQ84H5J7j4+ySCMYTQrfJjfPpcq12n+b15twxdBjLeY15dYFu19FA247moDiFZeL4vtG+xjFxdtOeoDZPsINQ==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -1587,6 +1541,11 @@ packages:
     engines: {node: '>=24'}
     hasBin: true
 
+  '@red-cup-engineering/knowledge-system-server@0.2.3':
+    resolution: {integrity: sha512-A3vGJt3KvAYcROmi2a1s4ojgszu1X3rM3QN1ZL2B40zIkXqe4uRVc3QPLEDUY9R/MKJqhoyplp/r4nnWpEcJBw==}
+    engines: {node: '>=24'}
+    hasBin: true
+
   '@red-cup-engineering/land-contracts-services-section@0.1.1':
     resolution: {integrity: sha512-xQWKAsu5FKl89hhZggYkoFAB0+45SsNRw/FD7vSv/BsmYfepjIBfwkiGIfHoV05KuAnmtn48vj4wFI+rVF4W0w==}
     engines: {node: '>=22.18'}
@@ -1609,6 +1568,16 @@ packages:
     engines: {node: '>=22'}
     hasBin: true
 
+  '@red-cup-engineering/markdown-engineering-services-section@0.5.3':
+    resolution: {integrity: sha512-JduRVBIDBb6KKnk7VybZjXs8NgG+m3VbKPitFI42HpoJ5LMUdV2Ln1+cBg9fPu8tbWqTVcpKFfd7zU6eIw6xRA==}
+    engines: {node: '>=22'}
+    hasBin: true
+
+  '@red-cup-engineering/markdown-engineering-services-section@0.5.6':
+    resolution: {integrity: sha512-fXzhFVarg50Xe4UGDrHsAdo+7SVucVvkoQU/w4b5Me12BG1gY3t2ch+9hxJ8X7YnDEI/YVJZ3qxm+e6p5m4/sg==}
+    engines: {node: '>=22'}
+    hasBin: true
+
   '@red-cup-engineering/markdown-vault-bundle-services-section@0.1.2':
     resolution: {integrity: sha512-fhW6TQ+brfakveXRxwG6JUoUEdhsjVrDI1Jm0G7eAMkctHHqlkPc8N2RXo7eQ9SbI4/UyIY10UeWeFG7/azq9g==}
     engines: {node: '>=22'}
@@ -1620,6 +1589,14 @@ packages:
     resolution: {integrity: sha512-lY6UQk8UKp6goKyF5gchHTGQhv1tUH3R1Hmo8eSBxDuBYKcnhx/6M3NagJHZn4AORHPLFfqlcPdMMez8NoVNPQ==}
     engines: {node: '>=22.18'}
     hasBin: true
+
+  '@red-cup-engineering/metrologic@0.13.0':
+    resolution: {integrity: sha512-JDL+tHet8nelmUENKnpHzHxe6xirVowOyK4owG4RzyI+/jFUpr5bj/TBmnZxAGCfU1njkAC+gY9gyrDTJWwHzw==}
+    engines: {node: '>=22'}
+
+  '@red-cup-engineering/metrologic@0.14.0':
+    resolution: {integrity: sha512-nq89p1Cl/5rDseGYYxyeyMO5RA09wNwYCkoc4N7g3Uj+fH2GkY4uLjTiwgsEg3PHw9bPDcNDGfaCqDSg7w+tWQ==}
+    engines: {node: '>=22'}
 
   '@red-cup-engineering/metrologic@0.3.0':
     resolution: {integrity: sha512-k/P2ptSeTZsdJi3Tg/REixOGX24aIQXLxM0nGyvTDCu2dY17swn+zXPeOJgyNJZtcgd47BIzUMpT5/yTP4mGNQ==}
@@ -1648,10 +1625,6 @@ packages:
   '@red-cup-engineering/multihash-address-service@0.1.2':
     resolution: {integrity: sha512-4ghp7TFxhEspppogmsugzBqsDsnNCJbNRJLPVrzY68GnLcNWwoHthdiSYdRcDDIBb9ICD5iXXbUTmjuErkzudQ==}
     engines: {node: '>=22'}
-    hasBin: true
-
-  '@red-cup-engineering/music-engineering-services-section@0.2.1':
-    resolution: {integrity: sha512-zablm3J+nuoq0ophVqg5MEASgDlUYiQbQ5GN9tuHUUXMV8fRxmqXKXYHt0TzPBV/TUDGZM7QMYuME5lLiz3aww==}
     hasBin: true
 
   '@red-cup-engineering/node-job-service@0.1.1':
@@ -1708,10 +1681,6 @@ packages:
   '@red-cup-engineering/obsmetrologia-blk-accumulation-strategy-service@0.1.6':
     resolution: {integrity: sha512-VIFD3qNlOxlD2sMR7fQONfoV9xNBDwOxYUXhvroQS+sWLrDT0urHmdtRlIcFTaEhQsO3ajJYyzTygz0bT+gdiA==}
 
-  '@red-cup-engineering/onestone-561-group@0.1.0':
-    resolution: {integrity: sha512-JBMQsPwRY4wuyI7rI1K6hQWjeehVRpSeoae7KxZgqm/1Tc1ecmWNzzxvXLbVMyKmKUORIzGJmJ4Zy9sniwWNeg==}
-    engines: {node: '>=24'}
-
   '@red-cup-engineering/openfda-services-section@0.1.1':
     resolution: {integrity: sha512-G0t+sSHCKmVy7Eb/iTYGwVG7F3sxT/X6oRsufZLBgiIzn2JOwwkHkOPOALeRa/6ooR9zBbdMZVZmA0MRUJml3Q==}
     engines: {node: '>=22.18'}
@@ -1723,14 +1692,6 @@ packages:
 
   '@red-cup-engineering/pacing-intelligence-services-section@0.2.2':
     resolution: {integrity: sha512-kEGPT5O4gOO+3AECQKiKA9NTIX1VLgKdaa3HsTIuKRmAq+HlBk5No5D9PSc+m/cpUVCAYhQNtcGvQkbRwrMHXA==}
-    engines: {node: '>=24'}
-
-  '@red-cup-engineering/parlor-kernel@0.3.1':
-    resolution: {integrity: sha512-nMLdvRcUPLxOqGnMtfVNk0bH11/4grTj2JvFgk0LIWRy9Nf/Vy+z41j3LMePGxoRzTuvUmvOeqcBpsCVZgan0Q==}
-    engines: {node: '>=24'}
-
-  '@red-cup-engineering/parlor-service-561-group@0.1.0':
-    resolution: {integrity: sha512-ztRrogm+krLL0aue+1SzAfVkAEaw+mlSAFfsmZ04dfBYQGzVN+iskBc8Y2Z/fXHqWaeNPiranHP1wc4SpkrP1g==}
     engines: {node: '>=24'}
 
   '@red-cup-engineering/personal-intelligence-systems-services-section@0.6.2':
@@ -1756,10 +1717,6 @@ packages:
 
   '@red-cup-engineering/principal-brokerage-interface@0.1.6':
     resolution: {integrity: sha512-VnfjkF1OktWdCJ+tYvmKjIMzsNM91qHNeZlloQSwx/ZPpsP6SoohHjEPlwoxW+omlMT4w0oorTEWVk/DZxMRRg==}
-
-  '@red-cup-engineering/project-browser-asset-tree-service@0.4.2':
-    resolution: {integrity: sha512-6I8UVlSt1Kbe7mBWOjRDIVM6WIG2i7zxiERWx31f0HV1OJDT2eo06WBrwbQIqTh13GUwJWdDju1w8UCHU9wRwg==}
-    engines: {node: '>=22.18'}
 
   '@red-cup-engineering/propublica-nonprofit-explorer-services-section@0.1.1':
     resolution: {integrity: sha512-jpUOUf9zNf4CSwlBE0dqd0zuLQIsSoYN37LOQbADhOptzG7fbl0DLlU2jiqx2hkCez120fFyHLDASEOckZ8DAw==}
@@ -1796,10 +1753,6 @@ packages:
     resolution: {integrity: sha512-9DbEJ/XhvSM7ta2czMr7z6yDFhEPyB0Tz5phVksuhWnYD6k6RE1gLnjxdQp+NUvpGmmev7jAEjTEZVbTlmzIHQ==}
     engines: {node: '>=22.18'}
 
-  '@red-cup-engineering/resonator@0.2.2':
-    resolution: {integrity: sha512-ISQVhlF699mP16fbkYzCVIEZg74K/8n4iTzh/NAMrMzp+D0jyYFNcjrft6azYopOSKfVnIS/KZ8ypkYbX/eboA==}
-    engines: {node: '>=24'}
-
   '@red-cup-engineering/return-risk-feature-measurement-service@0.1.2':
     resolution: {integrity: sha512-bVefWkgle7cmBlhF+yu7T5Lo8o90ha6l+PvdOv8gHJl4vWwrtyUX2Gk8Aj/3rgXD533b81WoqRvfj3OTt9jRSw==}
 
@@ -1815,6 +1768,16 @@ packages:
   '@red-cup-engineering/schedule-set-of-votes-service@0.2.2':
     resolution: {integrity: sha512-ACo3kza2p+PpM+6mqKe4teube120qokJY8aac+YTGOwebiMumYXS2BlIP7A4A1MLWgp3+vjKxOnTlByEOR+SFw==}
     engines: {node: '>=24.2.0'}
+    hasBin: true
+
+  '@red-cup-engineering/semiotic-content-address@0.1.0':
+    resolution: {integrity: sha512-5+Rap5Ya8biH9nRzVl4HadfIuNomBYfxdDtV7Ly35wvTPrEYrglXZRuXY9Mg0vGQXruTrlBzxaAiYQUXvgyIaQ==}
+    engines: {node: '>=22'}
+    hasBin: true
+
+  '@red-cup-engineering/semiotic-content-address@0.1.1':
+    resolution: {integrity: sha512-tNwjWDw+7bNjda5MoMRF7vZYxWgS2ZFxvkVCH4hYWPPSgKkhRw19zOLlJsl81WN3d3xnlo1J59GbIFH2frUjgQ==}
+    engines: {node: '>=22'}
     hasBin: true
 
   '@red-cup-engineering/semiotic-eavt-services-section@0.1.0':
@@ -1835,11 +1798,20 @@ packages:
   '@red-cup-engineering/signcell@0.1.0':
     resolution: {integrity: sha512-eYqt+s09XLX4CcG/kqmIo1n1coKSFOoIN6pR2G20lKd1rhBJt8yuyx5KKKlZfAyeJei2QWNxZRtz3DPQLIqohQ==}
 
+  '@red-cup-engineering/signcell@0.10.0':
+    resolution: {integrity: sha512-YR2FF2jH/EqSx1CCFoDPFDZmeqzmt4BYLTbUsZPEW3OqSO4BLuiKqpF32wgd4Qyiwv88naHNqfaBaXmC5P9TPA==}
+
   '@red-cup-engineering/signcell@0.2.0':
     resolution: {integrity: sha512-SE91f1OrKZ566DZj2U/EFpRLUYi+6vDFPkU3lzWS9qAijd1r7lfn6sla1qRKrOMqUYBCo74IZzVHmvb4FFRInw==}
 
   '@red-cup-engineering/signchain@0.1.0':
     resolution: {integrity: sha512-RkLBOCA8hmp5rINKgJywAFrHOlS77TE4Sj1/zC8ori+bPjaN7yxYTN42iL90b6l4NfRasdZNeMn8gbIpOsM2Zg==}
+
+  '@red-cup-engineering/signchain@0.3.0':
+    resolution: {integrity: sha512-PNdPzHGn394lrigss0jAlH395/IUSQ14nSxhrfyciwLRCWzeyItFhPalzU7LUDW6FSGWJdIuowO5b1+dCQm3zA==}
+
+  '@red-cup-engineering/signchain@0.4.0':
+    resolution: {integrity: sha512-21YTJCOgyn5wxMWUZFyTnsAy/BEVRwqaJNAawo1yLOtdpbHaSvoV6Yq4fodJEFvehrWXeo3Yv1UGBCDlO+XVGQ==}
 
   '@red-cup-engineering/signcraft@0.1.1':
     resolution: {integrity: sha512-RRAqIKEU9kE2qKE/yMss0aM2+zNpqpXmkvJ5QN4+kU0G2e8LTn0cbYefcoup5HIm+4p7WcFJPM2HVKvsHJyWyw==}
@@ -1847,16 +1819,16 @@ packages:
   '@red-cup-engineering/signgraph@0.1.0':
     resolution: {integrity: sha512-dYTiumwsZw4+MaZut/9K3deN6Hx6BhhE9MwuLwsqm1WFBlR4fgRsHfJKUmvjTKXr7udPxkutZLpslarcm7q/pA==}
 
+  '@red-cup-engineering/signgraph@0.6.0':
+    resolution: {integrity: sha512-YGc/bsT8dyqtau3P1FMyszKU2Nfe8u1v8ZlTPHMAYXLZelsZKvwFgYPT62CI3s+RZY/o6CN0cj15Eq9Zj1+uog==}
+    hasBin: true
+
   '@red-cup-engineering/socializing@0.2.2':
     resolution: {integrity: sha512-pz1H5Tw4A0nmxxiS4R94WrxzkqOHoJenzjBoVD3csX+vicVGzwotJojPN0FX8hyrTwIWCY4z6PZysN6ba/mjMA==}
     engines: {node: '>=22.18'}
 
   '@red-cup-engineering/solidity-services-section@0.1.2':
     resolution: {integrity: sha512-KCOzsDbChJe9ZissPKbuBpbslzCZ5YEdcwdu33j4sZcWOA/QTogzog6cf6L3gQn4gEEpsfXyR/xiGRUj/UKiBw==}
-
-  '@red-cup-engineering/solitaire-561-group@0.1.0':
-    resolution: {integrity: sha512-ByEzFHcG+MssMsc0tZnfJC/MAzMRUxalKuTNLe91OcCfAsRL6A6sXYev+NJtfwcDEyYV438XAw/kDAN630BzaQ==}
-    engines: {node: '>=24'}
 
   '@red-cup-engineering/specification-engineering-services-section@0.1.1':
     resolution: {integrity: sha512-1ntRDfosowRLVPKlFSPYWPDvE+K/nSQFjD8iPgY/fmxf4bTIUcq0bDlLegTJTHBm+zZP767vtzSpn58pg09Fqg==}
@@ -1878,14 +1850,10 @@ packages:
     engines: {node: '>=22.18'}
     hasBin: true
 
-  '@red-cup-engineering/static-site-publisher@0.1.16':
-    resolution: {integrity: sha512-YbHb3D+Qes3n1uMBNVhgFdyEeaiYZVXhJ4dpHxs21toUHjr1HygnwvnC7aKfBLGsSTWYmsRsoDyJyecviQOPxg==}
+  '@red-cup-engineering/static-site-publisher@0.1.18':
+    resolution: {integrity: sha512-Nk1+YKks4R+PBjkSARsc2YELaSYzaSljwDWX20KUUnTWQU9Gur2GzNWRpYDBPtgsfA3ShUmz1NqxdKFAYRT9bg==}
     engines: {node: '>=22.18'}
     hasBin: true
-
-  '@red-cup-engineering/stoke-561-group@0.1.0':
-    resolution: {integrity: sha512-SovPdugtg4okVbLiSjPeX6nt5q4AM48S8AXV5VZQ7l3LU9Csp4dLKuBmqVKDgk4PZi4lgbxjMHv71HkJDCf6jA==}
-    engines: {node: '>=24'}
 
   '@red-cup-engineering/strategy-evaluation-service@0.1.7':
     resolution: {integrity: sha512-syyhJj8ZYxuXBreJ7guAifiamAzHSIO36VDdZXhDSHGLww1VX+haldqXzpLaaoMpZArnudmS+GH97YgUMPxexA==}
@@ -2003,6 +1971,11 @@ packages:
     engines: {node: '>=22'}
     hasBin: true
 
+  '@red-cup-engineering/web-page-tiling-engine@0.16.5-dev.0':
+    resolution: {integrity: sha512-gvf9Xn9NRSnvlUCeKRz6/M7eOlTxdNte4c1fYkzhxzkTpTZOPRa5h3qOd5bH80ljBiw5IT8Yj4ftLbvUUBf5rg==}
+    engines: {node: '>=22'}
+    hasBin: true
+
   '@red-cup-engineering/web-release-candidate-service@0.3.2':
     resolution: {integrity: sha512-OVqCL4GJcNhafJjX2/pBG0y43HsvWig+qH47I7Thgq/a9l1Bo7m1xCv4JaDH5NJnwiwtF7RxCJVFMwP53GqADw==}
     engines: {node: '>=22.18'}
@@ -2016,11 +1989,15 @@ packages:
     resolution: {integrity: sha512-XvcglmULThu9ujAbGwtCgRpXvU4jRkf0ZpnSSq4BmIpORJCrvqf/TmVfOSFFNHHMqQWy/6zBjJqmsudQ0vkO8w==}
     engines: {node: '>=22.18'}
 
+  '@red-cup-engineering/web-theming-service@0.0.7':
+    resolution: {integrity: sha512-kUL3K1F9u6yCHUbI8OundPTw3abXr4rafjycLDx/t2Yjzm0uOXWxfXjH+UPbFhzahjLs1gKANIIMxYVpOBXwTw==}
+    engines: {node: '>=22.18'}
+
   '@red-cup-engineering/web3-gambling-platform-services-section@0.1.1':
     resolution: {integrity: sha512-KPyRP/d2JraqHl944kpneuxBLe381JvvPDGojI+UQOgwRPCRy6hE8J6PV7hPKnUm2/HQ3Ckm6X+BsZDufX7XMQ==}
 
-  '@red-cup-engineering/weiqi-engine@0.3.1':
-    resolution: {integrity: sha512-GSV7utkhR/yhMN2hl6VkH0UksnuY5MQPw7gLoVJrFpcv9iOheTWzXDW6BJeX3SHVXxJl51Pc/3022gIcOkmv8A==}
+  '@red-cup-engineering/weiqi-engine@0.3.4':
+    resolution: {integrity: sha512-Jup31aqnJBJALwFJqG8hV0y9Seffo8ZUCbHXx9HrMdso0TT40RycVQgxtok4DLFPOLZAxd15Z6NeXtpdXy9ziQ==}
 
   '@red-cup-engineering/witness-journal-document-service@0.1.2':
     resolution: {integrity: sha512-LrX9JlklcUU/3Mi0sbgXaeA8n24HBK3QtmnXWl+Zvk129O+gstv3SxuC4VO5cv6Q5HCo4Q2clb+yromgqpczrg==}
@@ -2052,9 +2029,8 @@ packages:
   '@red-cup-engineering/yaml-frontmatter-codec-service@0.1.7':
     resolution: {integrity: sha512-sOXbe9NaQASXUIxaz3Cij0lwwOE19hglBaV4SjkGjwZqiUOxDzJ7P7IpPYBuHb1w9H5SXLK+M+g9DyafyT2MiQ==}
 
-  '@red-cup-engineering/you-are-conscious-service@0.1.0':
-    resolution: {integrity: sha512-KUAzWKEQKINm4ghXq9WbEbVFw7sy3xA5XRwvt2JCKJ/uRNVp2pjLYxIGuwNfuLdgQWLsWWNL9gJ3aNlAtaaQRQ==}
-    engines: {node: '>=24'}
+  '@red-cup-engineering/yaml-frontmatter-codec-service@0.1.8':
+    resolution: {integrity: sha512-u5B5uX2C3oebP36d+h2AoAg3HXiXQ5FUWA+ob/vOyWCwONgrVHEROwNUZBJkSktO2GXXvAd1MTJNaJ0HWndaFg==}
 
   '@rgrove/parse-xml@5.0.0':
     resolution: {integrity: sha512-SgHFyisNAkS2ZbM8SCriUm1N0bxLiz0POKvpDeAtrnLrXaYG1PawNwu1rSjmE/vcVHbZzYWNgVP6xkep6R4uXg==}
@@ -2562,10 +2538,6 @@ packages:
   engine.io-parser@5.2.3:
     resolution: {integrity: sha512-HqD3yTBfnBxIrbnM1DoD6Pcq8NECnh8d4As1Qgh0z5Gg3jRRIqijury0CL3ghu/edArpUYiYqQiDUQBIs4np3Q==}
     engines: {node: '>=10.0.0'}
-
-  entities@6.0.1:
-    resolution: {integrity: sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==}
-    engines: {node: '>=0.12'}
 
   entities@8.1.0:
     resolution: {integrity: sha512-kxL7msIffSuh9aaFAMD7rxAIuTRMAHMeBtgHW2yUdWw732ZNh4MehkF2gdjvtdmikkaIP9bFDDJOPlsvm7avrA==}
@@ -3161,9 +3133,6 @@ packages:
       typescript:
         optional: true
 
-  parse5@8.0.0:
-    resolution: {integrity: sha512-9m4m5GSgXjL4AjumKzq1Fgfp3Z8rsvjRNbnkVwfu2ImRqE5D0LnY2QfDen18FSY9C573YU5XxSapdHZTZ2WolA==}
-
   parse5@8.0.1:
     resolution: {integrity: sha512-z1e/HMG90obSGeidlli3hj7cbocou0/wa5HacvI3ASx34PecNjNQeaHNo5WIZpWofN9kgkqV1q5YvXe3F0FoPw==}
 
@@ -3426,6 +3395,10 @@ packages:
   supports-color@10.2.2:
     resolution: {integrity: sha512-SS+jx45GF1QjgEXQx4NJZV9ImqmO2NPz5FNsIHrsDjh2YsHnawpan7SNQ1o8NuhrbHZy9AZhIoCUiCeaW/C80g==}
     engines: {node: '>=18'}
+
+  temml@0.14.0:
+    resolution: {integrity: sha512-tz1LW/5IZpThK8c7ZpdTSH/n56eAj+ThirLieErtKxYC3EKCIiB4sKdRUehAgH+fQmvIKqMfP3gqTLBdLpy9zw==}
+    engines: {node: '>=18.13.0'}
 
   text-encoding-utf-8@1.0.2:
     resolution: {integrity: sha512-8bw4MY9WjdsD2aMtO0OzOCY3pXGYNx2d2FfHRVUKkiCPDWjKuOlhLVASS+pD7VkLTVjW268LYJHwsnPFlBpbAg==}
@@ -3775,9 +3748,9 @@ snapshots:
 
   '@causeway-services/koios-news-intelligence-briefing@0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
-      '@red-cup-engineering/buttondown-services-section': 0.2.1(@types/node@26.6.5)
+      '@red-cup-engineering/buttondown-services-section': 0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/email-newsletter-engineering-services-section': 0.1.1
-      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
     transitivePeerDependencies:
       - '@red-cup-engineering/inference-work-lot-service'
@@ -4576,7 +4549,7 @@ snapshots:
 
   '@lenticule-science/astronomy-position-computation-service@0.8.2': {}
 
-  '@lenticule-science/divination-computer-system-service@0.2.4(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@lenticule-science/divination-computer-system-service@0.2.4(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
       '@lenticule-science/astronomy-position-computation-service': 0.8.2
       '@lenticule-science/divining': 0.4.4
@@ -4592,10 +4565,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
       - bufferutil
-      - supports-color
-      - typescript
       - utf-8-validate
-      - zod
 
   '@lenticule-science/divining@0.4.4':
     dependencies:
@@ -4625,7 +4595,7 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@lenticule-science/latin-language-algebra@0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@lenticule-science/latin-language-algebra@0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
       '@red-cup-engineering/activitypub-services-section': 0.8.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/communicating': 0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
@@ -4634,14 +4604,11 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
       - bufferutil
-      - supports-color
-      - typescript
       - utf-8-validate
-      - zod
 
-  '@lenticule-science/mandarin-language-algebra@0.1.4(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@lenticule-science/mandarin-language-algebra@0.1.4(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
-      '@lenticule-science/latin-language-algebra': 0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@lenticule-science/latin-language-algebra': 0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/activitypub-services-section': 0.8.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/communicating': 0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
@@ -4649,10 +4616,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
       - bufferutil
-      - supports-color
-      - typescript
       - utf-8-validate
-      - zod
 
   '@logtape/logtape@2.4.1': {}
 
@@ -4788,31 +4752,13 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@red-cup-engineering/abrash@0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/computer': 0.4.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/eavt-services-section': 0.11.0
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
-
   '@red-cup-engineering/account-evidence-reconciliation-service@0.1.7':
     dependencies:
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
       '@red-cup-engineering/exact-number-data-service': 0.1.1
 
-  '@red-cup-engineering/activitypub-server@0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/activitypub-server@0.1.2(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
       '@fedify/vocab': 2.3.1
       '@red-cup-engineering/activitypub-services-section': 0.8.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
@@ -4823,12 +4769,8 @@ snapshots:
       '@red-cup-engineering/javascript-file-services-section': 0.1.1
       '@red-cup-engineering/json-services-section': 0.4.0
     transitivePeerDependencies:
-      - '@types/node'
       - bufferutil
-      - supports-color
-      - typescript
       - utf-8-validate
-      - zod
 
   '@red-cup-engineering/activitypub-services-section@0.8.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
@@ -4909,13 +4851,13 @@ snapshots:
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
       '@red-cup-engineering/exact-number-data-service': 0.1.1
-      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/pluggable-venue-adapter-service': 0.1.7(bufferutil@4.1.0)(utf-8-validate@6.0.6)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
 
-  '@red-cup-engineering/alpaca-services-section@0.1.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(zod@3.25.76)':
+  '@red-cup-engineering/alpaca-services-section@0.1.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/account-evidence-reconciliation-service': 0.1.7
       '@red-cup-engineering/agent-section-descent-assay-service': 0.1.2
@@ -4940,7 +4882,7 @@ snapshots:
       '@red-cup-engineering/javascript-node-services-section': 0.3.2
       '@red-cup-engineering/json-schema-services-section': 0.5.0
       '@red-cup-engineering/json-services-section': 0.4.0
-      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/market-funded-strategy-improvement-service': 0.1.4
       '@red-cup-engineering/model-tournament-service': 0.1.2
       '@red-cup-engineering/obsmetrologia-alpha-selection-proof-service': 0.1.5
@@ -4959,16 +4901,18 @@ snapshots:
       '@red-cup-engineering/strategy-evaluation-service': 0.1.7
       '@red-cup-engineering/strategy-program-synthesis-work-lot-service': 0.1.7(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/transaction-cost-replay-service': 0.1.3
-      '@red-cup-engineering/union-brokerage-products-market-border': 0.1.7(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/union-brokerage-products-market-border': 0.1.7(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/uri-services-section': 0.1.1
-      '@red-cup-engineering/virtuals-brokerage-products-border': 0.1.7(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(zod@3.25.76)
+      '@red-cup-engineering/virtuals-brokerage-products-border': 0.1.7(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(zod@3.25.76)
       '@red-cup-engineering/witness-journal-document-service': 0.1.2
     transitivePeerDependencies:
       - '@red-cup-engineering/inference-work-lot-service'
       - '@types/node'
+      - '@x402/paywall'
       - bufferutil
       - debug
       - encoding
+      - ethers
       - supports-color
       - typescript
       - utf-8-validate
@@ -4979,7 +4923,7 @@ snapshots:
     dependencies:
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -5005,7 +4949,7 @@ snapshots:
       '@red-cup-engineering/json-services-section': 0.4.0
       '@red-cup-engineering/knowing': 0.1.5(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/metrologic': 0.4.0
-      '@red-cup-engineering/playing': 0.2.8(bufferutil@4.1.0)(utf-8-validate@6.0.6)
+      '@red-cup-engineering/playing': 0.2.8(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/relating': 0.10.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
       '@red-cup-engineering/signcell': 0.2.0
@@ -5037,7 +4981,7 @@ snapshots:
       '@red-cup-engineering/json-schema-services-section': 0.5.0
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
       '@red-cup-engineering/signcell': 0.2.0
-      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -5081,32 +5025,6 @@ snapshots:
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-
-  '@red-cup-engineering/be-not-so-fearful@0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/abrash': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/computer': 0.4.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/computer-system-engine': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/computer-web-platform': 0.6.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/computer-web-server': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
-      '@red-cup-engineering/feltos': 0.20.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/json-services-section': 0.4.0
-      '@red-cup-engineering/metrologic': 0.4.0
-      '@red-cup-engineering/project-browser-asset-tree-service': 0.4.2
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
 
   '@red-cup-engineering/bibliography-engineering-services-section@0.5.1':
     dependencies:
@@ -5156,7 +5074,7 @@ snapshots:
     dependencies:
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/strategy-evaluation-service': 0.1.7
     transitivePeerDependencies:
       - bufferutil
@@ -5168,14 +5086,24 @@ snapshots:
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
 
-  '@red-cup-engineering/buttondown-services-section@0.2.1(@types/node@26.6.5)':
+  '@red-cup-engineering/buttondown-services-section@0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/credential-custody-service': 0.1.2
       '@red-cup-engineering/ebook-engineering-services-section': 0.3.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/email-newsletter-engineering-services-section': 0.1.1
       '@red-cup-engineering/javascript-node-services-section': 0.3.2
     transitivePeerDependencies:
+      - '@red-cup-engineering/inference-work-lot-service'
       - '@types/node'
+      - '@x402/paywall'
+      - bufferutil
+      - debug
+      - encoding
+      - ethers
+      - supports-color
+      - typescript
+      - utf-8-validate
+      - zod
 
   '@red-cup-engineering/c2pa-services-section@0.5.1(supports-color@10.2.2)':
     dependencies:
@@ -5190,10 +5118,6 @@ snapshots:
       '@red-cup-engineering/http-services-section': 0.6.2
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
 
-  '@red-cup-engineering/card-table@0.1.1':
-    dependencies:
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-
   '@red-cup-engineering/carrier-kind-engineering-services-section@0.1.1':
     dependencies:
       '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
@@ -5201,62 +5125,18 @@ snapshots:
       '@red-cup-engineering/markdown-engineering-services-section': 0.5.2
       '@red-cup-engineering/term-engineering-services-section': 0.3.2
 
-  '@red-cup-engineering/casino-service-561-group@0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/card-table': 0.1.1
-      '@red-cup-engineering/cast': 0.1.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
-      '@red-cup-engineering/energy-bank': 0.3.3
-      '@red-cup-engineering/feltos': 0.20.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/parlor-kernel': 0.3.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/qwzspace': 0.9.1(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/resonator': 0.2.2
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
-
-  '@red-cup-engineering/cast-set-of-votes-service@0.1.2(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/cast-set-of-votes-service@0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
       '@red-cup-engineering/eavt-services-section': 0.11.0
       '@red-cup-engineering/hive-blockchain-client-service': 0.1.5(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/hive-fleet-operations-service': 0.4.12(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/hive-fleet-operations-service': 0.4.12(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/javascript-node-services-section': 0.3.2
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
       '@red-cup-engineering/witness-journal-document-service': 0.1.2
     transitivePeerDependencies:
-      - bufferutil
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
-
-  '@red-cup-engineering/cast@0.1.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/card-table': 0.1.1
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/computer-text-content-engineering-services-section': 0.1.0
-      '@red-cup-engineering/feltos': 0.20.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/weiqi-engine': 0.3.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
       - '@types/node'
-      - '@x402/paywall'
       - bufferutil
-      - debug
-      - encoding
-      - ethers
       - supports-color
       - typescript
       - utf-8-validate
@@ -5295,7 +5175,7 @@ snapshots:
 
   '@red-cup-engineering/code-websocket-frame-service@0.2.2': {}
 
-  '@red-cup-engineering/communicating-in-english@0.0.2(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/communicating-in-english@0.0.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@lenticule-science/english-language-algebra': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/communicating': 0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
@@ -5306,6 +5186,7 @@ snapshots:
       '@red-cup-engineering/json-services-section': 0.4.0
       '@red-cup-engineering/relating': 0.10.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
     transitivePeerDependencies:
+      - '@types/node'
       - bufferutil
       - supports-color
       - typescript
@@ -5365,10 +5246,6 @@ snapshots:
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
       '@red-cup-engineering/json-schema-services-section': 0.5.0
 
-  '@red-cup-engineering/computer-audio-engineering-services-section@0.2.0':
-    dependencies:
-      '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
-
   '@red-cup-engineering/computer-code-engineering-services-section@0.1.2':
     dependencies:
       '@red-cup-engineering/cbor-services-section': 0.1.1
@@ -5408,6 +5285,24 @@ snapshots:
       '@red-cup-engineering/json-services-section': 0.4.0
       '@red-cup-engineering/uri-services-section': 0.1.1
 
+  '@red-cup-engineering/computer-data-engineering-services-section@0.3.1':
+    dependencies:
+      '@red-cup-engineering/cbor-services-section': 0.1.1
+      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
+      '@red-cup-engineering/exact-number-data-service': 0.1.1
+      '@red-cup-engineering/json-services-section': 0.4.0
+      '@red-cup-engineering/semiotic-content-address': 0.1.0
+      '@red-cup-engineering/uri-services-section': 0.1.1
+
+  '@red-cup-engineering/computer-data-engineering-services-section@0.7.1':
+    dependencies:
+      '@red-cup-engineering/cbor-services-section': 0.1.1
+      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
+      '@red-cup-engineering/exact-number-data-service': 0.1.1
+      '@red-cup-engineering/json-services-section': 0.4.0
+      '@red-cup-engineering/semiotic-content-address': 0.1.0
+      '@red-cup-engineering/uri-services-section': 0.1.1
+
   '@red-cup-engineering/computer-file-engineering-services-section@0.4.0':
     dependencies:
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
@@ -5422,12 +5317,13 @@ snapshots:
       '@red-cup-engineering/computer-text-content-engineering-services-section': 0.1.0
       '@red-cup-engineering/json-services-section': 0.4.0
 
-  '@red-cup-engineering/computer-game-presence-services-section@0.1.2(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/computer-game-presence-services-section@0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/json-services-section': 0.4.0
-      '@red-cup-engineering/qwzspace': 0.9.1(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/qwzspace': 0.9.1(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
     transitivePeerDependencies:
+      - '@types/node'
       - bufferutil
       - supports-color
       - typescript
@@ -5468,7 +5364,7 @@ snapshots:
       '@red-cup-engineering/metrologic': 0.4.0
       '@red-cup-engineering/node-process-services-section': 0.2.2
       '@red-cup-engineering/organizing': 0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/playing': 0.2.8(bufferutil@4.1.0)(utf-8-validate@6.0.6)
+      '@red-cup-engineering/playing': 0.2.8(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/read-javascript-file-export-documentation-service': 0.1.5
       '@red-cup-engineering/relating': 0.10.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
@@ -5649,7 +5545,7 @@ snapshots:
       '@red-cup-engineering/agent-harness-computer-system-engineering-services-section': 0.1.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/bibliography-engineering-services-section': 0.5.1
       '@red-cup-engineering/communicating': 0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/communicating-in-english': 0.0.2(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/communicating-in-english': 0.0.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-content-engineering-services-section': 0.1.0
@@ -5686,7 +5582,7 @@ snapshots:
       '@red-cup-engineering/markdown-engineering-services-section': 0.5.2
       '@red-cup-engineering/mcp-engineering-services-section': 0.1.1
       '@red-cup-engineering/metrologic': 0.4.0
-      '@red-cup-engineering/metroplat': 0.9.3(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/metroplat': 0.9.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/node-process-services-section': 0.2.2
       '@red-cup-engineering/npm-workspace-publication-service': 0.14.0
       '@red-cup-engineering/organizing': 0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
@@ -5771,6 +5667,26 @@ snapshots:
       '@red-cup-engineering/turtle-services-section': 0.1.2
       rdf-canonize: 5.0.0
 
+  '@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section@0.1.2':
+    dependencies:
+      '@red-cup-engineering/computer-article-engineering-services-section': 0.1.2
+      '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
+      '@red-cup-engineering/eavt-services-section': 0.11.0
+      '@red-cup-engineering/json-services-section': 0.4.0
+      '@red-cup-engineering/turtle-services-section': 0.1.2
+      rdf-canonize: 5.0.0
+
+  '@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section@0.1.4':
+    dependencies:
+      '@red-cup-engineering/computer-article-engineering-services-section': 0.1.2
+      '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
+      '@red-cup-engineering/eavt-services-section': 0.11.0
+      '@red-cup-engineering/json-schema-services-section': 0.5.0
+      '@red-cup-engineering/json-services-section': 0.4.0
+      '@red-cup-engineering/turtle-services-section': 0.1.2
+      '@red-cup-engineering/uri-services-section': 0.1.1
+      rdf-canonize: 5.0.0
+
   '@red-cup-engineering/computer-web-platform@0.6.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
@@ -5817,32 +5733,7 @@ snapshots:
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
       '@red-cup-engineering/signcell': 0.2.0
       '@red-cup-engineering/signchain': 0.1.0
-      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
-
-  '@red-cup-engineering/computer@0.4.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/cbor-services-section': 0.1.1
-      '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/computer-networking-engineering-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
-      '@red-cup-engineering/eavt-services-section': 0.11.0
-      '@red-cup-engineering/json-services-section': 0.4.0
-      '@red-cup-engineering/metrologic': 0.4.0
-      '@red-cup-engineering/signcell': 0.2.0
-      '@red-cup-engineering/signgraph': 0.1.0
+      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
     transitivePeerDependencies:
       - '@red-cup-engineering/inference-work-lot-service'
       - '@types/node'
@@ -5872,7 +5763,7 @@ snapshots:
       '@red-cup-engineering/json-services-section': 0.4.0
       '@red-cup-engineering/knowing': 0.1.5(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/metrologic': 0.4.0
-      '@red-cup-engineering/playing': 0.2.8(bufferutil@4.1.0)(utf-8-validate@6.0.6)
+      '@red-cup-engineering/playing': 0.2.8(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/relating': 0.10.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/signcell': 0.2.0
       '@red-cup-engineering/signcraft': 0.1.1
@@ -5927,32 +5818,6 @@ snapshots:
 
   '@red-cup-engineering/cron-services-section@0.1.1': {}
 
-  '@red-cup-engineering/crucible-561-group@0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
-      '@red-cup-engineering/computer-networking-engineering-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/computer-system-engine': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/computer-web-platform': 0.6.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/computer-web-server': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/feltos': 0.20.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/metrologic': 0.4.0
-      '@red-cup-engineering/project-browser-asset-tree-service': 0.4.2
-      '@red-cup-engineering/signgraph': 0.1.0
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
-
   '@red-cup-engineering/cryptographic-computer-data-engineering-services-section@0.3.1':
     dependencies:
       '@red-cup-engineering/json-services-section': 0.4.0
@@ -5968,6 +5833,12 @@ snapshots:
   '@red-cup-engineering/csl-json-services-section@0.2.1':
     dependencies:
       '@red-cup-engineering/html-structural-projection-service': 0.3.2
+      '@red-cup-engineering/json-schema-services-section': 0.5.0
+      '@red-cup-engineering/json-services-section': 0.4.0
+
+  '@red-cup-engineering/csl-json-services-section@0.2.2':
+    dependencies:
+      '@red-cup-engineering/html-structural-projection-service': 0.3.3
       '@red-cup-engineering/json-schema-services-section': 0.5.0
       '@red-cup-engineering/json-services-section': 0.4.0
 
@@ -5991,11 +5862,17 @@ snapshots:
       '@red-cup-engineering/web-theming-service': 0.0.6
       '@red-cup-engineering/xml-document-rendering-service': 0.1.7
 
-  '@red-cup-engineering/csv-services-section@0.1.1': {}
-
-  '@red-cup-engineering/daleske@0.2.0':
+  '@red-cup-engineering/css-services-section@0.1.3':
     dependencies:
-      '@red-cup-engineering/terminal-user-interface-engine': 0.1.1
+      '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
+      '@red-cup-engineering/computer-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
+      '@red-cup-engineering/metrologic': 0.4.0
+      '@red-cup-engineering/signcell': 0.2.0
+      '@red-cup-engineering/web-theming-service': 0.0.7
+      '@red-cup-engineering/xml-document-rendering-service': 0.1.7
+
+  '@red-cup-engineering/csv-services-section@0.1.1': {}
 
   '@red-cup-engineering/data-custody-directory-service@0.3.2': {}
 
@@ -6018,48 +5895,19 @@ snapshots:
 
   '@red-cup-engineering/deterministic-ridge-fit-service@0.1.2': {}
 
-  '@red-cup-engineering/digital-goods-storefront-services-section@0.4.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/digital-goods-storefront-services-section@0.4.2(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
       '@red-cup-engineering/computer-web-server': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/javascript-node-services-section': 0.3.2
       '@red-cup-engineering/stripe-services-section': 0.1.11
-      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
     transitivePeerDependencies:
-      - '@types/node'
       - bufferutil
-      - supports-color
-      - typescript
       - utf-8-validate
-      - zod
 
   '@red-cup-engineering/discord-rest-transport-service@0.6.1':
     dependencies:
       '@red-cup-engineering/json-services-section': 0.4.0
-
-  '@red-cup-engineering/durante@0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/abrash': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/computer-web-server': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
-      '@red-cup-engineering/daleske': 0.2.0
-      '@red-cup-engineering/footing': 0.1.5
-      '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/http-services-section': 0.6.2
-      '@red-cup-engineering/metrologic': 0.4.0
-      '@red-cup-engineering/project-browser-asset-tree-service': 0.4.2
-      '@red-cup-engineering/terminal-user-interface-engine': 0.1.1
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
 
   '@red-cup-engineering/eavt-services-section@0.10.4':
     dependencies:
@@ -6163,7 +6011,7 @@ snapshots:
       '@red-cup-engineering/json-schema-services-section': 0.5.0
       '@red-cup-engineering/json-services-section': 0.4.0
       '@red-cup-engineering/route-directed-yield-service': 0.2.2(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/semiotic-exchange-chain-services-section': 0.1.9(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/semiotic-exchange-chain-services-section': 0.1.9
       '@red-cup-engineering/signcell': 0.2.0
       '@red-cup-engineering/solidity-services-section': 0.1.2
       '@red-cup-engineering/uri-services-section': 0.1.1
@@ -6183,6 +6031,8 @@ snapshots:
       - zod
 
   '@red-cup-engineering/exact-number-data-service@0.1.1': {}
+
+  '@red-cup-engineering/exact-number-data-service@0.1.2': {}
 
   '@red-cup-engineering/exact-order-book-service@0.1.1':
     dependencies:
@@ -6234,13 +6084,13 @@ snapshots:
       '@red-cup-engineering/agent-harness-computer-system-engineering-services-section': 0.1.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/animating': 0.2.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/communicating': 0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/communicating-in-english': 0.0.2(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/communicating-in-english': 0.0.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
       '@red-cup-engineering/computer-filepath-engineering-services-section': 0.1.0
-      '@red-cup-engineering/computer-game-presence-services-section': 0.1.2(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/computer-game-presence-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-inference-engine': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-networking-engineering-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-serialized-content-engineering-services-section': 0.1.0
@@ -6275,7 +6125,7 @@ snapshots:
       '@red-cup-engineering/npm-workspace-publication-service': 0.14.0
       '@red-cup-engineering/oauth-services-section': 0.1.2
       '@red-cup-engineering/organizing': 0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/playing': 0.2.8(bufferutil@4.1.0)(utf-8-validate@6.0.6)
+      '@red-cup-engineering/playing': 0.2.8(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/relating': 0.10.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
       '@red-cup-engineering/signcell': 0.2.0
@@ -6283,7 +6133,7 @@ snapshots:
       '@red-cup-engineering/signcraft': 0.1.1
       '@red-cup-engineering/socializing': 0.2.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/uri-services-section': 0.1.1
-      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/x402-services-section': 0.10.8(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@x402/core': 2.19.0
       '@x402/evm': 2.19.0(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)
@@ -6307,13 +6157,13 @@ snapshots:
       '@red-cup-engineering/agent-harness-computer-system-engineering-services-section': 0.1.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/animating': 0.2.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/communicating': 0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/communicating-in-english': 0.0.2(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/communicating-in-english': 0.0.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
       '@red-cup-engineering/computer-filepath-engineering-services-section': 0.1.0
-      '@red-cup-engineering/computer-game-presence-services-section': 0.1.2(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/computer-game-presence-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-inference-engine': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-networking-engineering-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-serialized-content-engineering-services-section': 0.1.0
@@ -6348,7 +6198,7 @@ snapshots:
       '@red-cup-engineering/npm-workspace-publication-service': 0.14.0
       '@red-cup-engineering/oauth-services-section': 0.1.2
       '@red-cup-engineering/organizing': 0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/playing': 0.2.8(bufferutil@4.1.0)(utf-8-validate@6.0.6)
+      '@red-cup-engineering/playing': 0.2.8(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/relating': 0.10.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
       '@red-cup-engineering/signcell': 0.2.0
@@ -6356,7 +6206,7 @@ snapshots:
       '@red-cup-engineering/signcraft': 0.1.1
       '@red-cup-engineering/socializing': 0.2.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/uri-services-section': 0.1.1
-      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/x402-services-section': 0.10.8(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@x402/core': 2.19.0
       '@x402/evm': 2.19.0(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)
@@ -6384,8 +6234,6 @@ snapshots:
       '@red-cup-engineering/signcell': 0.2.0
       '@red-cup-engineering/uri-services-section': 0.1.1
 
-  '@red-cup-engineering/footing@0.1.5': {}
-
   '@red-cup-engineering/forecasting@0.5.4(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
@@ -6395,7 +6243,7 @@ snapshots:
       '@red-cup-engineering/javascript-node-services-section': 0.3.2
       '@red-cup-engineering/json-services-section': 0.4.0
       '@red-cup-engineering/kalshi-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/position-sizing-service': 0.3.3
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
       '@red-cup-engineering/signcell': 0.2.0
@@ -6406,28 +6254,6 @@ snapshots:
       - '@types/node'
       - bufferutil
       - utf-8-validate
-
-  '@red-cup-engineering/gambling-trainer-561-group@0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/computer-web-platform': 0.6.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/computer-web-server': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
-      '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/json-services-section': 0.4.0
-      '@red-cup-engineering/project-browser-asset-tree-service': 0.4.2
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
 
   '@red-cup-engineering/gaming@0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
@@ -6441,7 +6267,7 @@ snapshots:
       '@red-cup-engineering/json-schema-services-section': 0.5.0
       '@red-cup-engineering/json-services-section': 0.4.0
       '@red-cup-engineering/metrologic': 0.4.0
-      '@red-cup-engineering/playing': 0.2.8(bufferutil@4.1.0)(utf-8-validate@6.0.6)
+      '@red-cup-engineering/playing': 0.2.8(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/signcell': 0.2.0
       '@red-cup-engineering/signchain': 0.1.0
       '@red-cup-engineering/signgraph': 0.1.0
@@ -6557,7 +6383,7 @@ snapshots:
     dependencies:
       '@red-cup-engineering/exact-number-data-service': 0.1.1
 
-  '@red-cup-engineering/hive-fleet-operations-service@0.4.12(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/hive-fleet-operations-service@0.4.12(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/activitypub-services-section': 0.8.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/cbor-services-section': 0.1.1
@@ -6590,8 +6416,9 @@ snapshots:
       '@red-cup-engineering/terracore-services-section': 0.1.1
       '@red-cup-engineering/uri-services-section': 0.1.1
       '@red-cup-engineering/witness-journal-document-service': 0.1.2
-      '@red-cup-engineering/workerbee-services-section': 0.1.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
+      '@red-cup-engineering/workerbee-services-section': 0.1.1
     transitivePeerDependencies:
+      - '@types/node'
       - bufferutil
       - supports-color
       - typescript
@@ -6640,6 +6467,18 @@ snapshots:
       '@red-cup-engineering/signcell': 0.2.0
       '@red-cup-engineering/xml-document-rendering-service': 0.1.7
 
+  '@red-cup-engineering/html-engineering-services-section@0.1.3':
+    dependencies:
+      '@red-cup-engineering/computer-article-engineering-services-section': 0.1.2
+      '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
+      '@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section': 0.1.2
+      '@red-cup-engineering/css-services-section': 0.1.3
+      '@red-cup-engineering/html-structural-projection-service': 0.3.3
+      '@red-cup-engineering/json-services-section': 0.4.0
+      '@red-cup-engineering/markdown-engineering-services-section': 0.5.3
+      '@red-cup-engineering/signcell': 0.2.0
+      '@red-cup-engineering/xml-document-rendering-service': 0.1.7
+
   '@red-cup-engineering/html-structural-projection-service@0.3.1':
     dependencies:
       '@red-cup-engineering/computer-content-engineering-services-section': 0.1.0
@@ -6668,6 +6507,20 @@ snapshots:
       entities: 8.1.0
       parse5: 8.0.1
 
+  '@red-cup-engineering/html-structural-projection-service@0.3.3':
+    dependencies:
+      '@red-cup-engineering/computer-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
+      '@red-cup-engineering/computer-text-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
+      '@red-cup-engineering/css-services-section': 0.1.3
+      '@red-cup-engineering/html-engineering-services-section': 0.1.3
+      '@red-cup-engineering/json-services-section': 0.4.0
+      '@red-cup-engineering/signcell': 0.2.0
+      '@red-cup-engineering/xml-document-rendering-service': 0.1.7
+      entities: 8.1.0
+      parse5: 8.0.1
+
   '@red-cup-engineering/http-services-section@0.6.2':
     dependencies:
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
@@ -6685,6 +6538,13 @@ snapshots:
       '@red-cup-engineering/uri-services-section': 0.1.1
 
   '@red-cup-engineering/immutable-content-custody-service@0.4.1':
+    dependencies:
+      '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
+      '@red-cup-engineering/computer-filepath-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-serialized-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/uri-services-section': 0.1.1
+
+  '@red-cup-engineering/immutable-content-custody-service@0.7.0':
     dependencies:
       '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
       '@red-cup-engineering/computer-filepath-engineering-services-section': 0.1.0
@@ -6831,7 +6691,7 @@ snapshots:
       '@red-cup-engineering/javascript-node-services-section': 0.3.2
       '@red-cup-engineering/json-schema-services-section': 0.5.0
       '@red-cup-engineering/json-services-section': 0.4.0
-      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/personal-intelligence-systems-services-section': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/position-sizing-service': 0.3.3
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
@@ -6897,7 +6757,7 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@red-cup-engineering/knowledge-system-server@0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/knowledge-system-server@0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/communicating': 0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
@@ -6912,7 +6772,7 @@ snapshots:
       '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
       '@red-cup-engineering/csl-json-services-section': 0.2.1
       '@red-cup-engineering/eavt-services-section': 0.11.0
-      '@red-cup-engineering/feltos': 0.20.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/feltos': 0.20.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/git-services-section': 0.1.2
       '@red-cup-engineering/http-services-section': 0.6.2
       '@red-cup-engineering/javascript-node-services-section': 0.3.2
@@ -6930,8 +6790,59 @@ snapshots:
       '@red-cup-engineering/term-engineering-services-section': 0.3.2
       '@red-cup-engineering/uri-services-section': 0.1.1
     transitivePeerDependencies:
+      - '@red-cup-engineering/inference-work-lot-service'
       - '@types/node'
+      - '@x402/paywall'
       - bufferutil
+      - debug
+      - encoding
+      - ethers
+      - supports-color
+      - typescript
+      - utf-8-validate
+      - zod
+
+  '@red-cup-engineering/knowledge-system-server@0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+    dependencies:
+      '@red-cup-engineering/communicating': 0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.7.1
+      '@red-cup-engineering/computer-filepath-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-networking-engineering-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/computer-serialized-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-system-engine': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/computer-systems-fabrication-engineering-services-section': 0.3.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/computer-text-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section': 0.1.4
+      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
+      '@red-cup-engineering/csl-json-services-section': 0.2.1
+      '@red-cup-engineering/eavt-services-section': 0.11.0
+      '@red-cup-engineering/feltos': 0.20.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/git-services-section': 0.1.2
+      '@red-cup-engineering/http-services-section': 0.6.2
+      '@red-cup-engineering/immutable-content-custody-service': 0.7.0
+      '@red-cup-engineering/javascript-node-services-section': 0.3.2
+      '@red-cup-engineering/json-schema-services-section': 0.5.0
+      '@red-cup-engineering/json-services-section': 0.4.0
+      '@red-cup-engineering/markdown-engineering-services-section': 0.5.6
+      '@red-cup-engineering/mcp-engineering-services-section': 0.1.1
+      '@red-cup-engineering/metrologic': 0.14.0
+      '@red-cup-engineering/relating': 0.10.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/semiotic-content-address': 0.1.0
+      '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
+      '@red-cup-engineering/signchain': 0.4.0
+      '@red-cup-engineering/signgraph': 0.6.0
+      '@red-cup-engineering/specification-engineering-services-section': 0.1.1
+      '@red-cup-engineering/split-markdown-frontmatter-fence-service': 0.2.0
+      '@red-cup-engineering/term-engineering-services-section': 0.3.2
+      '@red-cup-engineering/uri-services-section': 0.1.1
+    transitivePeerDependencies:
+      - '@red-cup-engineering/inference-work-lot-service'
+      - '@types/node'
+      - '@x402/paywall'
+      - bufferutil
+      - debug
+      - encoding
+      - ethers
       - supports-color
       - typescript
       - utf-8-validate
@@ -6982,7 +6893,7 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@red-cup-engineering/mandate-portfolio-allocation-service@0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/mandate-portfolio-allocation-service@0.2.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
       '@red-cup-engineering/communicating': 0.1.6(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/eavt-services-section': 0.11.0
@@ -6995,17 +6906,8 @@ snapshots:
       '@red-cup-engineering/signcraft': 0.1.1
       '@red-cup-engineering/signgraph': 0.1.0
     transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
       - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
       - utf-8-validate
-      - zod
 
   '@red-cup-engineering/markdown-engineering-services-section@0.5.1':
     dependencies:
@@ -7057,6 +6959,58 @@ snapshots:
       '@red-cup-engineering/uri-services-section': 0.1.1
       '@red-cup-engineering/yaml-frontmatter-codec-service': 0.1.7
 
+  '@red-cup-engineering/markdown-engineering-services-section@0.5.3':
+    dependencies:
+      '@red-cup-engineering/computer-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
+      '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
+      '@red-cup-engineering/computer-filepath-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-serialized-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-text-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
+      '@red-cup-engineering/csl-json-services-section': 0.2.2
+      '@red-cup-engineering/html-structural-projection-service': 0.3.3
+      '@red-cup-engineering/json-schema-services-section': 0.5.0
+      '@red-cup-engineering/json-services-section': 0.4.0
+      '@red-cup-engineering/metrologic': 0.4.0
+      '@red-cup-engineering/read-markdown-features-service': 0.2.0
+      '@red-cup-engineering/read-markdown-frontmatter-service': 0.2.0
+      '@red-cup-engineering/read-markdown-structure-service': 0.2.0
+      '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
+      '@red-cup-engineering/signcell': 0.2.0
+      '@red-cup-engineering/split-markdown-frontmatter-fence-service': 0.2.0
+      '@red-cup-engineering/toml-file-codec-service': 0.1.2
+      '@red-cup-engineering/toml-services-section': 0.1.2
+      '@red-cup-engineering/uri-services-section': 0.1.1
+      '@red-cup-engineering/yaml-frontmatter-codec-service': 0.1.8
+
+  '@red-cup-engineering/markdown-engineering-services-section@0.5.6':
+    dependencies:
+      '@red-cup-engineering/computer-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
+      '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
+      '@red-cup-engineering/computer-filepath-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-serialized-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-text-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
+      '@red-cup-engineering/csl-json-services-section': 0.2.2
+      '@red-cup-engineering/html-structural-projection-service': 0.3.3
+      '@red-cup-engineering/json-schema-services-section': 0.5.0
+      '@red-cup-engineering/json-services-section': 0.4.0
+      '@red-cup-engineering/metrologic': 0.4.0
+      '@red-cup-engineering/read-markdown-features-service': 0.2.0
+      '@red-cup-engineering/read-markdown-frontmatter-service': 0.2.0
+      '@red-cup-engineering/read-markdown-structure-service': 0.2.0
+      '@red-cup-engineering/semiotic-content-address': 0.1.1
+      '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
+      '@red-cup-engineering/signcell': 0.2.0
+      '@red-cup-engineering/split-markdown-frontmatter-fence-service': 0.2.0
+      '@red-cup-engineering/toml-file-codec-service': 0.1.2
+      '@red-cup-engineering/toml-services-section': 0.1.2
+      '@red-cup-engineering/uri-services-section': 0.1.1
+      '@red-cup-engineering/yaml-frontmatter-codec-service': 0.1.8
+      temml: 0.14.0
+
   '@red-cup-engineering/markdown-vault-bundle-services-section@0.1.2':
     dependencies:
       '@red-cup-engineering/computer-filepath-engineering-services-section': 0.1.0
@@ -7080,6 +7034,18 @@ snapshots:
       '@red-cup-engineering/oauth-services-section': 0.1.2
       '@red-cup-engineering/signcell': 0.2.0
 
+  '@red-cup-engineering/metrologic@0.13.0':
+    dependencies:
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
+      '@red-cup-engineering/exact-number-data-service': 0.1.1
+      '@red-cup-engineering/json-services-section': 0.4.0
+
+  '@red-cup-engineering/metrologic@0.14.0':
+    dependencies:
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
+      '@red-cup-engineering/exact-number-data-service': 0.1.1
+      '@red-cup-engineering/json-services-section': 0.4.0
+
   '@red-cup-engineering/metrologic@0.3.0':
     dependencies:
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
@@ -7095,7 +7061,7 @@ snapshots:
       '@red-cup-engineering/exact-number-data-service': 0.1.1
       '@red-cup-engineering/json-services-section': 0.4.0
 
-  '@red-cup-engineering/metroplat@0.9.3(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/metroplat@0.9.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/a2a-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/activitypub-services-section': 0.8.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
@@ -7121,9 +7087,9 @@ snapshots:
       '@red-cup-engineering/eavt-services-section': 0.11.0
       '@red-cup-engineering/execute-javascript-node-command-service': 0.3.1
       '@red-cup-engineering/farolfi': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/feltos': 0.20.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/feltos': 0.20.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/heir-search-services-section': 0.1.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/hive-fleet-operations-service': 0.4.12(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/hive-fleet-operations-service': 0.4.12(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/html-structural-projection-service': 0.3.2
       '@red-cup-engineering/http-services-section': 0.6.2
       '@red-cup-engineering/javascript-file-services-section': 0.1.1
@@ -7134,7 +7100,7 @@ snapshots:
       '@red-cup-engineering/kalshi-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/key-management-services-section': 0.5.5(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/knowing': 0.1.5(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/knowledge-system-server': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/knowledge-system-server': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/land-contracts-services-section': 0.1.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/lean-system-services-section': 0.2.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/markdown-engineering-services-section': 0.5.2
@@ -7145,9 +7111,9 @@ snapshots:
       '@red-cup-engineering/oauth-services-section': 0.1.2
       '@red-cup-engineering/organizing': 0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/polymarket-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/qwzspace': 0.9.1(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/qwzspace': 0.9.1(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/relating': 0.10.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/run-hive-curation-cycle-service': 0.1.3(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/run-hive-curation-cycle-service': 0.1.3(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
       '@red-cup-engineering/services-section-form-services-section': 0.1.2
       '@red-cup-engineering/signcell': 0.2.0
@@ -7158,13 +7124,18 @@ snapshots:
       '@red-cup-engineering/structural-claims-register-services-section': 0.1.1(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/turtle-services-section': 0.1.2
       '@red-cup-engineering/us-representation-services-section': 0.1.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/web-theming-service': 0.0.6
       '@red-cup-engineering/witness-journal-document-service': 0.1.2
       '@red-cup-engineering/xml-document-rendering-service': 0.1.7
     transitivePeerDependencies:
+      - '@red-cup-engineering/inference-work-lot-service'
       - '@types/node'
+      - '@x402/paywall'
       - bufferutil
+      - debug
+      - encoding
+      - ethers
       - supports-color
       - typescript
       - utf-8-validate
@@ -7194,11 +7165,6 @@ snapshots:
   '@red-cup-engineering/multihash-address-service@0.1.2':
     dependencies:
       multiformats: 14.0.5
-
-  '@red-cup-engineering/music-engineering-services-section@0.2.1':
-    dependencies:
-      '@red-cup-engineering/computer-audio-engineering-services-section': 0.2.0
-      '@red-cup-engineering/computer-text-content-engineering-services-section': 0.1.0
 
   '@red-cup-engineering/node-job-service@0.1.1': {}
 
@@ -7282,26 +7248,6 @@ snapshots:
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
 
-  '@red-cup-engineering/onestone-561-group@0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
-      '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/hive-blockchain-client-service': 0.1.5(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/x402-services-section': 0.10.8(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
-
   '@red-cup-engineering/openfda-services-section@0.1.1': {}
 
   '@red-cup-engineering/organizing@0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
@@ -7328,7 +7274,7 @@ snapshots:
       '@red-cup-engineering/json-schema-services-section': 0.5.0
       '@red-cup-engineering/json-services-section': 0.4.0
       '@red-cup-engineering/metrologic': 0.4.0
-      '@red-cup-engineering/playing': 0.2.8(bufferutil@4.1.0)(utf-8-validate@6.0.6)
+      '@red-cup-engineering/playing': 0.2.8(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/relating': 0.10.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
       '@red-cup-engineering/signcell': 0.2.0
@@ -7354,44 +7300,6 @@ snapshots:
 
   '@red-cup-engineering/pacing-intelligence-services-section@0.2.2': {}
 
-  '@red-cup-engineering/parlor-kernel@0.3.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
-
-  '@red-cup-engineering/parlor-service-561-group@0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/computer-web-platform': 0.6.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/computer-web-server': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/parlor-kernel': 0.3.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/project-browser-asset-tree-service': 0.4.2
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
-
   '@red-cup-engineering/personal-intelligence-systems-services-section@0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
       '@red-cup-engineering/assist': 0.6.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
@@ -7409,13 +7317,13 @@ snapshots:
       '@red-cup-engineering/javascript-file-services-section': 0.1.1
       '@red-cup-engineering/mcp-engineering-services-section': 0.1.1
       '@red-cup-engineering/signcell': 0.2.0
-      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
     transitivePeerDependencies:
       - '@types/node'
       - bufferutil
       - utf-8-validate
 
-  '@red-cup-engineering/playing@0.2.8(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
+  '@red-cup-engineering/playing@0.2.8(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
@@ -7430,15 +7338,24 @@ snapshots:
       '@red-cup-engineering/signcraft': 0.1.1
       '@red-cup-engineering/signgraph': 0.1.0
     transitivePeerDependencies:
+      - '@red-cup-engineering/inference-work-lot-service'
+      - '@types/node'
+      - '@x402/paywall'
       - bufferutil
+      - debug
+      - encoding
+      - ethers
+      - supports-color
+      - typescript
       - utf-8-validate
+      - zod
 
   '@red-cup-engineering/pluggable-venue-adapter-service@0.1.7(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
       '@red-cup-engineering/account-evidence-reconciliation-service': 0.1.7
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       ethers: 6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6)
     transitivePeerDependencies:
       - bufferutil
@@ -7453,7 +7370,7 @@ snapshots:
       '@red-cup-engineering/javascript-node-services-section': 0.3.2
       '@red-cup-engineering/json-services-section': 0.4.0
       '@red-cup-engineering/kalshi-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/mandate-portfolio-allocation-service': 0.2.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/position-sizing-service': 0.3.3
       '@red-cup-engineering/web3-gambling-platform-services-section': 0.1.1
     transitivePeerDependencies:
@@ -7476,17 +7393,11 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@red-cup-engineering/project-browser-asset-tree-service@0.4.2':
-    dependencies:
-      buffer: 6.0.3
-      esbuild: 0.28.1
-      parse5: 8.0.0
-
   '@red-cup-engineering/propublica-nonprofit-explorer-services-section@0.1.1': {}
 
   '@red-cup-engineering/purged-walk-forward-fold-service@0.1.2': {}
 
-  '@red-cup-engineering/qwzspace@0.9.1(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/qwzspace@0.9.1(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/code-websocket-frame-service': 0.2.2
       '@red-cup-engineering/computer-content-graph-engineering-services-section': 0.1.1
@@ -7502,8 +7413,9 @@ snapshots:
       '@red-cup-engineering/metrologic': 0.4.0
       '@red-cup-engineering/signcell': 0.2.0
       '@red-cup-engineering/uri-services-section': 0.1.1
-      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
     transitivePeerDependencies:
+      - '@types/node'
       - bufferutil
       - supports-color
       - typescript
@@ -7582,11 +7494,6 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@red-cup-engineering/resonator@0.2.2':
-    dependencies:
-      '@red-cup-engineering/computer-audio-engineering-services-section': 0.2.0
-      '@red-cup-engineering/music-engineering-services-section': 0.2.1
-
   '@red-cup-engineering/return-risk-feature-measurement-service@0.1.2': {}
 
   '@red-cup-engineering/route-directed-yield-service@0.2.2(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
@@ -7602,20 +7509,21 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@red-cup-engineering/run-hive-curation-cycle-service@0.1.3(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/run-hive-curation-cycle-service@0.1.3(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
-      '@red-cup-engineering/cast-set-of-votes-service': 0.1.2(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/cast-set-of-votes-service': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
       '@red-cup-engineering/computer-system-engine': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/eavt-services-section': 0.11.0
       '@red-cup-engineering/hive-blockchain-client-service': 0.1.5(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/hive-fleet-operations-service': 0.4.12(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/hive-fleet-operations-service': 0.4.12(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/javascript-node-services-section': 0.3.2
       '@red-cup-engineering/observe-tribe-curation-yield-service': 0.1.2
       '@red-cup-engineering/schedule-set-of-votes-service': 0.2.2(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
       '@red-cup-engineering/witness-journal-document-service': 0.1.2
     transitivePeerDependencies:
+      - '@types/node'
       - bufferutil
       - supports-color
       - typescript
@@ -7633,6 +7541,18 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
+  '@red-cup-engineering/semiotic-content-address@0.1.0':
+    dependencies:
+      '@red-cup-engineering/cbor-services-section': 0.1.1
+      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
+      '@red-cup-engineering/uri-services-section': 0.1.1
+
+  '@red-cup-engineering/semiotic-content-address@0.1.1':
+    dependencies:
+      '@red-cup-engineering/cbor-services-section': 0.1.1
+      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
+      '@red-cup-engineering/uri-services-section': 0.1.1
+
   '@red-cup-engineering/semiotic-eavt-services-section@0.1.0':
     dependencies:
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
@@ -7644,7 +7564,7 @@ snapshots:
       '@red-cup-engineering/signcell': 0.2.0
       '@red-cup-engineering/uri-services-section': 0.1.1
 
-  '@red-cup-engineering/semiotic-exchange-chain-services-section@0.1.9(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/semiotic-exchange-chain-services-section@0.1.9':
     dependencies:
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
@@ -7656,18 +7576,6 @@ snapshots:
       '@red-cup-engineering/signcraft': 0.1.1
       '@red-cup-engineering/signgraph': 0.1.0
       '@red-cup-engineering/uri-services-section': 0.1.1
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
 
   '@red-cup-engineering/services-section-form-services-section@0.1.2':
     dependencies:
@@ -7689,6 +7597,14 @@ snapshots:
       '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
       '@red-cup-engineering/json-schema-services-section': 0.5.0
 
+  '@red-cup-engineering/signcell@0.10.0':
+    dependencies:
+      '@red-cup-engineering/cbor-services-section': 0.1.1
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.3.1
+      '@red-cup-engineering/json-schema-services-section': 0.5.0
+      '@red-cup-engineering/metrologic': 0.13.0
+      '@red-cup-engineering/semiotic-content-address': 0.1.0
+
   '@red-cup-engineering/signcell@0.2.0':
     dependencies:
       '@red-cup-engineering/cbor-services-section': 0.1.1
@@ -7706,6 +7622,26 @@ snapshots:
       '@red-cup-engineering/metrologic': 0.4.0
       '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
       '@red-cup-engineering/signcell': 0.2.0
+
+  '@red-cup-engineering/signchain@0.3.0':
+    dependencies:
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.3.1
+      '@red-cup-engineering/exact-number-data-service': 0.1.1
+      '@red-cup-engineering/json-schema-services-section': 0.5.0
+      '@red-cup-engineering/metrologic': 0.13.0
+      '@red-cup-engineering/semiotic-content-address': 0.1.0
+      '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
+      '@red-cup-engineering/signcell': 0.10.0
+
+  '@red-cup-engineering/signchain@0.4.0':
+    dependencies:
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.3.1
+      '@red-cup-engineering/exact-number-data-service': 0.1.1
+      '@red-cup-engineering/json-schema-services-section': 0.5.0
+      '@red-cup-engineering/metrologic': 0.13.0
+      '@red-cup-engineering/semiotic-content-address': 0.1.0
+      '@red-cup-engineering/semiotic-eavt-services-section': 0.1.0
+      '@red-cup-engineering/signcell': 0.10.0
 
   '@red-cup-engineering/signcraft@0.1.1':
     dependencies:
@@ -7733,6 +7669,23 @@ snapshots:
       '@red-cup-engineering/metrologic': 0.4.0
       '@red-cup-engineering/signcell': 0.2.0
       '@red-cup-engineering/signchain': 0.1.0
+      '@red-cup-engineering/uri-services-section': 0.1.1
+      '@red-cup-engineering/xml-document-rendering-service': 0.1.7
+
+  '@red-cup-engineering/signgraph@0.6.0':
+    dependencies:
+      '@red-cup-engineering/cbor-services-section': 0.1.1
+      '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
+      '@red-cup-engineering/computer-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.7.1
+      '@red-cup-engineering/eavt-services-section': 0.11.0
+      '@red-cup-engineering/exact-number-data-service': 0.1.2
+      '@red-cup-engineering/json-schema-services-section': 0.5.0
+      '@red-cup-engineering/json-services-section': 0.4.0
+      '@red-cup-engineering/metrologic': 0.13.0
+      '@red-cup-engineering/semiotic-content-address': 0.1.0
+      '@red-cup-engineering/signcell': 0.10.0
+      '@red-cup-engineering/signchain': 0.3.0
       '@red-cup-engineering/uri-services-section': 0.1.1
       '@red-cup-engineering/xml-document-rendering-service': 0.1.7
 
@@ -7771,27 +7724,6 @@ snapshots:
 
   '@red-cup-engineering/solidity-services-section@0.1.2': {}
 
-  '@red-cup-engineering/solitaire-561-group@0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/card-table': 0.1.1
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/computer-web-platform': 0.6.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/computer-web-server': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/project-browser-asset-tree-service': 0.4.2
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
-
   '@red-cup-engineering/specification-engineering-services-section@0.1.1':
     dependencies:
       '@red-cup-engineering/computer-file-engineering-services-section': 0.4.0
@@ -7816,7 +7748,7 @@ snapshots:
       '@red-cup-engineering/uri-services-section': 0.1.1
       '@red-cup-engineering/web-release-candidate-service': 0.3.2
 
-  '@red-cup-engineering/static-site-publisher@0.1.16(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/static-site-publisher@0.1.18(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/activitypub-services-section': 0.8.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/cbor-services-section': 0.1.1
@@ -7826,36 +7758,13 @@ snapshots:
       '@red-cup-engineering/computer-web-server': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
       '@red-cup-engineering/http-services-section': 0.6.2
-      '@red-cup-engineering/knowledge-system-server': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/knowledge-system-server': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/markdown-engineering-services-section': 0.5.2
       '@red-cup-engineering/static-site-conformance-service': 0.1.2
-      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/web-release-candidate-service': 0.3.2
       '@red-cup-engineering/web-theming-service': 0.0.6
       '@red-cup-engineering/workspace-content-graph-service': 0.9.1
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
-
-  '@red-cup-engineering/stoke-561-group@0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
-    dependencies:
-      '@red-cup-engineering/computer-text-content-engineering-services-section': 0.1.0
-      '@red-cup-engineering/computer-web-platform': 0.6.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/computer-web-server': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
-      '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/json-services-section': 0.4.0
-      '@red-cup-engineering/metrologic': 0.4.0
-      '@red-cup-engineering/project-browser-asset-tree-service': 0.4.2
     transitivePeerDependencies:
       - '@red-cup-engineering/inference-work-lot-service'
       - '@types/node'
@@ -8001,9 +7910,9 @@ snapshots:
       '@ucanto/principal': 9.0.3
       '@ucanto/validator': 10.0.1
 
-  '@red-cup-engineering/union-brokerage-products-market-border@0.1.7(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/union-brokerage-products-market-border@0.1.7(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
     dependencies:
-      '@red-cup-engineering/activitypub-server': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/activitypub-server': 0.1.2(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/activitypub-services-section': 0.8.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/computer-code-engineering-services-section': 0.1.2
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
@@ -8012,12 +7921,8 @@ snapshots:
       '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
       '@red-cup-engineering/json-services-section': 0.4.0
     transitivePeerDependencies:
-      - '@types/node'
       - bufferutil
-      - supports-color
-      - typescript
       - utf-8-validate
-      - zod
 
   '@red-cup-engineering/uri-services-section@0.1.1':
     dependencies:
@@ -8055,10 +7960,10 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@red-cup-engineering/virtuals-brokerage-products-border@0.1.7(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(zod@3.25.76)':
+  '@red-cup-engineering/virtuals-brokerage-products-border@0.1.7(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(zod@3.25.76)':
     dependencies:
       '@account-kit/infra': 4.84.1(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))
-      '@red-cup-engineering/alpaca-services-section': 0.1.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(zod@3.25.76)
+      '@red-cup-engineering/alpaca-services-section': 0.1.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(zod@3.25.76)
       '@red-cup-engineering/base-pre-sign-policy-service': 0.1.1
       '@red-cup-engineering/blockchain-trashpanda-services-section': 0.6.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
@@ -8075,9 +7980,11 @@ snapshots:
     transitivePeerDependencies:
       - '@red-cup-engineering/inference-work-lot-service'
       - '@types/node'
+      - '@x402/paywall'
       - bufferutil
       - debug
       - encoding
+      - ethers
       - supports-color
       - typescript
       - utf-8-validate
@@ -8089,7 +7996,7 @@ snapshots:
       '@red-cup-engineering/json-services-section': 0.4.0
       '@red-cup-engineering/uri-services-section': 0.1.1
 
-  '@red-cup-engineering/web-page-tiling-engine@0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/web-page-tiling-engine@0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/computer-content-address-engineering-services-section': 0.2.0
       '@red-cup-engineering/computer-serialized-content-engineering-services-section': 0.1.0
@@ -8099,13 +8006,45 @@ snapshots:
       '@red-cup-engineering/html-engineering-services-section': 0.1.2
       '@red-cup-engineering/html-structural-projection-service': 0.3.2
       '@red-cup-engineering/http-services-section': 0.6.2
-      '@red-cup-engineering/knowledge-system-server': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/knowledge-system-server': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/markdown-engineering-services-section': 0.5.2
       '@red-cup-engineering/signcell': 0.2.0
       '@red-cup-engineering/web-theming-service': 0.0.6
     transitivePeerDependencies:
+      - '@red-cup-engineering/inference-work-lot-service'
       - '@types/node'
+      - '@x402/paywall'
       - bufferutil
+      - debug
+      - encoding
+      - ethers
+      - supports-color
+      - typescript
+      - utf-8-validate
+      - zod
+
+  '@red-cup-engineering/web-page-tiling-engine@0.16.5-dev.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+    dependencies:
+      '@red-cup-engineering/computer-serialized-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-text-content-engineering-services-section': 0.1.0
+      '@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section': 0.1.1
+      '@red-cup-engineering/csl-json-services-section': 0.2.1
+      '@red-cup-engineering/html-engineering-services-section': 0.1.2
+      '@red-cup-engineering/html-structural-projection-service': 0.3.2
+      '@red-cup-engineering/http-services-section': 0.6.2
+      '@red-cup-engineering/knowledge-system-server': 0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/markdown-engineering-services-section': 0.5.6
+      '@red-cup-engineering/semiotic-content-address': 0.1.0
+      '@red-cup-engineering/signcell': 0.10.0
+      '@red-cup-engineering/web-theming-service': 0.0.6
+    transitivePeerDependencies:
+      - '@red-cup-engineering/inference-work-lot-service'
+      - '@types/node'
+      - '@x402/paywall'
+      - bufferutil
+      - debug
+      - encoding
+      - ethers
       - supports-color
       - typescript
       - utf-8-validate
@@ -8137,9 +8076,19 @@ snapshots:
       '@red-cup-engineering/signcell': 0.2.0
       '@red-cup-engineering/xml-document-rendering-service': 0.1.7
 
+  '@red-cup-engineering/web-theming-service@0.0.7':
+    dependencies:
+      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
+      '@red-cup-engineering/css-services-section': 0.1.3
+      '@red-cup-engineering/html-engineering-services-section': 0.1.3
+      '@red-cup-engineering/html-structural-projection-service': 0.3.3
+      '@red-cup-engineering/metrologic': 0.4.0
+      '@red-cup-engineering/signcell': 0.2.0
+      '@red-cup-engineering/xml-document-rendering-service': 0.1.7
+
   '@red-cup-engineering/web3-gambling-platform-services-section@0.1.1': {}
 
-  '@red-cup-engineering/weiqi-engine@0.3.1(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/weiqi-engine@0.3.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
     transitivePeerDependencies:
@@ -8162,15 +8111,12 @@ snapshots:
       '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
       '@red-cup-engineering/immutable-content-custody-service': 0.4.1
 
-  '@red-cup-engineering/workerbee-services-section@0.1.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)':
+  '@red-cup-engineering/workerbee-services-section@0.1.1':
     dependencies:
       '@red-cup-engineering/exact-number-data-service': 0.1.1
       '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/hive-blockchain-client-service': 0.1.5(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/metrologic': 0.4.0
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
 
   '@red-cup-engineering/workspace-content-graph-service@0.9.1':
     dependencies:
@@ -8184,12 +8130,12 @@ snapshots:
     dependencies:
       '@causeway-services/koios-news-intelligence-briefing': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@lenticule-science/astronomy-position-computation-service': 0.8.2
-      '@lenticule-science/divination-computer-system-service': 0.2.4(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@lenticule-science/mandarin-language-algebra': 0.1.4(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@lenticule-science/divination-computer-system-service': 0.2.4(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)
+      '@lenticule-science/mandarin-language-algebra': 0.1.4(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/a2a-services-section': 0.1.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/account-evidence-reconciliation-service': 0.1.7
       '@red-cup-engineering/activitypub-services-section': 0.8.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/alpaca-services-section': 0.1.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(zod@3.25.76)
+      '@red-cup-engineering/alpaca-services-section': 0.1.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(zod@3.25.76)
       '@red-cup-engineering/alpha-portfolio-order-intent-service': 0.1.8(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/base-chain-data-gateway': 0.2.3(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/base-pre-sign-policy-service': 0.1.1
@@ -8212,13 +8158,13 @@ snapshots:
       '@red-cup-engineering/computer-web-server': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
       '@red-cup-engineering/csv-services-section': 0.1.1
-      '@red-cup-engineering/digital-goods-storefront-services-section': 0.4.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/digital-goods-storefront-services-section': 0.4.2(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/eavt-services-section': 0.11.0
       '@red-cup-engineering/ethereum-engineering-services-section': 0.15.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/exact-number-data-service': 0.1.1
       '@red-cup-engineering/execute-javascript-node-command-service': 0.3.1
       '@red-cup-engineering/hive-blockchain-client-service': 0.1.5(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/hive-fleet-operations-service': 0.4.12(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/hive-fleet-operations-service': 0.4.12(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/html-structural-projection-service': 0.3.2
       '@red-cup-engineering/http-services-section': 0.6.2
       '@red-cup-engineering/javascript-file-services-section': 0.1.1
@@ -8237,7 +8183,7 @@ snapshots:
       '@red-cup-engineering/structural-claims-register-services-section': 0.1.1(@types/node@26.6.5)(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/toml-services-section': 0.1.2
       '@red-cup-engineering/uri-services-section': 0.1.1
-      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@red-cup-engineering/web-page-tiling-engine': 0.14.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/witness-journal-document-service': 0.1.2
       '@red-cup-engineering/xml-document-rendering-service': 0.1.7
       '@red-cup-engineering/yaml-frontmatter-codec-service': 0.1.7
@@ -8286,30 +8232,10 @@ snapshots:
       '@red-cup-engineering/json-services-section': 0.4.0
       yaml: 2.9.1
 
-  '@red-cup-engineering/you-are-conscious-service@0.1.0(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/yaml-frontmatter-codec-service@0.1.8':
     dependencies:
-      '@red-cup-engineering/computer-data-engineering-services-section': 0.2.0
-      '@red-cup-engineering/computer-text-content-engineering-services-section': 0.1.0
-      '@red-cup-engineering/computer-web-platform': 0.6.1(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      '@red-cup-engineering/computer-web-server': 0.6.2(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
-      '@red-cup-engineering/cryptographic-computer-data-engineering-services-section': 0.3.1
-      '@red-cup-engineering/gaming': 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/json-services-section': 0.4.0
-      '@red-cup-engineering/metrologic': 0.4.0
-      '@red-cup-engineering/project-browser-asset-tree-service': 0.4.2
-      '@red-cup-engineering/web-release-candidate-service': 0.3.2
-    transitivePeerDependencies:
-      - '@red-cup-engineering/inference-work-lot-service'
-      - '@types/node'
-      - '@x402/paywall'
-      - bufferutil
-      - debug
-      - encoding
-      - ethers
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - zod
+      yaml: 2.9.0
 
   '@rgrove/parse-xml@5.0.0': {}
 
@@ -8319,7 +8245,7 @@ snapshots:
 
   '@scure/bip32@1.7.0':
     dependencies:
-      '@noble/curves': 1.9.1
+      '@noble/curves': 1.9.7
       '@noble/hashes': 1.8.0
       '@scure/base': 1.2.6
 
@@ -8376,12 +8302,12 @@ snapshots:
       '@noble/hashes': 1.8.0
       apg-js: 4.4.0
 
-  '@signinwithethereum/siwe@4.2.1(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))':
+  '@signinwithethereum/siwe@4.2.1(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(viem@2.57.7(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))':
     dependencies:
       '@signinwithethereum/siwe-parser': 4.2.1
     optionalDependencies:
       ethers: 6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6)
-      viem: 2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      viem: 2.57.7(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
 
   '@sindresorhus/is@7.2.0': {}
 
@@ -8448,7 +8374,7 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 26.6.5
     optional: true
 
   '@types/node@12.20.55':
@@ -8468,7 +8394,7 @@ snapshots:
 
   '@types/ws@7.4.7':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 26.6.5
     optional: true
 
   '@types/ws@8.18.2':
@@ -8550,12 +8476,12 @@ snapshots:
     dependencies:
       '@noble/curves': 1.9.7
       '@scure/base': 1.2.6
-      '@signinwithethereum/siwe': 4.2.1(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(viem@2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))
+      '@signinwithethereum/siwe': 4.2.1(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(viem@2.57.7(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))
       '@x402/core': 2.19.0
       ajv: 8.20.0
       jose: 5.10.0
       tweetnacl: 1.0.3
-      viem: 2.55.8(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      viem: 2.57.7(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       zod: 3.25.76
     transitivePeerDependencies:
       - bufferutil
@@ -8689,7 +8615,8 @@ snapshots:
       safe-buffer: 5.2.1
     optional: true
 
-  base64-js@1.5.1: {}
+  base64-js@1.5.1:
+    optional: true
 
   base64-sol@1.0.1: {}
 
@@ -8753,6 +8680,7 @@ snapshots:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
+    optional: true
 
   buffers@0.1.1: {}
 
@@ -8943,8 +8871,6 @@ snapshots:
       - utf-8-validate
 
   engine.io-parser@5.2.3: {}
-
-  entities@6.0.1: {}
 
   entities@8.1.0: {}
 
@@ -9370,7 +9296,8 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  ieee754@1.2.1: {}
+  ieee754@1.2.1:
+    optional: true
 
   inflight@1.0.6:
     dependencies:
@@ -9728,10 +9655,6 @@ snapshots:
       typescript: 5.9.3
     transitivePeerDependencies:
       - zod
-
-  parse5@8.0.0:
-    dependencies:
-      entities: 6.0.1
 
   parse5@8.0.1:
     dependencies:
@@ -10127,6 +10050,8 @@ snapshots:
     optional: true
 
   supports-color@10.2.2: {}
+
+  temml@0.14.0: {}
 
   text-encoding-utf-8@1.0.2:
     optional: true

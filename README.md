@@ -37,18 +37,31 @@ or divergent import/require conditions need their own native receiving before
 adoption. Source discovery still receives explicit Git bindings and does not
 turn a recovered subset into the estate's complete membership.
 
-Native receiving on 2026-10-25 produced the complete nine-artifact publication
-from all 21 unchanged authored records across 16 exact source repositories, with
-Gaming 0.1.10, esbuild 0.28.1 and the received TUFTE touch-style source. The 55
-focused mobile, support/footer, source-selection, package-reference, portable
-composition, availability and card cases pass. This bounded source result
-is source qualification. Actual Chromium 134 receiving also passed desktop
-1440px and phone 390px/320px layouts, all 21 search/filter cards, ten daily
-strips and the no-JavaScript baseline, with no horizontal overflow or runtime
-errors. Production deployment and real public-player receiving remain separate. Weiqi is received from Science and Equivo from its public
-service data owner, retaining their current authored descriptions.
-The new TUFTE export must be received from its updated source composition or
-a qualified immutable release; published 0.16.3 alone does not contain it.
+The [2026-10-25 release receiving record](docs/release-receiving-2026-10-25.md)
+binds all 21 authored records to 16 exact original source commits,
+including Weiqi's Science owner and Equivo's public service owner. Stoke's
+original manifest description now acknowledges its approximate prestige
+calculation and unsettled estimates, matching the game's current rules and
+known limitation. The complete
+VICTOR build emits 20 artifacts, including the nine supplied by the shelf
+projector; its native release manifest verifies the other 19 files. The current
+published-provider composition passes 56 focused source and Worker-route cases.
+The direct TUFTE 0.16.5-dev.0 release contains the received touch-style export;
+the older 0.16.3 registry label does not.
+
+Fresh independent Chromium receiving of the publication before that Stoke
+description correction, through its
+actual Wrangler 4.123.0 preview passed at 1440×1000, 390×844 and 320×700. The 21
+game links rendered, search for `farkle` displayed one Farkle result, the playable
+filter updated its pressed state, and the status controls were at least 44 CSS
+pixels high, with no observed horizontal overflow or page exceptions. Desktop
+and 390px screenshots were visually reviewed. External advertising requests
+were deliberately blocked, so this is local UI receiving, not ad delivery or
+production evidence. Earlier Chromium 134 source receiving additionally covered
+the ten daily strips and no-JavaScript baseline; those cases were not repeated
+in this fresh preview. The later original-owner text correction changes only
+the catalog, index HTML and release manifest; all browser scripts, CSS and the
+other 17 publication artifacts remain byte-identical.
 
 The [dated game inventory](docs/game-inventory-2026-10-25.json) records all 21
 titles, their observed launch URLs and immutable authored-source links. It also
@@ -58,10 +71,10 @@ receiving record; runtime membership continues to come from the authored inputs.
 ## Current source composition
 
 This complete application lives under Public Media's declared Public Games child.
-Its package metadata names that existing repository and directory. Source receiving,
+Its package metadata names this existing application repository. Source receiving,
 installed provider composition, successful builds, deployment, and public observation
-remain separate. The sections below retain historical usage details; current scripts
-and explicit source inputs described here govern the portable interface.
+remain separate. The current scripts and explicit source inputs below govern the
+portable interface.
 
 Consumers can import `@causeway-services/play/catalog` (`discoverCatalog` and
 `readGitCatalogSources`) and `@causeway-services/play/catalog-presentation`
@@ -128,51 +141,58 @@ Bounded controls:
 node --test test/catalog-source-selection.test.mjs test/portable-composition.test.mjs
 ```
 
-A progressively enhanced shelf for the 561 Group games catalog. It reads `catalog.json`
-(one cartridge-manifest-shaped entry per game, per the Cartridge and Energy Bank spec)
-and renders game cards with a static server-rendered baseline -- no framework, no CDN. Browser
-clients and terminal/API clients are both first-class; a game's own JSON/SSE API,
-declared in its manifest's `entryPoints.headless`, is as legitimate an access path as its
-browser page.
+A progressively enhanced shelf reads the generated `catalog.json` and renders
+game cards with a static HTML baseline. Browser clients and terminal/API clients
+remain first-class: a game's authored `entryPoints.headless` describes its own
+API, independently of its browser page.
 
 ## Layout
 
-```
-index.html       the shelf -- fetches catalog.json client-side, renders game cards
-today.html       the daily front door -- one strip per game with a daily-utc seed policy,
-                 with today's real seed computed live in the browser from the UTC date
-catalog.json     one cartridge-manifest-shaped entry per game -- GENERATED, see below;
-                 never hand-edit this file directly
-scripts/build-catalog.mjs
-                 collects every game's own catalog-entry.json and writes catalog.json
-css/style.css    shared, theme-aware (light/dark) styles for index.html and today.html
-js/catalog.mjs   renderer for index.html: fetch, filter, render
-js/today.mjs     renderer for today.html: computes each daily game's seed in the browser
-js/glyphs.mjs    the shared icon set both renderers draw from
-chrome/          vendored shelf-chrome source other 561 Group games import (this site is
-                 its origin, so index.html/today.html use css/style.css directly instead)
-serve.mjs        thin node:http adapter around sirv's static file middleware
-scripts/shelf-browser.mjs
-                 a terminal client for the same catalog -- browses and launches games from
-                 a terminal instead of a browser tab, over @red-cup-engineering/arnold
-src/shelf/       pure navigation/launch-planning functions scripts/shelf-browser.mjs's
-                 imperative shell drives (no Screen, no spawn, no fetch -- see below)
-test/            node --test behavioral tests
-```
+| Path | Responsibility |
+| --- | --- |
+| `victor.config.mjs` | Bind explicit catalog sources to the existing VICTOR publisher. |
+| `src/discover-catalog.mjs` | Read authored records and validate their original game exports. |
+| `src/publication.mjs`, `src/shells.mjs` | Produce the shelf, daily page and browser assets through VICTOR and TUFTE. |
+| `js/catalog.mjs`, `js/today.mjs`, `js/glyphs.mjs` | Filter/render the shelf and compute the supported daily seed projections. |
+| `css/style.css`, `chrome/` | Shared theme and shelf chrome. |
+| `scripts/shelf-browser.mjs`, `src/shelf/` | Arnold terminal shell, pure navigation and launch planning. |
+| `test/` | Native Node behavioral cases. |
+| `public/` | Generated publication: HTML, catalog, fingerprinted assets and release manifest. |
+| `public.report.json` | VICTOR build, conformance and artifact receiving report, outside the served output. |
 
 ## Install and run
 
-```
-npm install                 # pulls @red-cup-engineering/gaming/running from Verdaccio (see .npmrc)
-npm run serve                # http://127.0.0.1:8561/
-node serve.mjs 3000          # or pick a port positionally
-PORT=3000 node serve.mjs     # or via env
+Use Node >=24.2.0 and the native PNPM lock. The current composition was received
+with Node 24.22.1 and PNPM 11.25.0:
+
+```sh
+pnpm install --frozen-lockfile --ignore-scripts --registry=https://registry.561.group
 ```
 
-`HOST` defaults to `127.0.0.1`; set `HOST=0.0.0.0` to listen on all interfaces for local
-testing on another device. This site only ever fetches its own `catalog.json`. `serve.mjs`
-is a dev/test convenience only -- production is a Cloudflare Worker (see Deploy below), not
-this server.
+`package.json` selects exact published Arnold 0.3.0, Gaming 0.1.10, TUFTE
+0.16.5-dev.0, VICTOR 0.1.18 and Weiqi 0.3.4, plus esbuild 0.28.1 and Wrangler
+4.123.0. The native lock preserves their transitive selections. The workspace
+configuration admits only the explicitly selected fresh TUFTE version through
+PNPM's release-age check; it does not override another provider's dependencies.
+
+Receive the complete authored source set and each selected game's declared
+dependencies before building: discovery executes the actual manifest/verifier
+exports. Set `PLAY_CATALOG_SOURCES` to the JSON array described above. For
+example, if the deployment has prepared that invocation array in a local file:
+
+```sh
+export PLAY_CATALOG_SOURCES="$(cat /absolute/path/catalog-sources.json)"
+export PLAY_CATALOG_DATE=2026-10-25
+npm run build
+npm run serve
+```
+
+Use the real intended UTC build date, or omit `PLAY_CATALOG_DATE` to use the
+current date. `npm run build` invokes the installed VICTOR CLI and writes
+`public/`. `npm run serve` previews the existing output with the pinned
+Wrangler; `npm run dev` rebuilds first. Outside the legacy integrated checkout,
+omitting the explicit sources refuses discovery rather than supplying a
+partial catalog. No `serve.mjs` or hand-maintained build-catalog script is used.
 
 ## The terminal shelf browser
 
@@ -180,12 +200,9 @@ this server.
 npm run shelf                # node scripts/shelf-browser.mjs
 ```
 
-A terminal app onto the same catalog `index.html` reads -- browsing and launching a game
-from a terminal is exactly as first-class here as browsing and launching one from a
-browser tab. Named plainly (`shelf-browser`, not a coined product name) per the same
-naming convention the catalog's own entries follow. Fetches `catalog.json` live from
-`https://play.561.group/catalog.json`; falls back to the local `catalog.json` next to the
-bin if that fails (offline dev, DNS).
+A terminal app onto the same authored catalog. It discovers local source records
+by default. `SHELF_CATALOG_URL=https://play.561.group/catalog.json` explicitly
+opts into a remote read, with local-source fallback if that read fails.
 
 Keys: `↑`/`↓` select a game (shelf headers are skipped), `PgUp`/`PgDn` scroll the detail
 pane, `Enter` launches, `q` / `Ctrl-C` quit.
@@ -193,71 +210,60 @@ pane, `Enter` launches, `q` / `Ctrl-C` quit.
 `Enter` does one of three honest things, matched by the selected game's `id` and
 `entryPoints`, never guessed:
 
-- `durante` / `farstone`: spawns a real child process (durante's own
-  `scripts/durante-terminal.mjs`, wheatstone's `scripts/farstone.mjs`) with `stdio: "inherit"`,
-  handing it the whole terminal until it quits, then repaints the shelf. A real child
-  process, not an in-process call, because both clients call `process.exit(0)`
-  unconditionally on quit and two arnold `Screen`s cannot share one process's raw-mode
-  stdin.
+- `durante`, when its terminal client has been received: spawns its actual client
+  with `stdio: "inherit"`, hands over the terminal until it quits and then repaints
+  the shelf. Set `SHELF_DURANTE_TERMINAL_BIN` to its absolute received path outside
+  the integrated checkout.
 - any other game with an `entryPoints.browser`: prints its URL and returns to the shelf --
   no takeover, since there is no terminal client for it.
 - nothing launchable: says so, plainly.
 
-Built on arnold's `layout`/`list`/`focus`/`viewport` primitives (`@red-cup-engineering/arnold` `^0.2.0`).
+Farstone retains its authored browser and API record; no absent terminal client
+is invented. The terminal UI uses Arnold 0.3.0's layout and widget exports.
 All navigation and launch-planning logic lives in `src/shelf/*.mjs` as pure functions --
 `scripts/shelf-browser.mjs` is only the imperative shell (fetch, run the `Screen`, execute
-whatever a plan says) -- so `test/shelf-browser.test.mts` can script real key sequences
-against the real `catalog.json` headlessly, asserting exactly where the selection lands
-and exactly what a launch resolves to (a spawn plan's `cmd`/`args`, checked and its target
-bin confirmed to exist on disk -- never actually spawned).
+whatever a plan says). The portable source and launch cases exercise plans without
+opening a terminal or spawning a game.
 
 ## Test
 
-```
-npm test          # node --test test/*.test.mts
-npm run check      # node --check over serve.mjs, js/*.mjs, test/*.test.mts
-```
-
-The suite validates `catalog.json` against the real, published
-`@red-cup-engineering/gaming/running`'s own `validateManifest` (strict, for any entry with
-`cartridgeWrapped: true`), checks `index.html`/`today.html` reference only local assets,
-and boots `serve.mjs` on an ephemeral port for real HTTP round-trips against its routes,
-a 404, and a path-traversal attempt.
+`npm test` invokes `node --test test/*.test.mjs`. Some older integration cases
+still assume the legacy Group checkout, neighboring game directories and terminal
+client. They are not claimed to pass in an isolated application checkout. The
+dated receiving record lists the exact 56-case portable/mobile/catalog/route
+command qualified with the complete current provider composition. The complete
+native build separately executes all selected catalog manifest/verifier imports
+and the publisher's HTML, asset and release checks.
 
 ## Deploy
 
-play.561.group is its own Cloudflare Worker (`wrangler.jsonc` in this directory), serving
-the static build straight off disk via a Workers static-assets binding -- no Cloud Run
-origin, no proxy through the shared `cloudflare-router` (per the 2026-08-31 GCP exit
-ruling: GCP billing is permanently off, and the Cloud Run game fleet is migration
-inventory, not outage). `.assetsignore` excludes everything that is not part of the served
-site (source, tests, package files, the terminal shelf browser).
+The existing `wrangler.jsonc` declares the `play-561-group` Cloudflare Worker,
+its `play.561.group` custom domain, and `assets.directory: "./public"`.
+Only the generated publication directory is the declared asset source.
 
 ```sh
-npm run build     # regenerate catalog.json and index.html/today.html first
-npm run deploy    # wrangler deploy
+npm run build     # complete publication from the explicitly received source set
+npm run deploy    # rebuild, then deploy with the pinned Wrangler
 ```
 
-`custom_domain: true` in `wrangler.jsonc` attaches `play.561.group` and provisions its DNS
-record. `npm run dev` runs `wrangler dev` for a local preview of the deployed shape.
+These are the repository's native commands. Production requires the existing
+Cloudflare identity and target custody. A local build or Wrangler dry-run is not
+a deployment receipt. The current workflow covers bounded source tests; it does
+not itself provide a production deployment job.
 
 ## catalog.json
 
-**Generated -- never hand-edit.** `catalog.json` used to be a hand-maintained file and it
-drifted out of sync with the actual games more than once. It is now produced by
-`scripts/build-catalog.mjs`, which collects every game's own `catalog-entry.json` manifest
-(one per game, living at the root of that game's own service directory, not here) and
-assembles them. Run `npm run generate-catalog` any time a game's manifest changes (or
-`npm run build`, which does that and then re-renders `index.html`/`today.html` from the
-result). `test/catalog-generation.test.mts` fails the suite if `catalog.json` on disk is
-stale relative to what the generator would produce right now -- that's the mechanism that
-now prevents drift, replacing hoping someone remembers to hand-edit the file.
+**Generated — never hand-edit.** `src/discover-catalog.mjs` collects each selected
+source's own `catalog-entry.json`, and the shelf projector publishes the result
+as `public/catalog.json`. Run `npm run build` with the complete source bindings
+when an authored record changes. Records remain owned by their original game or
+service repository.
 
 Each game's `catalog-entry.json` is shaped like the spec's `CartridgeManifest`: `id`,
 `displayName`, `description`, `subdomain`, `entryPoints`, `seedPolicy`, `intentLog`,
 `keywords`, plus the optional `configs`, `energy`, and `replayVerifier`. A field an entry
 can't honestly fill in yet (a `replayVerifier` module, an `intentLog.schemaRef`) is
-omitted, never set to `null` -- `test/smoke.test.mts` enforces that as a standing rule. Do
+omitted, never set to `null` -- `test/smoke.test.mjs` describes that standing rule. Do
 not include `repoPath`: the generator derives it from wherever it actually found the
 manifest (build-time only; the published catalog.json omits it), which is also why a game's
 directory moving can never leave a stale path behind the way hand-typed `repoPath` values used to.
@@ -278,12 +284,10 @@ On top of the spec, each entry carries a few storefront-only extensions:
 
 ## Adding a game
 
-Implement `Cartridge` if the game has one, add a `catalog-entry.json` at the root of the
-game's own service directory (see `catalog.json` above for the shape), pick a `shelf`, run
-`npm run generate-catalog`. The generator finds any `catalog-entry.json` under the known
-game-home roots in `scripts/build-catalog.mjs`'s `SEARCH_ROOTS` automatically -- edit that
-list only when a whole new game-home tree appears, never per game. No changes to
-`index.html`, `css/style.css`, or `js/catalog.mjs` are needed -- the renderer only ever
-touches manifest-shaped fields. If the game has a `daily-utc` seed policy, add a strip to
-`js/today.mjs` with a ported (not live-imported) copy of its seed formula. Run `npm test`
-after editing (it fails loudly if you forgot to regenerate).
+Add the authored `catalog-entry.json` in the game's own source owner and expose
+its real manifest/verifier through that game's public package contract where
+available. Include its original source root in the caller's complete admitted
+bindings and rebuild. Ordinary game cards use the manifest fields without a
+per-title shelf implementation. A new `daily-utc` game also needs its seed
+projection received in `js/today.mjs` against the game's actual seed contract;
+do not infer a daily formula from the title or hostname.
