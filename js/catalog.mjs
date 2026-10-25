@@ -50,7 +50,7 @@ export function catalogCardBodyHtml(entry) {
     ? `<span class="badge headless" title="${esc(entry.entryPoints.headless)}">${TERMINAL_ICON} API / terminal play</span>`
     : '';
   const actionLink = hasBrowser(entry)
-    ? `<a class="play-link" href="${esc(playUrl(entry))}">${EXTERNAL_LINK_ICON} ${browserAvailable(entry) ? 'Open' : 'Visit'} ${esc(entry.displayName)}</a>`
+    ? `<a class="play-link" data-tufte-control href="${esc(playUrl(entry))}">${EXTERNAL_LINK_ICON} ${browserAvailable(entry) ? 'Open' : 'Visit'} ${esc(entry.displayName)}</a>`
     : '<span class="play-link">No browser entry</span>';
   // Author-reported playability and observed HTTP reachability are different facts.
   // A default build does not probe remote pages; make that uncertainty visible.
