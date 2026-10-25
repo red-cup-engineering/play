@@ -9,9 +9,51 @@
 
 ## Voluntary sustaining support
 
-Play is a public 561 Group games project. If this free-to-use software is useful to you, you can [support the Group's public research, games, and reusable infrastructure for USD $10 per month](https://buy.stripe.com/28E28s1b4gJcb2Y3Io5EY02) using its existing Stripe-hosted sustaining-support checkout. Support renews monthly until canceled, is optional, and provides no extra access, editorial influence, or charitable tax deduction. [Read the existing terms and confidential help route](https://github.com/561-group/561.group#sustain-the-public-commons) before subscribing.
+Play is a public 561 Group games project. If this free-to-use software is useful to you, you can [support the Group's public research, games, and reusable infrastructure for USD $10 per month](https://buy.stripe.com/28E28s1b4gJcb2Y3Io5EY02) using its existing Stripe-hosted sustaining-support checkout. Support renews monthly until canceled, is optional, and provides no extra access, editorial influence, or charitable tax deduction. [Read the existing terms and confidential help route](https://561.group/#support) before subscribing.
 
 This is a repository-visible first-party funding route; it does not assert that `play.561.group`, the separate house-ad server, or its advertising campaign has deployed, that anyone has seen the link, or that a payment has occurred.
+
+The shelf and daily page also render this same offer as ordinary HTML, below
+the game collection and independently of the optional house-ad request. The
+price, renewal, recipient and terms are visible before the checkout link.
+
+## Player-facing shelf
+
+The index and UTC daily page share a visual identity, authored vector covers,
+native game links and the TUFTE touch-control contract. Cards show a short
+opening paragraph with the complete authored description available in a native
+disclosure. The browser observation badge stays separate from the author's
+reported playability; an unchecked page never inherits a successful observation.
+Keyboard focus, narrow screens, display safe areas and reduced-motion settings
+remain part of the shared layout. Cover glyphs are illustrative symbols, not
+screenshots or promises about game content.
+
+Catalog cartridge manifests, replay verifiers and schema references resolve
+through the owning game's public package exports, including nested Parlor
+records. An unrelated game package installed beside Play cannot substitute its
+manifest for the selected source. Legacy source-relative references remain
+supported. The qualified game exports are string/default mappings; import-only
+or divergent import/require conditions need their own native receiving before
+adoption. Source discovery still receives explicit Git bindings and does not
+turn a recovered subset into the estate's complete membership.
+
+Native receiving on 2026-10-25 produced the complete nine-artifact publication
+from all 21 unchanged authored records across 16 exact source repositories, with
+Gaming 0.1.10, esbuild 0.28.1 and the received TUFTE touch-style source. The 55
+focused mobile, support/footer, source-selection, package-reference, portable
+composition, availability and card cases pass. This bounded source result
+is source qualification. Actual Chromium 134 receiving also passed desktop
+1440px and phone 390px/320px layouts, all 21 search/filter cards, ten daily
+strips and the no-JavaScript baseline, with no horizontal overflow or runtime
+errors. Production deployment and real public-player receiving remain separate. Weiqi is received from Science and Equivo from its public
+service data owner, retaining their current authored descriptions.
+The new TUFTE export must be received from its updated source composition or
+a qualified immutable release; published 0.16.3 alone does not contain it.
+
+The [dated game inventory](docs/game-inventory-2026-10-25.json) records all 21
+titles, their observed launch URLs and immutable authored-source links. It also
+distinguishes FizzOS and QwzSpace engines and GamesHost infrastructure. It is a
+receiving record; runtime membership continues to come from the authored inputs.
 
 ## Current source composition
 

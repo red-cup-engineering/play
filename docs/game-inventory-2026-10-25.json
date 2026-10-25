@@ -1,0 +1,285 @@
+{
+  "kind": "source-owned-game-inventory",
+  "publishedLiveCatalogEntries": 21,
+  "authoredSourceRecordsRecovered": 21,
+  "scope": "Canonical game-system 17 app gitlinks plus actual Weiqi and Equivo data owners; no claim every registered launch URL was playable today.",
+  "liveCatalogSource": "https://play.561.group/catalog.json",
+  "liveCatalogGenerated": "2026-10-04",
+  "games": [
+    {
+      "id": "solitaire",
+      "displayName": "Solitaire",
+      "liveCatalogLaunchUrl": "https://solitaire.561.group/web/index.html",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/solitaire",
+        "head": "518371ae21d4d6626d42f3f249c69f048150080f",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/solitaire/blob/518371ae21d4d6626d42f3f249c69f048150080f/catalog-entry.json"
+      }
+    },
+    {
+      "id": "gambling-trainer",
+      "displayName": "Kelly's Wager",
+      "liveCatalogLaunchUrl": "https://gambling-trainer.561.group/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/kellys-wager",
+        "head": "7085c426ed7dabf86bca92d33d8e925edd0e5f51",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/kellys-wager/blob/7085c426ed7dabf86bca92d33d8e925edd0e5f51/catalog-entry.json"
+      }
+    },
+    {
+      "id": "flickering-delve",
+      "displayName": "Flickering Delve",
+      "liveCatalogLaunchUrl": "https://flickering.561.group/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/flickering",
+        "head": "966969c8d9b018ea2d67384e6c35449bf798cc85",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/flickering/blob/966969c8d9b018ea2d67384e6c35449bf798cc85/catalog-entry.json"
+      }
+    },
+    {
+      "id": "onestone",
+      "displayName": "TileSlots",
+      "liveCatalogLaunchUrl": "https://onestone.561.group/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/onestone",
+        "head": "73c708a3eaf553c2444f13d0ab9102d77519c607",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/onestone/blob/73c708a3eaf553c2444f13d0ab9102d77519c607/catalog-entry.json"
+      }
+    },
+    {
+      "id": "crucible",
+      "displayName": "Crucible",
+      "liveCatalogLaunchUrl": "https://crucible.561.group/web/index.html",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/crucible",
+        "head": "e68d5d70b9d0586e142971489428a954386ee346",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/crucible/blob/e68d5d70b9d0586e142971489428a954386ee346/catalog-entry.json"
+      }
+    },
+    {
+      "id": "stoke",
+      "displayName": "Stoke",
+      "liveCatalogLaunchUrl": "https://stoke.561.group/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/stoke",
+        "head": "fc206b7ab81526de17b8282a123629f31134dfac",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/stoke/blob/fc206b7ab81526de17b8282a123629f31134dfac/catalog-entry.json"
+      }
+    },
+    {
+      "id": "weiqi",
+      "displayName": "Weiqi",
+      "liveCatalogLaunchUrl": "https://weiqi.561.group/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "lenticule-science/science-services-section",
+        "head": "8a781162035dbf69062f6acecf5ba56a6b7baa85",
+        "path": "services/philosophy-services-section/services/relationality-services-section/services/agency-services-section/services/being-services-section/services/doing-services-section/services/playing-services-section/services/gaming-services-section/services/board-games-services-section/services/weiqi-services-section/catalog-entry.json",
+        "url": "https://github.com/lenticule-science/science-services-section/blob/8a781162035dbf69062f6acecf5ba56a6b7baa85/services/philosophy-services-section/services/relationality-services-section/services/agency-services-section/services/being-services-section/services/doing-services-section/services/playing-services-section/services/gaming-services-section/services/board-games-services-section/services/weiqi-services-section/catalog-entry.json"
+      }
+    },
+    {
+      "id": "ruinfold",
+      "displayName": "Ruinfold",
+      "liveCatalogLaunchUrl": "https://ruinfold.561.group/play",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/ruinfold",
+        "head": "352df9bf6edbcaa4a5542bd553fe7d27c681b0d1",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/ruinfold/blob/352df9bf6edbcaa4a5542bd553fe7d27c681b0d1/catalog-entry.json"
+      }
+    },
+    {
+      "id": "durante",
+      "displayName": "durante",
+      "liveCatalogLaunchUrl": "https://durante.561.group/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/durante",
+        "head": "e3dfab46fdf3e3457d7b881bddd641915d5d8917",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/durante/blob/e3dfab46fdf3e3457d7b881bddd641915d5d8917/catalog-entry.json"
+      }
+    },
+    {
+      "id": "farstone",
+      "displayName": "Farstone",
+      "liveCatalogLaunchUrl": "https://farstone.561.group/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/farstone.561.group",
+        "head": "199cb72166ed83c2345bdd96db0e36b3205cad6f",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/farstone.561.group/blob/199cb72166ed83c2345bdd96db0e36b3205cad6f/catalog-entry.json"
+      }
+    },
+    {
+      "id": "aletheon",
+      "displayName": "Aletheon",
+      "liveCatalogLaunchUrl": "https://aletheon.561.group/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/aletheon",
+        "head": "5f35057715d38626cd479414b47d7dbc382960fc",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/aletheon/blob/5f35057715d38626cd479414b47d7dbc382960fc/catalog-entry.json"
+      }
+    },
+    {
+      "id": "be-not-so-fearful",
+      "displayName": "Be Not So Fearful",
+      "liveCatalogLaunchUrl": "https://fearful.561.group/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/be-not-so-fearful",
+        "head": "6455f3994119d895ba78f9bf6e2216b3f99017f8",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/be-not-so-fearful/blob/6455f3994119d895ba78f9bf6e2216b3f99017f8/catalog-entry.json"
+      }
+    },
+    {
+      "id": "blackjack",
+      "displayName": "Blackjack",
+      "liveCatalogLaunchUrl": "https://casino.561.group/blackjack.html",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/cowrie-casino",
+        "head": "4bd54c0cb9b3ae446d4d3c7a11cf3d140c2b0c73",
+        "path": "src/games/blackjack/catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/cowrie-casino/blob/4bd54c0cb9b3ae446d4d3c7a11cf3d140c2b0c73/src/games/blackjack/catalog-entry.json"
+      }
+    },
+    {
+      "id": "chutes",
+      "displayName": "Chutes & Ladders",
+      "liveCatalogLaunchUrl": "https://parlor.561.group/chutes/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/parlor",
+        "head": "0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c",
+        "path": "src/games/chutes/catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/parlor/blob/0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c/src/games/chutes/catalog-entry.json"
+      }
+    },
+    {
+      "id": "equivo",
+      "displayName": "Equivo",
+      "liveCatalogLaunchUrl": "https://equivo.play.561.group/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "causeway-services/public-equivo-services-section",
+        "head": "15ebc2f90383a5a4c1928ea9624aec8fe086b38c",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/causeway-services/public-equivo-services-section/blob/15ebc2f90383a5a4c1928ea9624aec8fe086b38c/catalog-entry.json"
+      }
+    },
+    {
+      "id": "farkle",
+      "displayName": "Farkle",
+      "liveCatalogLaunchUrl": "https://parlor.561.group/farkle/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/parlor",
+        "head": "0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c",
+        "path": "src/games/farkle/catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/parlor/blob/0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c/src/games/farkle/catalog-entry.json"
+      }
+    },
+    {
+      "id": "pig",
+      "displayName": "Pig",
+      "liveCatalogLaunchUrl": "https://parlor.561.group/pig/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/parlor",
+        "head": "0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c",
+        "path": "src/games/pig/catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/parlor/blob/0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c/src/games/pig/catalog-entry.json"
+      }
+    },
+    {
+      "id": "reels",
+      "displayName": "Fair Spin",
+      "liveCatalogLaunchUrl": "https://parlor.561.group/reels/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/parlor",
+        "head": "0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c",
+        "path": "src/games/reels/catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/parlor/blob/0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c/src/games/reels/catalog-entry.json"
+      }
+    },
+    {
+      "id": "slots",
+      "displayName": "Tideline Treasures",
+      "liveCatalogLaunchUrl": "https://casino.561.group/slots.html",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/cowrie-casino",
+        "head": "4bd54c0cb9b3ae446d4d3c7a11cf3d140c2b0c73",
+        "path": "src/games/slots/catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/cowrie-casino/blob/4bd54c0cb9b3ae446d4d3c7a11cf3d140c2b0c73/src/games/slots/catalog-entry.json"
+      }
+    },
+    {
+      "id": "yacht",
+      "displayName": "Yacht",
+      "liveCatalogLaunchUrl": "https://parlor.561.group/yacht/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/parlor",
+        "head": "0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c",
+        "path": "src/games/yacht/catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/parlor/blob/0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c/src/games/yacht/catalog-entry.json"
+      }
+    },
+    {
+      "id": "you-are-conscious",
+      "displayName": "You Are Conscious",
+      "liveCatalogLaunchUrl": "https://you-are-conscious.561.group/",
+      "launchUrlEvidenceDate": "2026-10-04T14:22:16.948Z",
+      "authoredRecord": {
+        "repository": "red-cup-engineering/you-are-conscious",
+        "head": "a6e4b1334c88470c293e140366158a1725b9ad0d",
+        "path": "catalog-entry.json",
+        "url": "https://github.com/red-cup-engineering/you-are-conscious/blob/a6e4b1334c88470c293e140366158a1725b9ad0d/catalog-entry.json"
+      }
+    }
+  ],
+  "remainingCanonicalApps": [
+    {
+      "repository": "red-cup-engineering/fizzos",
+      "head": "b2e378ef5a0040c605cd9809af0d546e41645cac",
+      "classification": "Game-engine/MUD runtime with starter/example worlds; README explicitly ships no own game content. Farstone is the downstream authored game.",
+      "additionalCatalogGame": false,
+      "readmeUrl": "https://github.com/red-cup-engineering/fizzos/blob/b2e378ef5a0040c605cd9809af0d546e41645cac/README.md"
+    },
+    {
+      "repository": "red-cup-engineering/qwzspace",
+      "head": "bf27ebb2cb67a079c03252f82feee3d578f6ac5d",
+      "classification": "Browser3D rendering engine below TUFTE with example scenes; historical room/game modules are declared legacy co-residents, not verified additional standalone titles.",
+      "additionalCatalogGame": false,
+      "readmeUrl": "https://github.com/red-cup-engineering/qwzspace/blob/bf27ebb2cb67a079c03252f82feee3d578f6ac5d/README.md"
+    },
+    {
+      "repository": "red-cup-engineering/games-host",
+      "classification": "Game hosting infrastructure, not a catalog game.",
+      "additionalCatalogGame": false
+    }
+  ],
+  "receivedAt": "2026-10-25",
+  "usage": "Dated receiving inventory only. Runtime membership still comes from each authored catalog record through explicit source bindings."
+}
