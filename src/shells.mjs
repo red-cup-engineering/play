@@ -76,6 +76,16 @@ const HOUSE_AD_FOOTER = `<aside id="house-ad-footer" class="ad-slot ad-slot--hou
   data-ad-server="https://ads.561.group/"></aside>
   <script>(${mountPlayHouseAdFooter.toString()})();</script>`;
 
+// Existing, reader-initiated offer. This remains useful without JavaScript or
+// an ad-server response and never gates a game or creates a checkout session.
+const SUPPORT_OFFER = `<section class="support-offer" id="support-games" aria-labelledby="support-title">
+  <div><h2 id="support-title">Help keep the shelf growing.</h2>
+    <p>Voluntary support helps the 561 Group make public games, research, and the tools they share.</p>
+    <p class="support-terms">USD $10 per month, renewing until canceled. Optional; no extra access or influence, and no charitable tax deduction. Payments go to emsenn.
+      <a href="https://561.group/#support">Terms and help</a>.</p></div>
+  <a class="support-link" href="https://buy.stripe.com/28E28s1b4gJcb2Y3Io5EY02" rel="noopener noreferrer">Support · $10/month &rarr;</a>
+</section>`;
+
 const MARK_SVG = `<svg class="mark" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
         <ellipse cx="24" cy="24" rx="18" ry="11"/>
         <path d="M13 17q11-6 22 0" stroke-width="1.3" opacity="0.6"/>
@@ -97,8 +107,8 @@ export function indexHtml(gridFragment, entries = []) {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>play.561.group -- 561 Group games catalog</title>
-  <meta name="description" content="Find 561 Group games and courses, their browser entry pages, and their terminal or API interfaces." />
+  <title>Cowrie Games — the 561 Group game shelf</title>
+  <meta name="description" content="Find your next game: card tables, puzzles, strange worlds, and a shared daily challenge from the 561 Group." />
   <link rel="stylesheet" href="css/tufte-touch.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="chrome/shelf-chrome.css" />
@@ -112,15 +122,15 @@ export function indexHtml(gridFragment, entries = []) {
       ${MARK_SVG}
       <div class="title-block">
         <p class="brand-wordmark">Cowrie Games</p>
-        <h1>play<span class="domain">.561.group</span></h1>
+        <h1>A whole shelf of<br />ways to play.</h1>
         <p class="tagline">
-          Games and courses from the Group. Follow a browser link or find a terminal
-          or API interface. Each entry keeps its author's description and reported
-          status. Page checks report reachability at publication, not a complete play test.
+          Settle into a card game. Work out a puzzle. Wander somewhere strange.
+          Find a familiar favorite or see what today's challenge brings.
         </p>
       </div>
       <nav class="header-nav" aria-label="Site">
-        <a href="today.html" class="today-nav-link">Today &rarr;</a>
+        <a href="today.html" class="today-nav-link">Today's challenges &rarr;</a>
+        <a href="#support-games" class="support-nav-link">Support the games</a>
       </nav>
     </div>
   </header>
@@ -142,12 +152,14 @@ export function indexHtml(gridFragment, entries = []) {
       </div>
     </div>
 
-    <p class="result-count" id="result-count" aria-live="polite">${entries.length} games</p>
+    <div class="catalog-intro"><p class="result-count" id="result-count" aria-live="polite">${entries.length} games</p>
+      <details class="catalog-status-help"><summary>About game availability</summary><p>Playability is reported by each game's author. A dated page check records whether its entrance responded when the shelf was built; it does not verify a complete playthrough.</p></details></div>
 
     <div class="catalog-grid-wrap" id="catalog-grid" role="region" aria-label="Game catalog">${gridFragment}</div>
   </main>
 
   <footer class="site-footer">
+    ${SUPPORT_OFFER}
     <div class="footer-inner">
       <p>
         Catalog data: <a href="catalog.json">catalog.json</a> --
@@ -183,12 +195,11 @@ export function todayHtml(gridFragment, date) {
     <div class="header-inner">
       ${MARK_SVG}
       <div class="title-block">
-        <h1>today<span class="domain">.561.group</span></h1>
+        <p class="brand-wordmark">Cowrie Games · Daily play</p>
+        <h1>A new day.<br />The same challenge.</h1>
         <p class="tagline">
-          The suite's front door: today's date resolves to one seed per game, the same
-          seed for everyone, everywhere, at once. Not a browsing catalog -- that's
-          <a href="index.html">the shelf</a> -- this page is the daily ritual: what does
-          today ask, and where do you go to answer it.
+          Pick a game and try today's seed. Everyone who opens the same challenge
+          starts from the same seed. Come back tomorrow for another.
         </p>
       </div>
       <nav class="header-nav" aria-label="Site"><a href="index.html">Back to the shelf</a></nav>
@@ -211,6 +222,7 @@ export function todayHtml(gridFragment, date) {
   </main>
 
   <footer class="site-footer">
+    ${SUPPORT_OFFER}
     <div class="footer-inner">
       <p>
         With JavaScript, seeds update from your browser's current UTC date.

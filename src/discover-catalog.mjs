@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { execFile } from 'node:child_process';
+import { createRequire } from 'node:module';
 import { promisify } from 'node:util';
 import { playUrl, hasBrowser } from '../js/catalog.mjs';
 
@@ -253,6 +254,18 @@ function splitRef(ref) {
   return { filePart: ref.slice(0, hashIndex), exportName: ref.slice(hashIndex + 1) };
 }
 
+// A scoped package reference belongs to the authored record's package scope.
+// Node resolves package self references and enforces exports from that owner,
+// including records nested under src/games. Resolving beside Play could select
+// an unrelated installed copy of the game and misattribute its manifest.
+// Legacy source-relative references retain their original home directory.
+function resolveCatalogModule(filePart, homeDir) {
+  const filename = filePart.startsWith('@')
+    ? createRequire(path.join(homeDir, MANIFEST_FILENAME)).resolve(filePart)
+    : path.resolve(homeDir, filePart);
+  return pathToFileURL(filename).href;
+}
+
 /** Projects an executable cartridge manifest into a shelf entry.  This keeps
  * game identity, state-transition contract, and replay verifier in one
  * place.  A sidecar may add storefront metadata, but may not shadow a field
@@ -267,17 +280,17 @@ async function materializeCartridgeManifest(entry, homeDir) {
   if (!filePart || !exportName) {
     throw new Error(`${homeDir}: cartridgeManifest must be "file#namedExport"`);
   }
-  const verificationHomeDir = entry.cartridgeHome
-    ? path.resolve(homeDir, entry.cartridgeHome)
-    : homeDir;
   if (entry.cartridgeHome !== undefined && typeof entry.cartridgeHome !== 'string') {
     throw new Error(`${homeDir}: cartridgeHome must be a relative directory path`);
   }
-  const absPath = path.join(verificationHomeDir, filePart);
+  const verificationHomeDir = entry.cartridgeHome
+    ? path.resolve(homeDir, entry.cartridgeHome)
+    : homeDir;
   let mod;
   try {
-    await stat(absPath);
-    mod = await import(pathToFileURL(absPath).href);
+    const moduleUrl = resolveCatalogModule(filePart, verificationHomeDir);
+    await stat(fileURLToPath(moduleUrl));
+    mod = await import(moduleUrl);
   } catch (err) {
     throw new Error(`${homeDir}: cartridgeManifest failed to load (${filePart}): ${err.message}`);
   }
@@ -308,13 +321,12 @@ async function verifyEntry(entry, homeDir) {
     throw new Error(`${entry.id}: cartridgeWrapped:true requires replayVerifier`);
   }
   const { filePart, exportName } = splitRef(entry.replayVerifier);
-  const moduleUrl = filePart.startsWith('@')
-    ? import.meta.resolve(filePart)
-    : pathToFileURL(path.join(homeDir, filePart)).href;
+  let moduleUrl;
   try {
+    moduleUrl = resolveCatalogModule(filePart, homeDir);
     await stat(fileURLToPath(moduleUrl));
-  } catch {
-    throw new Error(`${entry.id}: replayVerifier module does not exist: ${filePart}`);
+  } catch (err) {
+    throw new Error(`${entry.id}: replayVerifier module does not exist: ${filePart} (${err.message})`);
   }
 
   if (exportName) {
@@ -335,11 +347,11 @@ async function verifyEntry(entry, homeDir) {
   // guarantee than the replayVerifier check above.
   if (entry.intentLog?.schemaRef) {
     const { filePart: schemaFile } = splitRef(entry.intentLog.schemaRef);
-    const schemaAbsPath = path.join(homeDir, schemaFile);
     try {
-      await stat(schemaAbsPath);
-    } catch {
-      throw new Error(`${entry.id}: intentLog.schemaRef file does not exist: ${schemaFile} (resolved ${schemaAbsPath})`);
+      const schemaUrl = resolveCatalogModule(schemaFile, homeDir);
+      await stat(fileURLToPath(schemaUrl));
+    } catch (err) {
+      throw new Error(`${entry.id}: intentLog.schemaRef file does not exist: ${schemaFile} (${err.message})`);
     }
   }
 }

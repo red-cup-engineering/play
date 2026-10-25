@@ -41,6 +41,17 @@ export function publicationPageStatus(entry) {
   return 'Entry page not checked at publication; you can still try its address.';
 }
 
+// Keep the author's complete description, with a short opening on the shelf.
+// This changes disclosure, not the game's claims or catalog record.
+export function descriptionParts(description = '') {
+  const text = String(description).trim();
+  if (text.length <= 220) return { lead: text, rest: '' };
+  const sentence = text.slice(0, 221).match(/^.*?[.!?](?=\s)/u);
+  const boundary = sentence ? sentence[0].length : text.lastIndexOf(' ', 220);
+  const cut = boundary > 0 ? boundary : 220;
+  return { lead: text.slice(0, cut), rest: text.slice(cut).trimStart() };
+}
+
 export function catalogCardBodyHtml(entry) {
   const glyph = GLYPHS[entry.id] || FALLBACK_GLYPH;
   const playable = entry.status === 'playable';
@@ -52,23 +63,25 @@ export function catalogCardBodyHtml(entry) {
   const actionLink = hasBrowser(entry)
     ? `<a class="play-link" data-tufte-control href="${esc(playUrl(entry))}">${EXTERNAL_LINK_ICON} ${browserAvailable(entry) ? 'Open' : 'Visit'} ${esc(entry.displayName)}</a>`
     : '<span class="play-link">No browser entry</span>';
-  // Author-reported playability and observed HTTP reachability are different facts.
-  // A default build does not probe remote pages; make that uncertainty visible.
   const pageState = hasBrowser(entry) ? entry.availability?.state : null;
   const pageStatus = pageState === 'reachable' ? 'Page reached' : pageState === 'unavailable' ? 'Page unavailable' : 'Page not checked';
+  const description = descriptionParts(entry.description);
 
   return `
-    <div class="card-head"><span class="card-glyph">${glyph}</span></div>
-    <p class="desc">${esc(entry.description)}</p>
+    <div class="card-art" data-shelf="${esc(entry.shelf || '')}" aria-hidden="true"><span class="card-glyph">${glyph}</span><span class="card-art-line"></span></div>
+    <div class="card-actions">${actionLink}</div>
+    <p class="desc">${esc(description.lead)}</p>
+    ${description.rest ? `<details class="game-description"><summary>More about ${esc(entry.displayName)}</summary><p>${esc(description.rest)}</p></details>` : ''}
     <div class="badges">
       <span class="badge ${playable ? 'playable' : 'in-development'}">${statusLabel(entry.status)}</span>
       ${hasBrowser(entry) ? `<span class="badge availability-${pageState === 'reachable' ? 'reachable' : pageState === 'unavailable' ? 'unavailable' : 'unchecked'}">${pageStatus}</span>` : ''}
+      ${entry.seedPolicy?.kind === 'daily-utc' ? '<span class="badge daily">Daily seed</span>' : ''}
       ${headlessBadge}
     </div>
     ${hasHeadless(entry) ? `<details class="headless-interface"><summary>Read the API or terminal interface</summary><code>${esc(entry.entryPoints.headless)}</code></details>` : ''}
     ${entry.statusNote ? `<p class="status-note">${esc(entry.statusNote)}</p>` : ''}
     <ul class="keywords">${keywords}</ul>
-    <div class="card-actions">${actionLink}<span class="subdomain-hint">${esc(hostname(entry))}</span></div>
+    <span class="subdomain-hint">${esc(hostname(entry))}</span>
     ${entry.availability?.checkedAt ? `<p class="availability-note">${pageStatus} at ${esc(entry.availability.checkedAt.slice(0, 16).replace('T', ' '))} UTC.</p>` : ''}
   `;
 }
