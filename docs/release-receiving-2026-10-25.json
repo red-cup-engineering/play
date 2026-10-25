@@ -1,0 +1,588 @@
+{
+  "kind": "play-release-receiving",
+  "date": "2026-10-25",
+  "scope": "Dated exact source/provider/build/local upload receiving. This record does not define future runtime membership or claim production deployment, campaign activation or public-player use.",
+  "playSource": {
+    "repository": "causeway-services/play",
+    "baseCommit": "8889c5c41223dc43db0304bbd2f07d3cbdeaaf01",
+    "baseTree": "8ea3188c440778fb9be3ad66360780224a811d7d",
+    "candidateRuntimeDifference": "none",
+    "candidateDependencyFiles": {
+      "package.json": "e592863287c5a943c23473b38b07dd05f0d03105b67e20821bdf98cd6c3e9fc2",
+      "pnpm-lock.yaml": "8c3bc02d86903c36ae1778a49f434e89ad5d64fe00b9160b5099e086ec614a2d",
+      "pnpm-workspace.yaml": "f2466e80cf57444318cd06c417c70de1c8bad658cc3998762c377a99cfeae0fa"
+    },
+    "sourceInputContract": "PLAY_CATALOG_SOURCES: array of local original Git bindings; repositoryRoot paths are supplied by the deployment, not stored as canonical identities."
+  },
+  "toolchain": {
+    "node": "24.22.1",
+    "npm": "11.9.0",
+    "pnpm": "11.25.0",
+    "git": "2.51.1"
+  },
+  "providers": {
+    "@red-cup-engineering/arnold": "0.3.0",
+    "@red-cup-engineering/gaming": "0.1.10",
+    "@red-cup-engineering/web-page-tiling-engine": "0.16.5-dev.0",
+    "@red-cup-engineering/static-site-publisher": "0.1.18",
+    "@red-cup-engineering/weiqi-engine": "0.3.4",
+    "esbuild": "0.28.1",
+    "wrangler": "4.123.0"
+  },
+  "tufteRegistrySourceReceiving": {
+    "package": "@red-cup-engineering/web-page-tiling-engine",
+    "version": "0.16.5-dev.0",
+    "sourceCommit": "e80fd0f3730f3f8729f61dcaa49f120af0b400ce",
+    "nonManifestFileCount": 57,
+    "allNonManifestFilesEqualSource": true,
+    "packageManifestDifference": {
+      "gitHead": "e80fd0f3730f3f8729f61dcaa49f120af0b400ce"
+    },
+    "touchThemeBlob": "c07a04039195ca5091613a84e4216c20ce886695",
+    "tarballSha1": "ddb82ae46aa99a96c3f26b63bf55c114dc63ed68",
+    "integrity": "sha512-gvf9Xn9NRSnvlUCeKRz6/M7eOlTxdNte4c1fYkzhxzkTpTZOPRa5h3qOd5bH80ljBiw5IT8Yj4ftLbvUUBf5rg=="
+  },
+  "catalogSourceScope": "Original inventory source bindings, with only Stoke advanced to its original-owner description correction at b1daba6b040722d38080a09af44419914b2d1d8c. Selected catalog/runtime blobs are bounded materializations, not complete historical clones or a claim every source is latest main.",
+  "sources": [
+    {
+      "repository": "red-cup-engineering/solitaire",
+      "commit": "518371ae21d4d6626d42f3f249c69f048150080f",
+      "tree": "9ced99d9875ddecf66e800efd998b64491e8f7b7",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "solitaire",
+          "displayName": "Solitaire",
+          "path": "catalog-entry.json",
+          "blob": "53cd0810da5bb8ca6b76a82b93d7a38342a4e6c7",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/kellys-wager",
+      "commit": "7085c426ed7dabf86bca92d33d8e925edd0e5f51",
+      "tree": "93dff53982c8726702184c209c9ef7ff6e62a3d1",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "gambling-trainer",
+          "displayName": "Kelly's Wager",
+          "path": "catalog-entry.json",
+          "blob": "51cee4f6a732dd45c06d11eef44dee0db4fbbf72",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/flickering",
+      "commit": "966969c8d9b018ea2d67384e6c35449bf798cc85",
+      "tree": "a773b3be16e35d59287455c704ae0c28843886ec",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "flickering-delve",
+          "displayName": "Flickering Delve",
+          "path": "catalog-entry.json",
+          "blob": "1b33b93265734f7e5b94f71b35a78a131211c85e",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/onestone",
+      "commit": "73c708a3eaf553c2444f13d0ab9102d77519c607",
+      "tree": "79c5f835b9fe451595f3bc8fb1962624a49cae85",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "onestone",
+          "displayName": "TileSlots",
+          "path": "catalog-entry.json",
+          "blob": "87bbeb360329a38177bf19333ed6b92e606e8209",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/crucible",
+      "commit": "e68d5d70b9d0586e142971489428a954386ee346",
+      "tree": "311fd3634a70c9806972b4ff75296ebcf7f53ce8",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "crucible",
+          "displayName": "Crucible",
+          "path": "catalog-entry.json",
+          "blob": "bba11349041a0697f26e986e46e0f076674c75b8",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/stoke",
+      "commit": "b1daba6b040722d38080a09af44419914b2d1d8c",
+      "tree": "8c6be17556be9a66999d1853ab0375057cafb31e",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "stoke",
+          "displayName": "Stoke",
+          "path": "catalog-entry.json",
+          "blob": "5770bbb0e3cd596973dc5a449fc5d536724f03b2",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "lenticule-science/science-services-section",
+      "commit": "8a781162035dbf69062f6acecf5ba56a6b7baa85",
+      "tree": "4f03328f89f9f6bf3c66d2392167d3d563fe3b3e",
+      "catalogRoots": [
+        "services/philosophy-services-section/services/relationality-services-section/services/agency-services-section/services/being-services-section/services/doing-services-section/services/playing-services-section/services/gaming-services-section/services/board-games-services-section/services/weiqi-services-section"
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "weiqi",
+          "displayName": "Weiqi",
+          "path": "services/philosophy-services-section/services/relationality-services-section/services/agency-services-section/services/being-services-section/services/doing-services-section/services/playing-services-section/services/gaming-services-section/services/board-games-services-section/services/weiqi-services-section/catalog-entry.json",
+          "blob": "06961634d31d3a0cca6addbd628653fd8cbe930f",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/ruinfold",
+      "commit": "352df9bf6edbcaa4a5542bd553fe7d27c681b0d1",
+      "tree": "01c15d310a7e60a7fa02d763bda0c8bac4c7203c",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "ruinfold",
+          "displayName": "Ruinfold",
+          "path": "catalog-entry.json",
+          "blob": "ce639c01e7c7f5358bac165cc5b6e5dcad242963",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/durante",
+      "commit": "e3dfab46fdf3e3457d7b881bddd641915d5d8917",
+      "tree": "7809759134d2157b728fcd1243fd393adb9f99b8",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "durante",
+          "displayName": "durante",
+          "path": "catalog-entry.json",
+          "blob": "1a00a8e8cda3f468407b0055028f4126f3ab5b18",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/farstone.561.group",
+      "commit": "199cb72166ed83c2345bdd96db0e36b3205cad6f",
+      "tree": "40a41ac1c9d3737278c06376e3437c9695c9eb3d",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "farstone",
+          "displayName": "Farstone",
+          "path": "catalog-entry.json",
+          "blob": "725c63e2fd01dfa11ad5983c541ceae4f621e012",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/aletheon",
+      "commit": "5f35057715d38626cd479414b47d7dbc382960fc",
+      "tree": "18fbd4f91f93399369fdbd2519baa6832c733491",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "aletheon",
+          "displayName": "Aletheon",
+          "path": "catalog-entry.json",
+          "blob": "7ce0344abe2711533cdb2c01c3487f744c1de021",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/be-not-so-fearful",
+      "commit": "6455f3994119d895ba78f9bf6e2216b3f99017f8",
+      "tree": "8ef57a6a6f171b74b1636daf47ed19eb1652bdad",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "be-not-so-fearful",
+          "displayName": "Be Not So Fearful",
+          "path": "catalog-entry.json",
+          "blob": "84055b2f846e59dc291c401d5f782cf397bd364e",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/cowrie-casino",
+      "commit": "4bd54c0cb9b3ae446d4d3c7a11cf3d140c2b0c73",
+      "tree": "a395891cfcc5fff9e6ee249e848e1fb610ac48d8",
+      "catalogRoots": [
+        "src/games/blackjack",
+        "src/games/slots"
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "blackjack",
+          "displayName": "Blackjack",
+          "path": "src/games/blackjack/catalog-entry.json",
+          "blob": "75769c3e37b7db43063fa779984023c3df2895cf",
+          "readFrom": "worktree"
+        },
+        {
+          "id": "slots",
+          "displayName": "Tideline Treasures",
+          "path": "src/games/slots/catalog-entry.json",
+          "blob": "8b6be1a250d12526f75732605f86a498df0d54f8",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/parlor",
+      "commit": "0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c",
+      "tree": "47197e55e03c8b551094ba444ccb4a68e026d028",
+      "catalogRoots": [
+        "src/games/chutes",
+        "src/games/farkle",
+        "src/games/pig",
+        "src/games/reels",
+        "src/games/yacht"
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "chutes",
+          "displayName": "Chutes & Ladders",
+          "path": "src/games/chutes/catalog-entry.json",
+          "blob": "b5433a2067d3cebd95ca1a6998a54ee2e08b9381",
+          "readFrom": "worktree"
+        },
+        {
+          "id": "farkle",
+          "displayName": "Farkle",
+          "path": "src/games/farkle/catalog-entry.json",
+          "blob": "b300a4e3dedb5028388c2ff41d4a3f0c11f9882a",
+          "readFrom": "worktree"
+        },
+        {
+          "id": "pig",
+          "displayName": "Pig",
+          "path": "src/games/pig/catalog-entry.json",
+          "blob": "0c2ba2e433baa4e38f01f537fabc99319e15754b",
+          "readFrom": "worktree"
+        },
+        {
+          "id": "reels",
+          "displayName": "Fair Spin",
+          "path": "src/games/reels/catalog-entry.json",
+          "blob": "f6c66917acb5dd13e5c5c81562c1737d39cc3bfa",
+          "readFrom": "worktree"
+        },
+        {
+          "id": "yacht",
+          "displayName": "Yacht",
+          "path": "src/games/yacht/catalog-entry.json",
+          "blob": "0ecbb25647ff0a9ea4f19c5d822ec13af0597529",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "causeway-services/public-equivo-services-section",
+      "commit": "15ebc2f90383a5a4c1928ea9624aec8fe086b38c",
+      "tree": "7608d6de7e41fa8f380869d1db00e2814714c53d",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "equivo",
+          "displayName": "Equivo",
+          "path": "catalog-entry.json",
+          "blob": "e20af5dc81726534962fd36529196acdc6b211c7",
+          "readFrom": "worktree"
+        }
+      ]
+    },
+    {
+      "repository": "red-cup-engineering/you-are-conscious",
+      "commit": "a6e4b1334c88470c293e140366158a1725b9ad0d",
+      "tree": "1deb0e2eaaeceb45b9b0d988b83ac76eaf806925",
+      "catalogRoots": [
+        "."
+      ],
+      "gameSiteRoots": [],
+      "records": [
+        {
+          "id": "you-are-conscious",
+          "displayName": "You Are Conscious",
+          "path": "catalog-entry.json",
+          "blob": "bd802ec4964d4e10e14d7a162a230ddca3b5b258",
+          "readFrom": "worktree"
+        }
+      ]
+    }
+  ],
+  "externalSourceDependencyReceiving": {
+    "workspaceImporterCount": 11,
+    "originalGameImporterCount": 10,
+    "unchangedOriginalGameDependencyDeclarations": true,
+    "auxiliaryRootDependency": {
+      "@red-cup-engineering/weiqi-engine": "0.3.4"
+    },
+    "nativeLockSha256": "eab8f8286f8c508e7d2a9a1c393bb2fdd55be152ad662d1e587c47fba9313272",
+    "nativeLockBytes": 714339,
+    "nativeWorkspaceSha256": "d490e13bc9193d4266d73b872b524910a57a51824123bf3e02d3468fc4e46301",
+    "nativeRootManifestSha256": "f3c5a876ec3a75ab33ed18019e34f72cd8091844fd597aafec9e4b493e7b5c88",
+    "frozenOfflineInstallPassed": true,
+    "directPlayAndOriginalGameEdgesChecked": 91,
+    "additionalAuxiliaryRootEdgeCheckedIndependently": 1,
+    "versionMismatches": [],
+    "providerOverrides": [],
+    "frozenOfflineInstallAfterStokeCorrectionPassed": true
+  },
+  "build": {
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "environmentInputs": {
+      "PLAY_CATALOG_DATE": "2026-10-25",
+      "PLAY_CATALOG_SOURCES": "complete original16 bindings above with received absolute local repositoryRoot paths"
+    },
+    "sourceCatalogRecordCount": 21,
+    "catalogSha256": "0e1fd0a86b2b989e935a09679d600889226bf5d782b47532649c9249b485e239",
+    "dailyStripCount": 10,
+    "shelfProjectorArtifactCount": 9,
+    "completePublisherArtifactCount": 20,
+    "nativeManifestArtifactCount": 19,
+    "nativeManifestByteCount": 207321,
+    "nativeReleaseDigest": "ni:///sha-256;C5cYC_X_CwT2JIlXPttYmWOin4E5Z9WMVdSsRzadEGA",
+    "nativeHtmlConformance": true,
+    "nativeStaticSiteConformance": true,
+    "refusals": [],
+    "advisories": [],
+    "observedPages": false,
+    "publicCatalogContainsInternalSourcePaths": false,
+    "sourceCorrectionArtifactDelta": [
+      "catalog.json",
+      "index.html",
+      "release-manifest.json"
+    ]
+  },
+  "focusedTests": {
+    "command": [
+      "node",
+      "--test",
+      "--test-isolation=none",
+      "--test-reporter=tap",
+      "test/mobile-contract.test.mjs",
+      "test/ad-footer.test.mjs",
+      "test/catalog-source-selection.test.mjs",
+      "test/catalog-package-refs.test.mjs",
+      "test/portable-composition.test.mjs",
+      "test/catalog-availability-status.test.mjs",
+      "test/player-shelf.test.mjs",
+      "test/router-wiring.test.mjs"
+    ],
+    "tests": 56,
+    "passed": 56,
+    "failed": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "scope": "Eight native files; not a claim that all legacy integrated-checkout cases passed.",
+    "artifactPhase": "Qualified unchanged Play runtime/dependency composition before the original Stoke description correction; no later Play runtime change."
+  },
+  "localWorkerCarrier": {
+    "scope": "local original-owner asset/configuration/multipart receiving; no production deployment",
+    "provider": "@red-cup-engineering/computer-web-platform",
+    "providerVersion": "0.6.1",
+    "wranglerVersion": "4.123.0",
+    "configuration": "wrangler.jsonc",
+    "output": "public",
+    "workerName": "play-561-group",
+    "domain": "play.561.group",
+    "nativeShippedDigest": "sha256:47b271265a2d641a7c68ccd34006b0ff822c423dbe51a085bd47fa456e54a86d",
+    "multipartSha256": "e3c837cff46f8c534e56ce60d50cc02182364a118722310dffd94f896f069a4d",
+    "configurationSha256": "763aa3f64dc16779569dcff098f0f5c3cf3469053cd8a8e857695fcdea2d1069",
+    "releaseManifestDigest": "ni:///sha-256;C5cYC_X_CwT2JIlXPttYmWOin4E5Z9WMVdSsRzadEGA",
+    "remoteDeployAttempted": false,
+    "sourceCorrection": "Stoke b1daba6b040722d38080a09af44419914b2d1d8c"
+  },
+  "production": {
+    "deploymentAttempted": false,
+    "newWorkerVersionReceived": false,
+    "publicEndpointVersionAttributed": false
+  },
+  "localBrowserReceiving": {
+    "scope": "Original Wrangler4.123.0 local preview of the qualified Play assets; external advertising requests intentionally aborted; no production receiving.",
+    "observedAt": "2026-10-25T20:37:22.740Z",
+    "receiptSha256": "ddf1ffb889a8826760f3f5cbb8dd77214754f4cbbb4f66818e8ced883e01340e",
+    "runtimeSourceAndPublicOutputsRebuiltOrChanged": false,
+    "cases": [
+      {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "httpStatus": 200,
+        "initialGameLinks": 21,
+        "searchEnabled": true,
+        "searchQuery": "farkle",
+        "searchDisplayedCount": "1 game",
+        "searchGame": "Farkle",
+        "reportedPlayableFilterPressed": true,
+        "initialAndSearchedHorizontalOverflow": false,
+        "minimumStatusButtonHeightCssPixels": 44,
+        "pageExceptionCount": 0,
+        "blockedExternal": [
+          "ads.561.group"
+        ]
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "httpStatus": 200,
+        "initialGameLinks": 21,
+        "searchEnabled": true,
+        "searchQuery": "farkle",
+        "searchDisplayedCount": "1 game",
+        "searchGame": "Farkle",
+        "reportedPlayableFilterPressed": true,
+        "initialAndSearchedHorizontalOverflow": false,
+        "minimumStatusButtonHeightCssPixels": 46,
+        "pageExceptionCount": 0,
+        "blockedExternal": [
+          "ads.561.group"
+        ]
+      },
+      {
+        "viewport": {
+          "width": 320,
+          "height": 700
+        },
+        "httpStatus": 200,
+        "initialGameLinks": 21,
+        "searchEnabled": true,
+        "searchQuery": "farkle",
+        "searchDisplayedCount": "1 game",
+        "searchGame": "Farkle",
+        "reportedPlayableFilterPressed": true,
+        "initialAndSearchedHorizontalOverflow": false,
+        "minimumStatusButtonHeightCssPixels": 46,
+        "pageExceptionCount": 0,
+        "blockedExternal": [
+          "ads.561.group"
+        ]
+      }
+    ],
+    "screenshots": [
+      {
+        "name": "play-desktop-viewport.png",
+        "sha256": "544b64d3b22260ca0e2512e4440a6179f21b840c5b5c6ebdffdea57da6c2bb86",
+        "visuallyReviewedBy": "root independent receiver"
+      },
+      {
+        "name": "play-phone-viewport.png",
+        "sha256": "388f4d8cc8d8b0432302c96e0736f5d53b324092891416d7b8424bae7043f6e3",
+        "visuallyReviewedBy": "root independent receiver"
+      }
+    ],
+    "publicGameDestinationsTested": false,
+    "advertisingDeliveryReceived": false,
+    "noJavaScriptRetestedInThisReceipt": false,
+    "artifactPhase": "Before original Stoke description correction; runtime browser scripts, CSS and17of20artifacts remain byte-identical after correction.",
+    "nativeReleaseDigestObserved": "ni:///sha-256;9jhiXDzA3KQr97UfbDIlqk4-QSvXmQg7xgStlpL_FFQ"
+  },
+  "sourceCorrections": [
+    {
+      "repository": "red-cup-engineering/stoke",
+      "previousSelectedCommit": "fc206b7ab81526de17b8282a123629f31134dfac",
+      "correctedCommit": "b1daba6b040722d38080a09af44419914b2d1d8c",
+      "correctedTree": "8c6be17556be9a66999d1853ab0375057cafb31e",
+      "originalPullRequest": "https://github.com/red-cup-engineering/stoke/pull/4",
+      "descriptionSource": "src/cartridge.manifest.mjs#manifest.description",
+      "descriptionSourceBlob": "1b0c63854e790da106b1316897409c4aa4b4f4f7",
+      "packageManifestBlob": "55035f1653ca252cdecf81647c07956776d7b63f",
+      "originalCatalogRecordUnchanged": true,
+      "selectedFilesMatchedToOriginalTree": 28,
+      "changedCatalogEntries": [
+        {
+          "id": "stoke",
+          "changedFields": [
+            "description"
+          ]
+        }
+      ],
+      "changedArtifacts": [
+        "catalog.json",
+        "index.html",
+        "release-manifest.json"
+      ],
+      "currentDescription": "Build a production graph and grow a workshop. Prestige and starting resource mixtures use the current rules' approximate matrix calculation, which can be inaccurate or unsettled on some graphs. Existing saved runs keep their original rules.",
+      "scope": "Original-owner metadata correction only relative to its then-current main; no Play projection override, economic-rule or saved-run change."
+    }
+  ],
+  "priorInputReceiving": {
+    "stokeCommit": "fc206b7ab81526de17b8282a123629f31134dfac",
+    "nativeReleaseDigest": "ni:///sha-256;9jhiXDzA3KQr97UfbDIlqk4-QSvXmQg7xgStlpL_FFQ",
+    "nativeWorkerCarrierDigest": "sha256:b0fbaefb598ed7cda2f7ec8d2c9e3eafa229563a6fb431fb211798c2004de478",
+    "catalogSha256": "39f82cd2c4d167966153f681a714eac4b7d0b307552b41d0b0db3f3c6be3bccb",
+    "supersededByOriginalOwnerDescriptionCorrection": true,
+    "retainedLocallyAt": "qualification/play-production/prior-input-receiving"
+  }
+}
