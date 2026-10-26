@@ -32,7 +32,7 @@ async function fixture(t) {
   const play = path.join(root, SITES, 'play.561.group');
   // Copy the actual discovery implementation and its renderer imports. No game,
   // replay, publisher, provider, terminal client or network module is executed.
-  for (const relative of ['src/discover-catalog.mjs', 'js/catalog.mjs', 'js/glyphs.mjs']) {
+  for (const relative of ['src/discover-catalog.mjs', 'src/player-observations.mjs', 'docs/player-observations-2026-10-26.json', 'js/catalog.mjs', 'js/glyphs.mjs']) {
     await mkdir(path.dirname(path.join(play, relative)), { recursive: true });
     await copyFile(path.join(PACKAGE, relative), path.join(play, relative));
   }

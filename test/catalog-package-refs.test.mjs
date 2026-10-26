@@ -33,7 +33,7 @@ async function fixture(t, { nested = false, relative = false, hiddenManifest = f
     name: NAME, type: 'module', exports: { './manifest': './wrong.mjs', './schema': './wrong.mjs' },
   });
   await write(consumer, `node_modules/${NAME}/wrong.mjs`, 'throw new Error("consumer copy must never load");\n');
-  for (const filename of ['src/discover-catalog.mjs', 'js/catalog.mjs', 'js/glyphs.mjs']) {
+  for (const filename of ['src/discover-catalog.mjs', 'src/player-observations.mjs', 'docs/player-observations-2026-10-26.json', 'js/catalog.mjs', 'js/glyphs.mjs']) {
     await mkdir(path.dirname(path.join(consumer, filename)), { recursive: true });
     await copyFile(path.join(PACKAGE, filename), path.join(consumer, filename));
   }

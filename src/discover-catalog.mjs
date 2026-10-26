@@ -6,6 +6,7 @@ import { execFile } from 'node:child_process';
 import { createRequire } from 'node:module';
 import { promisify } from 'node:util';
 import { playUrl, hasBrowser } from '../js/catalog.mjs';
+import { attachPlayerObservations } from './player-observations.mjs';
 
 /** Observe an HTML entry page; HTTP success is not a game-operation proof.
  * Automatic redirects can contact a foreign origin before a returned page
@@ -401,10 +402,11 @@ export async function discoverCatalog({ sources, generatedDate, observePages = f
     return diff !== 0 ? diff : a.id.localeCompare(b.id);
   });
   if (observePages) games = await observeBrowserPages(games, { fetchImpl, checkedAt });
+  games = attachPlayerObservations(games, { asOf: generatedDate ?? new Date().toISOString().slice(0, 10) });
 
   const catalog = {
     $schemaNote:
-      "Game metadata and declared replay contracts are collected from their authored records. Page reachability is observed separately and does not prove that a game works.",
+      "Game metadata and declared replay contracts are collected from their authored records. HTTP page reachability and dated player observations are separate evidence; neither an entry check nor one action verifies a full game completion.",
     generated: generatedDate ?? new Date().toISOString().slice(0, 10),
     games,
   };
