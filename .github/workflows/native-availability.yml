@@ -10,6 +10,9 @@ on:
       - "js/catalog.mjs"
       - "js/glyphs.mjs"
       - "src/discover-catalog.mjs"
+      - "src/player-observations.mjs"
+      - "docs/player-observations-*.json"
+      - "test/player-observations.test.mjs"
       - "test/catalog-availability-status.test.mjs"
       - "test/catalog-source-selection.test.mjs"
       - "test/router-wiring.test.mjs"
@@ -19,6 +22,9 @@ on:
       - "js/catalog.mjs"
       - "js/glyphs.mjs"
       - "src/discover-catalog.mjs"
+      - "src/player-observations.mjs"
+      - "docs/player-observations-*.json"
+      - "test/player-observations.test.mjs"
       - "test/catalog-availability-status.test.mjs"
       - "test/catalog-source-selection.test.mjs"
       - "test/router-wiring.test.mjs"
@@ -48,6 +54,7 @@ jobs:
           node --version
           node --check js/catalog.mjs
           node --check src/discover-catalog.mjs
+          node --check src/player-observations.mjs
           node --check test/catalog-availability-status.test.mjs
       - name: Exercise bounded native source and refusal contracts
-        run: node --test test/catalog-availability-status.test.mjs test/catalog-source-selection.test.mjs test/router-wiring.test.mjs
+        run: node --test test/catalog-availability-status.test.mjs test/catalog-source-selection.test.mjs test/router-wiring.test.mjs test/player-observations.test.mjs

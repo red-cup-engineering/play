@@ -40,6 +40,7 @@ export function flattenForList(groups) {
 export function listLabel(entry) {
   if (entry.header) return `── ${entry.header} ──`;
   const g = entry.game;
+  if (g.playerObservation?.state === 'blocked') return `${g.displayName} (entry blocked at check)`;
   return g.status === "playable" ? g.displayName : `${g.displayName} (in development)`;
 }
 
@@ -54,6 +55,11 @@ export function publicHostname(game) {
 export function detailText(game) {
   const parts = [game.displayName, "", game.description || ""];
   if (game.statusNote) parts.push("", game.statusNote);
+  if (game.playerObservation) {
+    const check = game.playerObservation;
+    parts.push("", `Player observation recorded ${check.recordedOn}: ${check.state}`, check.summary,
+      ...check.details, "Full game completion: not verified.");
+  }
   parts.push("", `shelf: ${game.shelf || "unshelved"}    status: ${game.status || "unknown"}`);
   if (game.entryPoints?.browser) parts.push(`browser: https://${publicHostname(game)}${game.entryPoints.browser}`);
   if (game.entryPoints?.headless) parts.push(`headless: ${game.entryPoints.headless}`);

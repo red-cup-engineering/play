@@ -153,7 +153,7 @@ export function indexHtml(gridFragment, entries = []) {
     </div>
 
     <div class="catalog-intro"><p class="result-count" id="result-count" aria-live="polite">${entries.length} games</p>
-      <details class="catalog-status-help"><summary>About game availability</summary><p>Playability is reported by each game's author. A dated page check records whether its entrance responded when the shelf was built; it does not verify a complete playthrough.</p></details></div>
+      <details class="catalog-status-help"><summary>About game availability</summary><p>Playability is reported by each game's author. A dated page check records whether its entrance responded when the shelf was built; it does not verify a complete playthrough. A recorded player check describes a browser visit; open its details for the actions inspected and any limitations.</p></details></div>
 
     <div class="catalog-grid-wrap" id="catalog-grid" role="region" aria-label="Game catalog">${gridFragment}</div>
   </main>

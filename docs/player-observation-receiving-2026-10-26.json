@@ -1,0 +1,289 @@
+{
+  "kind": "recorded-player-observation-receiving",
+  "recordedOn": "2026-10-26",
+  "source": {
+    "repository": "red-cup-engineering/play",
+    "baseCommit": "2f19189143d3040ac4054216c986ad0345607384",
+    "pullRequest": "https://github.com/red-cup-engineering/play/pull/9",
+    "receivedSourceFiles": {
+      ".github/workflows/native-availability.yml": "20f8b251823946c585f9bd5d0994a80243e4c0d012b1c63a89e4ea0de72ec56d",
+      "css/style.css": "3de6d57c863a181cb594ac11e9f1ab7644e36f6e86cde12ce541cc262f429c3a",
+      "js/catalog.mjs": "dc78dd1ed3e381e06e417d310184de7f9bb6765623e5fecabc2af869d1554e15",
+      "js/today.mjs": "82cd9c10a4faf8cf22535e4921e7fda47d60362866dbb064d67e09126a4c038b",
+      "src/discover-catalog.mjs": "e1a5236539bc0dfa2330d44d96f99804a208e181329205eac5a61fc6b8f9b113",
+      "src/shelf/catalog.mjs": "894a656761b803bc53d6ab44ddfa72f17bb47b787296d8c2b6aab1b40941b184",
+      "src/shells.mjs": "832c56b0af6317cb5476c1a7656fbada14077e943eed2d1a3d7b53320cb11689",
+      "test/catalog-package-refs.test.mjs": "e2a893346ebe4842bcafcedc8e830022b47e0086dbf7983b040832947ac022da",
+      "test/catalog-source-selection.test.mjs": "596aaf3a5a3db45ae4cb7dc2fa42070addbd15f67b0310ae926cfd42ddee454a",
+      "docs/player-observation-contract.md": "6a6197f0562c5b86fc98a8f7480a05b08576ccd13635a9e6d074ae5286de06ca",
+      "docs/player-observations-2026-10-26.json": "c2e7e204836a488ea1a5d092386433f77a0358849acc44114a85b3063f4cf14f",
+      "src/player-observations.mjs": "f3ac988ad4015ba3cb91154e5ae11782c2189215aa010d1b781672fc3f1cbf31",
+      "test/player-observations.test.mjs": "91c0134b9aebe8c0cfa33f6f42a28d7098b1b9f056f89b47eb0039bcd14e5f29"
+    }
+  },
+  "sourceInputs": [
+    {
+      "repository": "red-cup-engineering/solitaire",
+      "commit": "518371ae21d4d6626d42f3f249c69f048150080f",
+      "tree": "9ced99d9875ddecf66e800efd998b64491e8f7b7",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/kellys-wager",
+      "commit": "7085c426ed7dabf86bca92d33d8e925edd0e5f51",
+      "tree": "93dff53982c8726702184c209c9ef7ff6e62a3d1",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/flickering",
+      "commit": "966969c8d9b018ea2d67384e6c35449bf798cc85",
+      "tree": "a773b3be16e35d59287455c704ae0c28843886ec",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/onestone",
+      "commit": "73c708a3eaf553c2444f13d0ab9102d77519c607",
+      "tree": "79c5f835b9fe451595f3bc8fb1962624a49cae85",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/crucible",
+      "commit": "e68d5d70b9d0586e142971489428a954386ee346",
+      "tree": "311fd3634a70c9806972b4ff75296ebcf7f53ce8",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/stoke",
+      "commit": "b1daba6b040722d38080a09af44419914b2d1d8c",
+      "tree": "8c6be17556be9a66999d1853ab0375057cafb31e",
+      "commitVerification": "verification-payload-and-signature"
+    },
+    {
+      "repository": "lenticule-science/science-services-section",
+      "commit": "8a781162035dbf69062f6acecf5ba56a6b7baa85",
+      "tree": "4f03328f89f9f6bf3c66d2392167d3d563fe3b3e",
+      "commitVerification": "verification-payload-and-signature"
+    },
+    {
+      "repository": "red-cup-engineering/ruinfold",
+      "commit": "352df9bf6edbcaa4a5542bd553fe7d27c681b0d1",
+      "tree": "01c15d310a7e60a7fa02d763bda0c8bac4c7203c",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/durante",
+      "commit": "e3dfab46fdf3e3457d7b881bddd641915d5d8917",
+      "tree": "7809759134d2157b728fcd1243fd393adb9f99b8",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/farstone.561.group",
+      "commit": "199cb72166ed83c2345bdd96db0e36b3205cad6f",
+      "tree": "40a41ac1c9d3737278c06376e3437c9695c9eb3d",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/aletheon",
+      "commit": "5f35057715d38626cd479414b47d7dbc382960fc",
+      "tree": "18fbd4f91f93399369fdbd2519baa6832c733491",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/be-not-so-fearful",
+      "commit": "6455f3994119d895ba78f9bf6e2216b3f99017f8",
+      "tree": "8ef57a6a6f171b74b1636daf47ed19eb1652bdad",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/cowrie-casino",
+      "commit": "4bd54c0cb9b3ae446d4d3c7a11cf3d140c2b0c73",
+      "tree": "a395891cfcc5fff9e6ee249e848e1fb610ac48d8",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/parlor",
+      "commit": "0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c",
+      "tree": "47197e55e03c8b551094ba444ccb4a68e026d028",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "causeway-services/public-equivo-services-section",
+      "commit": "15ebc2f90383a5a4c1928ea9624aec8fe086b38c",
+      "tree": "7608d6de7e41fa8f380869d1db00e2814714c53d",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    },
+    {
+      "repository": "red-cup-engineering/you-are-conscious",
+      "commit": "a6e4b1334c88470c293e140366158a1725b9ad0d",
+      "tree": "1deb0e2eaaeceb45b9b0d988b83ac76eaf806925",
+      "commitVerification": "exact-hash-reconstructed-headers"
+    }
+  ],
+  "materialization": {
+    "originalSourceCount": 16,
+    "nativeHashVerifiedBlobCount": 360,
+    "scope": "Bounded original catalog and executable source materialization. This is not a complete historical clone and does not claim the same file subset as the earlier 363-file receiving. Original HEAD and root tree identities match all 16 source bindings. Every materialized file matches its original Git blob."
+  },
+  "dependencies": {
+    "directDeclaredInstalledEdges": 92,
+    "versionMismatches": [],
+    "originalGameManifestsUnchanged": true,
+    "playLockSha256": "8c3bc02d86903c36ae1778a49f434e89ad5d64fe00b9160b5099e086ec614a2d",
+    "sourceWorkspaceLockSha256": "4138181595abc934ebfef772906c10b8ee77b2230bd38be36e25240ff5da18f2",
+    "frozenOfflineReceiving": "Both Play and the separate 11-importer source workspace passed pnpm install --frozen-lockfile --offline --ignore-scripts using the task-local store. Dependency lifecycle scripts were explicitly ignored; the actual publisher, esbuild and Wrangler ran successfully."
+  },
+  "build": {
+    "command": "npm run build",
+    "date": "2026-10-26",
+    "originalSourceBindings": 16,
+    "games": 21,
+    "playerObservations": 21,
+    "blockedEntries": [
+      "farstone",
+      "blackjack",
+      "slots"
+    ],
+    "httpObservationMode": "not checked; no new live HTTP claims",
+    "publishedArtifacts": 20,
+    "verifiedReleaseFiles": 19,
+    "refusals": 0,
+    "advisories": 0,
+    "releaseIdentity": "ni:///sha-256;X0dCbfA7QYQeiZXhbF8VDc4TSp4OcxuFQvK0XY7lv_E",
+    "releaseManifestSha256": "88af7e32f483d1ae4567266cac8b9b0813a7cde41c8efcb67d036e0865bbf66b"
+  },
+  "tests": {
+    "command": "node --test --test-isolation=none --test-reporter=spec test/catalog-availability-status.test.mjs test/player-shelf.test.mjs test/catalog-source-selection.test.mjs test/catalog-package-refs.test.mjs test/router-wiring.test.mjs test/player-observations.test.mjs test/ad-footer.test.mjs test/mobile-contract.test.mjs test/portable-composition.test.mjs",
+    "sourceBindingEnvironment": true,
+    "passed": 63,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "logSha256": "43434ccb988716da84c64ea460f986881883b3c8bcee33d37220f6c175f0ddbe",
+    "scope": "The focused native source, publisher, metadata, mobile-contract and observation cases; no claim that the older integrated-checkout-only whole-package suite passed."
+  },
+  "localWorker": {
+    "wrangler": "4.123.0",
+    "nativeDevStarted": true,
+    "nativeDryRunExitCode": 0,
+    "uploadScope": "existing assets-only play-561-group Worker; no production deployment"
+  },
+  "browser": {
+    "localOnly": true,
+    "carrier": "actual Wrangler 4.123.0 local assets Worker",
+    "base": "http://127.0.0.1:48769",
+    "browser": "151.0.7922.34",
+    "cases": [
+      {
+        "name": "desktop",
+        "errors": [],
+        "failedLocalRequests": [],
+        "abortedExternal": [
+          "https://ads.561.group/ad?slot=footer&property=play-561-group&context=games",
+          "https://ads.561.group/ad?slot=footer&property=play-561-group&context=games"
+        ],
+        "fullShelf": {
+          "viewport": 1440,
+          "document": 1440,
+          "offenders": []
+        },
+        "expanded": {
+          "viewport": 1440,
+          "document": 1440,
+          "offenders": []
+        },
+        "daily": {
+          "viewport": 1440,
+          "document": 1440,
+          "offenders": []
+        },
+        "passed": true
+      },
+      {
+        "name": "phone390",
+        "errors": [],
+        "failedLocalRequests": [],
+        "abortedExternal": [
+          "https://ads.561.group/ad?slot=footer&property=play-561-group&context=games",
+          "https://ads.561.group/ad?slot=footer&property=play-561-group&context=games"
+        ],
+        "fullShelf": {
+          "viewport": 390,
+          "document": 390,
+          "offenders": []
+        },
+        "expanded": {
+          "viewport": 390,
+          "document": 390,
+          "offenders": []
+        },
+        "daily": {
+          "viewport": 390,
+          "document": 390,
+          "offenders": []
+        },
+        "passed": true
+      },
+      {
+        "name": "phone320",
+        "errors": [],
+        "failedLocalRequests": [],
+        "abortedExternal": [
+          "https://ads.561.group/ad?slot=footer&property=play-561-group&context=games",
+          "https://ads.561.group/ad?slot=footer&property=play-561-group&context=games"
+        ],
+        "fullShelf": {
+          "viewport": 320,
+          "document": 320,
+          "offenders": []
+        },
+        "expanded": {
+          "viewport": 320,
+          "document": 320,
+          "offenders": []
+        },
+        "daily": {
+          "viewport": 320,
+          "document": 320,
+          "offenders": []
+        },
+        "passed": true
+      },
+      {
+        "name": "no-javascript",
+        "observations": 21,
+        "blocked": 3,
+        "layout": {
+          "viewport": 390,
+          "document": 390,
+          "offenders": []
+        },
+        "passed": true
+      }
+    ],
+    "artifact": {
+      "index.html": "8f4fea0a7ec7aef2f9e9dc02d94cc4b06ae835da57511b7fbac3ca2244e9768f",
+      "today.html": "9e551eb0e603251a0a5ff783ea035efa99cd448d8c87cd039ea3206392f1b05c",
+      "catalog.json": "70da3cba0d7022d0f963f2196417c4e0ff7cc091cb22aaed7035e14ac214a12e",
+      "css/tufte-touch.2d9ee25c6853.css": "2d9ee25c6853878ec44c6131f9a8730a24dd6d9734002b7c51e6713912c2b9bb",
+      "css/style.3de6d57c863a.css": "3de6d57c863a181cb594ac11e9f1ab7644e36f6e86cde12ce541cc262f429c3a",
+      "chrome/shelf-chrome.75cac8634935.css": "75cac86349358829074dc3dff5c0a8106b680acd0b23e6755acd2bfae7760243",
+      "js/catalog.8a7d3f2d998a.js": "8a7d3f2d998a0a2b620ad5935afed0c7d03b7e2ed2dc09425162ab551e845643",
+      "js/today.b3ff1abb08a7.js": "b3ff1abb08a7c9e277dc1b3e8fddddecedbf4cf6f0c55194e12f3e4f37a63f7d"
+    },
+    "externalAdvertising": "Requests deliberately aborted; no ad-delivery claim.",
+    "passed": true
+  },
+  "production": {
+    "deployed": false,
+    "identityCommand": "wrangler whoami",
+    "identityExitCode": 0,
+    "identityResult": "You are not authenticated. Please run wrangler login.",
+    "newCredentialsCreated": false,
+    "temporaryAccountCreated": false
+  },
+  "limitations": [
+    "Chromium desktop and emulated 390/320px phones were received; physical Android and iOS Safari were not checked.",
+    "External ad requests were deliberately aborted; no ad delivery, impression, subscriber or payment is claimed.",
+    "Recorded live game findings remain historical observations until each deployed route is checked again. Local Fearful and source Kelly repairs do not supersede those live records."
+  ]
+}

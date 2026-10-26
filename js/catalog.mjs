@@ -35,6 +35,33 @@ export function browserAvailable(entry) {
     && entry.availability?.state === 'reachable';
 }
 
+export function observedEntryBlocked(entry) {
+  return entry.playerObservation?.state === 'blocked';
+}
+
+export function playerObservationHtml(entry) {
+  const observation = entry.playerObservation;
+  if (!observation || !hasBrowser(entry)) return '';
+  const labels = {
+    blocked: 'Entry blocked at check',
+    limited: 'Play issue observed',
+    'environment-limited': 'Browser limitation observed',
+    'action-observed': 'Action observed',
+    'entry-observed': 'Entry inspected',
+  };
+  const label = labels[observation.state];
+  if (!label) return '';
+  return `<aside class="play-observation" data-state="${esc(observation.state)}" aria-label="Recorded player observation">
+    <strong>${label}</strong><p>${esc(observation.summary)}</p>
+    <details><summary>What this check covered</summary>
+      <ul>${(observation.details || []).map(detail => `<li>${esc(detail)}</li>`).join('')}</ul>
+      <p>${esc(observation.environment)} A full game completion was not verified.</p>
+      <a href="${esc(observation.observedUrl)}">Inspected entry address</a>
+    </details>
+    <p class="observation-date">Recorded <time datetime="${esc(observation.recordedOn)}">${esc(observation.recordedOn)}</time>.</p>
+  </aside>`;
+}
+
 export function publicationPageStatus(entry) {
   if (entry.availability?.state === 'reachable') return 'Entry page reached at publication.';
   if (entry.availability?.state === 'unavailable') return 'Entry page unavailable at publication; you can still try its address.';
@@ -61,7 +88,7 @@ export function catalogCardBodyHtml(entry) {
     ? `<span class="badge headless" title="${esc(entry.entryPoints.headless)}">${TERMINAL_ICON} API / terminal play</span>`
     : '';
   const actionLink = hasBrowser(entry)
-    ? `<a class="play-link" data-tufte-control href="${esc(playUrl(entry))}">${EXTERNAL_LINK_ICON} ${browserAvailable(entry) ? 'Open' : 'Visit'} ${esc(entry.displayName)}</a>`
+    ? `<a class="play-link" data-tufte-control href="${esc(playUrl(entry))}">${EXTERNAL_LINK_ICON} ${observedEntryBlocked(entry) ? 'Recheck' : browserAvailable(entry) ? 'Open' : 'Visit'} ${esc(entry.displayName)}</a>`
     : '<span class="play-link">No browser entry</span>';
   const pageState = hasBrowser(entry) ? entry.availability?.state : null;
   const pageStatus = pageState === 'reachable' ? 'Page reached' : pageState === 'unavailable' ? 'Page unavailable' : 'Page not checked';
@@ -70,6 +97,7 @@ export function catalogCardBodyHtml(entry) {
   return `
     <div class="card-art" data-shelf="${esc(entry.shelf || '')}" aria-hidden="true"><span class="card-glyph">${glyph}</span><span class="card-art-line"></span></div>
     <div class="card-actions">${actionLink}</div>
+    ${playerObservationHtml(entry)}
     <p class="desc">${esc(description.lead)}</p>
     ${description.rest ? `<details class="game-description"><summary>More about ${esc(entry.displayName)}</summary><p>${esc(description.rest)}</p></details>` : ''}
     <div class="badges">
@@ -92,7 +120,7 @@ export function catalogEntryToTile(entry) {
     title: entry.displayName,
     eyebrow: entry.shelf,
     lifecycle: entry.status === 'in-development' ? 'imminent' : 'present',
-    confidence: browserAvailable(entry) ? 'high' : 'low',
+    confidence: browserAvailable(entry) && !observedEntryBlocked(entry) ? 'high' : 'low',
     html: catalogCardBodyHtml(entry),
   };
 }

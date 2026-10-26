@@ -711,6 +711,14 @@ main { max-width:76rem; padding-top:2rem; }
 .keyword { border-radius:4px; }
 .subdomain-hint { font-size:.7rem; overflow-wrap:anywhere; }
 .availability-note { margin:0; font-size:.7rem; }
+.play-observation { margin:.7rem 0; padding:.65rem .75rem; border-inline-start:3px solid var(--fg-muted); background:var(--code-bg); font-size:.8rem; overflow-wrap:anywhere; }
+.play-observation[data-state="blocked"], .play-observation[data-state="limited"] { border-inline-start-color:var(--badge-dev-fg); }
+.play-observation strong { display:block; }
+.play-observation p { margin:.35rem 0; }
+.play-observation details { margin:.45rem 0; }
+.play-observation summary { cursor:pointer; min-height:44px; display:list-item; list-style-position:inside; padding:.6rem 0; box-sizing:border-box; }
+.play-observation ul { padding-inline-start:1.15rem; }
+.play-observation .observation-date { color:var(--fg-muted); font-size:.7rem; }
 :where(select,summary):focus-visible { outline:2px solid var(--focus-ring); outline-offset:3px; }
 .support-offer { max-width:73rem; margin:0 auto 2rem; padding:1.5rem; border:1px solid var(--border); border-radius:12px; display:flex; gap:1.5rem; justify-content:space-between; align-items:center; background:var(--bg-raised); }
 .support-offer h2 { margin:0 0 .35rem; font-family:ui-serif,Georgia,serif; color:var(--fg); font-size:1.6rem; font-weight:500; }

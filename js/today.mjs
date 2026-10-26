@@ -1,6 +1,6 @@
 // Pure daily-strip projection followed by the browser-only page bootstrap.
 
-import { esc, GLYPHS, FALLBACK_GLYPH, EXTERNAL_LINK_ICON, playUrl, browserAvailable, publicationPageStatus } from './catalog.mjs';
+import { esc, GLYPHS, FALLBACK_GLYPH, EXTERNAL_LINK_ICON, playUrl, browserAvailable, publicationPageStatus, observedEntryBlocked, playerObservationHtml } from './catalog.mjs';
 import { utcDateString, dailySeed } from '@red-cup-engineering/gaming/running/seed';
 
 export { esc, utcDateString };
@@ -111,7 +111,7 @@ export async function computeTodayStrips(date, entries = []) {
 
 function todayStripBodyHtml(strip) {
   const glyph = GLYPHS[strip.id] || FALLBACK_GLYPH;
-  const playLink = `<a class="play-link" data-tufte-control href="${esc(strip.url)}">${EXTERNAL_LINK_ICON} Open ${esc(strip.name)}</a>`;
+  const playLink = `<a class="play-link" data-tufte-control href="${esc(strip.url)}">${EXTERNAL_LINK_ICON} ${observedEntryBlocked(strip.game) ? 'Recheck' : 'Open'} ${esc(strip.name)}</a>`;
   const pageStatus = publicationPageStatus(strip.game);
   return `
     <div class="strip-head">
@@ -119,6 +119,7 @@ function todayStripBodyHtml(strip) {
       <span class="badge playable">UTC daily seed</span>
     </div>
     <p class="strip-ask">${esc(strip.ask)}</p>
+    ${playerObservationHtml(strip.game)}
     <p class="strip-seed"><span class="seed-label">${esc(strip.seedLabel)}</span> <code>${esc(strip.seedValue)}</code></p>
     <div class="strip-links">
       ${playLink}
@@ -133,7 +134,7 @@ function todayEntryToTile(strip) {
     title: strip.name,
     role: 'rail',
     lifecycle: 'present',
-    confidence: browserAvailable(strip.game) ? 'high' : 'low',
+    confidence: browserAvailable(strip.game) && !observedEntryBlocked(strip.game) ? 'high' : 'low',
     html: todayStripBodyHtml(strip),
   };
 }

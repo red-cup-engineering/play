@@ -1,0 +1,314 @@
+{
+  "format": "561-player-observations-v1",
+  "recordedOn": "2026-10-26",
+  "scope": "Live desktop browser observations retained from the Sunday Funday audit. RecordedOn is the date these notes were retained, not a fabricated per-page timestamp. The checks did not verify full game completions, mobile play, payouts or deployed source revisions.",
+  "environment": "Cloud browser desktop session.",
+  "games": [
+    {
+      "id": "solitaire",
+      "entryUrl": "https://solitaire.561.group/web/index.html",
+      "observedUrl": "https://solitaire.561.group/web/index.html",
+      "state": "entry-observed",
+      "summary": "A Klondike deal loaded with visible cards and controls.",
+      "details": [
+        "Eleven variants, keyboard help, undo and a move log were visible.",
+        "No completed game was checked."
+      ],
+      "actions": [
+        "Opened a Klondike deal."
+      ],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/solitaire/blob/518371ae21d4d6626d42f3f249c69f048150080f/catalog-entry.json"
+    },
+    {
+      "id": "gambling-trainer",
+      "entryUrl": "https://gambling-trainer.561.group/",
+      "observedUrl": "https://gambling-trainer.561.group/web/index.html",
+      "state": "entry-observed",
+      "summary": "The practice interface loaded; the revenue-sharing banner was not verified.",
+      "details": [
+        "The page advertised ad sales and shared revenue while the catalog described practice-only play.",
+        "No real-money settlement, payout or full practice run was checked."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/kellys-wager/blob/7085c426ed7dabf86bca92d33d8e925edd0e5f51/catalog-entry.json"
+    },
+    {
+      "id": "flickering-delve",
+      "entryUrl": "https://flickering.561.group/",
+      "observedUrl": "https://flickering.561.group/",
+      "state": "action-observed",
+      "observedTitle": "the Gnaw",
+      "summary": "The live page is titled the Gnaw. A guest delve and attack worked.",
+      "details": [
+        "The first reach and a husk-moth encounter were visible, with Attack, Descend and Retreat choices.",
+        "The store displayed paid boost prices alongside mock, stripe(off) and hive(off) provider labels. No purchase was attempted."
+      ],
+      "actions": [
+        "Entered a guest delve.",
+        "Used Attack in the first encounter."
+      ],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/flickering/blob/966969c8d9b018ea2d67384e6c35449bf798cc85/catalog-entry.json"
+    },
+    {
+      "id": "onestone",
+      "entryUrl": "https://onestone.561.group/",
+      "observedUrl": "https://onestone.561.group/",
+      "state": "entry-observed",
+      "summary": "TileSlots opened to a name-entry screen.",
+      "details": [
+        "No player identity was created, so the game beyond that entry screen was not checked."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/onestone/blob/73c708a3eaf553c2444f13d0ab9102d77519c607/catalog-entry.json"
+    },
+    {
+      "id": "crucible",
+      "entryUrl": "https://crucible.561.group/web/index.html",
+      "observedUrl": "https://crucible.561.group/web/index.html",
+      "state": "action-observed",
+      "summary": "A graph merge changed the energy cost; Undo restored the prior state.",
+      "details": [
+        "The starting screen exposed 131 legal-move buttons with little guidance about the player goal.",
+        "One merge cost 31 energy; Undo restored 0 energy and 131 moves."
+      ],
+      "actions": [
+        "Merged claim 0 with claim 2.",
+        "Used Undo."
+      ],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/crucible/blob/e68d5d70b9d0586e142971489428a954386ee346/catalog-entry.json"
+    },
+    {
+      "id": "stoke",
+      "entryUrl": "https://stoke.561.group/",
+      "observedUrl": "https://stoke.561.group/web/",
+      "state": "entry-observed",
+      "summary": "The production graph and its controls loaded.",
+      "details": [
+        "Save, import, pause and replay controls were visible.",
+        "A complete production cycle and save recovery were not checked."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/stoke/blob/fc206b7ab81526de17b8282a123629f31134dfac/catalog-entry.json"
+    },
+    {
+      "id": "weiqi",
+      "entryUrl": "https://weiqi.561.group/",
+      "observedUrl": "https://weiqi.561.group/play",
+      "state": "action-observed",
+      "summary": "New game produced a 9×9 board; the inspected desktop layout overflowed horizontally.",
+      "details": [
+        "The board was initially blank while the page initialized.",
+        "Five bot choices were visible. A completed game was not checked."
+      ],
+      "actions": [
+        "Selected New game."
+      ],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/lenticule-science/science-services-section/blob/8a781162035dbf69062f6acecf5ba56a6b7baa85/services/philosophy-services-section/services/relationality-services-section/services/agency-services-section/services/being-services-section/services/doing-services-section/services/playing-services-section/services/gaming-services-section/services/board-games-services-section/services/weiqi-services-section/catalog-entry.json"
+    },
+    {
+      "id": "ruinfold",
+      "entryUrl": "https://ruinfold.561.group/play",
+      "observedUrl": "https://ruinfold.561.group/play",
+      "state": "entry-observed",
+      "summary": "The daily entry screen loaded and disclosed one scored attempt.",
+      "details": [
+        "The observed entry described a six-floor daily run.",
+        "The scored attempt was not consumed. No completion, payout or practice route was verified."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/ruinfold/blob/352df9bf6edbcaa4a5542bd553fe7d27c681b0d1/catalog-entry.json"
+    },
+    {
+      "id": "durante",
+      "entryUrl": "https://durante.561.group/",
+      "observedUrl": "https://durante.561.group/",
+      "state": "limited",
+      "summary": "The HUD loaded, but the game view stayed uniformly green in this browser check.",
+      "details": [
+        "The seed and four-demon HUD initialized without a visible game world.",
+        "The page selected a scored daily run and described automatic submission. No successful play or score submission was verified."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/durante/blob/e3dfab46fdf3e3457d7b881bddd641915d5d8917/catalog-entry.json"
+    },
+    {
+      "id": "farstone",
+      "entryUrl": "https://farstone.561.group/",
+      "observedUrl": "https://farstone.561.group/",
+      "state": "blocked",
+      "summary": "The town did not connect; the page reported “The connection is closed.”",
+      "details": [
+        "The view remained at “Coming ashore…” / “Connecting…” with a blank world and map.",
+        "A Reconnect control was visible. This records the failed browser entry, separately from whether the HTML page was reachable."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/farstone.561.group/blob/199cb72166ed83c2345bdd96db0e36b3205cad6f/catalog-entry.json"
+    },
+    {
+      "id": "aletheon",
+      "entryUrl": "https://aletheon.561.group/",
+      "observedUrl": "https://aletheon.561.group/",
+      "state": "environment-limited",
+      "summary": "This browser reported WebGL2 unavailable; world entry was not verified.",
+      "details": [
+        "The name-entry screen was visible.",
+        "The page mentioned a 2D fallback but required WebGL2 to walk. This is a limitation of the inspected environment, not a claim that the service is unavailable to every browser."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/aletheon/blob/5f35057715d38626cd479414b47d7dbc382960fc/catalog-entry.json"
+    },
+    {
+      "id": "be-not-so-fearful",
+      "entryUrl": "https://fearful.561.group/",
+      "observedUrl": "https://fearful.561.group/web/",
+      "state": "limited",
+      "summary": "The live view was mostly dark and a death appeared before useful play.",
+      "details": [
+        "The observed live canvas had a dark field with a green strip near the bottom.",
+        "A death appeared at about 2.4 seconds and no retry control was visible. Later local source repairs are not evidence that this public route has changed."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/be-not-so-fearful/blob/6455f3994119d895ba78f9bf6e2216b3f99017f8/catalog-entry.json"
+    },
+    {
+      "id": "blackjack",
+      "entryUrl": "https://casino.561.group/blackjack.html",
+      "observedUrl": "https://casino.561.group/blackjack.html",
+      "state": "blocked",
+      "summary": "The entry page explicitly said “casino.561.group is not open yet.”",
+      "details": [
+        "No blackjack table or playable round was available in this check.",
+        "No account, payment or wager was attempted."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/cowrie-casino/blob/4bd54c0cb9b3ae446d4d3c7a11cf3d140c2b0c73/src/games/blackjack/catalog-entry.json"
+    },
+    {
+      "id": "chutes",
+      "entryUrl": "https://parlor.561.group/chutes/",
+      "observedUrl": "https://parlor.561.group/chutes/",
+      "state": "entry-observed",
+      "summary": "The race setup loaded with one to four human or bot players.",
+      "details": [
+        "Daily and practice choices were visible.",
+        "No completed race was checked."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/parlor/blob/0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c/src/games/chutes/catalog-entry.json"
+    },
+    {
+      "id": "equivo",
+      "entryUrl": "https://equivo.play.561.group/",
+      "observedUrl": "https://equivo.play.561.group/",
+      "state": "entry-observed",
+      "summary": "The course opened with rooms, checks and three perspective lenses.",
+      "details": [
+        "Seven rooms and thirty checks were presented; the unavailable Lakotaean material was explicitly labeled.",
+        "No completed course was checked."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/causeway-services/public-equivo-services-section/blob/15ebc2f90383a5a4c1928ea9624aec8fe086b38c/catalog-entry.json"
+    },
+    {
+      "id": "farkle",
+      "entryUrl": "https://parlor.561.group/farkle/",
+      "observedUrl": "https://parlor.561.group/farkle/",
+      "state": "entry-observed",
+      "summary": "The six-dice interface, odds and keyboard controls loaded.",
+      "details": [
+        "No completed game was checked."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/parlor/blob/0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c/src/games/farkle/catalog-entry.json"
+    },
+    {
+      "id": "pig",
+      "entryUrl": "https://parlor.561.group/pig/",
+      "observedUrl": "https://parlor.561.group/pig/",
+      "state": "action-observed",
+      "summary": "A roll updated the die, turn total, expected value and log.",
+      "details": [
+        "The observed first roll was 4; Hold became available.",
+        "No completed game was checked."
+      ],
+      "actions": [
+        "Rolled once."
+      ],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/parlor/blob/0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c/src/games/pig/catalog-entry.json"
+    },
+    {
+      "id": "reels",
+      "entryUrl": "https://parlor.561.group/reels/",
+      "observedUrl": "https://parlor.561.group/reels/",
+      "state": "entry-observed",
+      "summary": "The practice reels and their odds and session controls loaded.",
+      "details": [
+        "The page disclosed practice-only play.",
+        "No spin, payment or completed session was attempted."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/parlor/blob/0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c/src/games/reels/catalog-entry.json"
+    },
+    {
+      "id": "slots",
+      "entryUrl": "https://casino.561.group/slots.html",
+      "observedUrl": "https://casino.561.group/slots.html",
+      "state": "blocked",
+      "summary": "The entry page explicitly said “casino.561.group is not open yet.”",
+      "details": [
+        "No slot game or playable spin was available in this check.",
+        "No account, payment or wager was attempted."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/cowrie-casino/blob/4bd54c0cb9b3ae446d4d3c7a11cf3d140c2b0c73/src/games/slots/catalog-entry.json"
+    },
+    {
+      "id": "yacht",
+      "entryUrl": "https://parlor.561.group/yacht/",
+      "observedUrl": "https://parlor.561.group/yacht/",
+      "state": "entry-observed",
+      "summary": "The five-dice scorecard and local two-player controls loaded.",
+      "details": [
+        "Twelve scoring categories were visible.",
+        "No completed game was checked."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/parlor/blob/0eeb68947d76eeb3b6fe464e8a0fbaf86c96a33c/src/games/yacht/catalog-entry.json"
+    },
+    {
+      "id": "you-are-conscious",
+      "entryUrl": "https://you-are-conscious.561.group/",
+      "observedUrl": "https://you-are-conscious.561.group/",
+      "state": "entry-observed",
+      "summary": "The first-tier interaction, Insight and progression threshold were visible.",
+      "details": [
+        "The check covered the opening idle-game interface only.",
+        "No later tier or complete progression cycle was verified."
+      ],
+      "actions": [],
+      "completion": "not-verified",
+      "sourceRecord": "https://github.com/red-cup-engineering/you-are-conscious/blob/a6e4b1334c88470c293e140366158a1725b9ad0d/catalog-entry.json"
+    }
+  ]
+}
+
