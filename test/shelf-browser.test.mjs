@@ -1,9 +1,10 @@
 import { discoverCatalog } from '../src/discover-catalog.mjs';
-const discovered = discoverCatalog();
+import { catalogSources } from './publication.mjs';
+const discovered = discoverCatalog({ sources: catalogSources });
 // shelf-browser.test — headless tests for the terminal shelf browser (scripts/shelf-browser.mjs +
-// src/shelf/*.mjs). Every test here scripts KEYS against the REAL catalog.json (the same file
-// index.html/today.html read, loaded fresh off disk exactly the way smoke.test.mts's own
-// loadCatalog() does) through the PURE state machine (src/shelf/state.mjs) — no Screen, no
+// src/shelf/*.mjs). Every test here scripts KEYS against the original authored game catalog
+// selected by the same explicit source bindings used for the shelf and /today/ publication,
+// through the PURE state machine (src/shelf/state.mjs) — no Screen, no
 // terminal, no network. A selection's LAUNCH is asserted as a resolved plan (cmd/args, or a printed
 // URL) — a "spawn" plan's arguments are checked and its target bin file's existence on disk is
 // confirmed, but the child process is never actually spawned. That separation (state.step /
@@ -19,10 +20,15 @@ import { fileURLToPath } from 'node:url';
 
 import { loadGames, groupByShelf, flattenForList, listLabel } from '../src/shelf/catalog.mjs';
 import { initialState, step, dispatchLaunch } from '../src/shelf/state.mjs';
-import { planLaunch, DURANTE_TERMINAL_BIN } from '../src/shelf/launch.mjs';
+import { planLaunch, DURANTE_TERMINAL_BIN as INTEGRATED_DURANTE_TERMINAL_BIN } from '../src/shelf/launch.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(HERE, '..');
+const duranteSource = catalogSources?.find(source => source.repository === 'red-cup-engineering/durante');
+const duranteManifest = duranteSource
+  ? JSON.parse(await readFile(path.join(duranteSource.repositoryRoot, 'package.json'), 'utf8')) : undefined;
+const DURANTE_TERMINAL_BIN = duranteSource
+  ? path.resolve(duranteSource.repositoryRoot, duranteManifest.bin['durante-terminal']) : INTEGRATED_DURANTE_TERMINAL_BIN;
 
 async function loadRealCatalog() {
   return (await discovered).catalog;
@@ -107,7 +113,7 @@ test('Enter on durante dispatches a SPAWN plan for durante-terminal.mjs, resolve
   state = step(state, ENTER);
   assert.equal(state.launch.id, 'durante', 'Enter sets state.launch to the selected durante game record');
 
-  const { state: afterDispatch, plan } = dispatchLaunch(state);
+  const { state: afterDispatch, plan } = dispatchLaunch(state, { duranteTerminalBin: DURANTE_TERMINAL_BIN });
   assert.deepEqual(plan, {
     kind: 'spawn',
     cmd: 'node',
@@ -194,10 +200,9 @@ test('q and Ctrl-C both set quit, and quit takes priority — a scripted key seq
   assert.equal(afterCtrlC.quit, true);
 });
 
-test('findMonorepoRoot resolves the available terminal client in this checkout', () => {
-  // launch.mjs's findMonorepoRoot() walks up from its own location to a `.git` directory and joins
-  // the repo-relative paths from there — this is the end-to-end proof that the traversal actually
-  // lands on real files, independent of exactly how many directories deep either path is.
+test('the source binding resolves the authored terminal client in this checkout', () => {
+  // The explicit provider's original bin declaration owns the standalone path;
+  // integrated callers retain the existing resolved default.
   assert.ok(fs.existsSync(DURANTE_TERMINAL_BIN), 'durante-terminal.mjs resolves to a real file');
   assert.ok(DURANTE_TERMINAL_BIN.endsWith('durante-terminal.mjs'));
 });

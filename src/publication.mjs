@@ -6,7 +6,7 @@ import { TUFTE_TOUCH_STYLES } from '@red-cup-engineering/web-page-tiling-engine/
 import { discoverCatalog } from './discover-catalog.mjs';
 import { catalogModel } from '../js/catalog.mjs';
 import { computeTodayModel } from '../js/today.mjs';
-import { indexHtml, todayHtml } from './shells.mjs';
+import { indexHtml, todayHtml, indexMetadata, todayMetadata } from './shells.mjs';
 import { bindShelfProjector } from './composition.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -14,11 +14,15 @@ export async function publishShelf({ sources, observePages = false, fetchImpl, d
   const { catalog, json } = await discoverCatalog({ sources, generatedDate: date.toISOString().slice(0, 10), observePages, fetchImpl });
   const entries = catalog.games;
   const daily = await computeTodayModel(date, entries);
+  const shelfMetadata = indexMetadata(entries), dailyMetadata = todayMetadata();
   const artifacts = [
     { path: 'catalog.json', body: json, source: 'authored-game-records' },
     { path: 'css/tufte-touch.css', body: TUFTE_TOUCH_STYLES, source: 'tufte-touch-contract' },
-    { path: 'index.html', body: indexHtml(renderTufteFragment(catalogModel(entries)), entries), source: 'game-shelf' },
-    { path: 'today.html', body: todayHtml(renderTufteFragment(daily), catalog.generated), source: 'daily-seeds' },
+    { path: 'index.html', body: indexHtml(renderTufteFragment(catalogModel(entries)), entries, shelfMetadata), source: 'game-shelf',
+      route: { status: 200, metadata: shelfMetadata } },
+    { path: 'today/index.html', body: todayHtml(renderTufteFragment(daily), catalog.generated, dailyMetadata), source: 'daily-seeds',
+      route: { status: 200, metadata: dailyMetadata } },
+    { path: '_redirects', body: '/today.html /today/ 301\n/today /today/ 301\n', source: 'daily-canonical-route' },
   ];
   for (const name of ['catalog', 'today']) {
     const result = await build({ absWorkingDir: root, entryPoints: [`js/${name}.mjs`], bundle: true, platform: 'browser', format: 'esm', target: 'es2022', write: false, legalComments: 'eof' });

@@ -1,6 +1,6 @@
-import { readPublication } from './publication.mjs';
+import { readPublication, catalogSources } from './publication.mjs';
 import { discoverCatalog } from '../src/discover-catalog.mjs';
-const discovered = discoverCatalog();
+const discovered = discoverCatalog({ sources: catalogSources });
 // Behavioral tests for the storefront's own TUFTE tile shaping -- the pure
 // catalog.json/daily-strip -> TUFTE tile functions in js/catalog.mjs and js/today.mjs.
 // TUFTE itself (@red-cup-engineering/web-page-tiling-engine) is tested by its own
@@ -14,7 +14,7 @@ const discovered = discoverCatalog();
 //   3. The patch path: mutating one entry in a catalog.json-shaped games array produces a
 //      diffTufteProjection patch touching ONLY that entry's tile -- every other tile is
 //      untouched, proven by diffing real (not synthetic) catalog data.
-//   4. The same three properties for today.html's computeTodayModel().
+//   4. The same three properties for today/index.html's computeTodayModel().
 
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
@@ -187,7 +187,7 @@ test('computeTodayModel: a different UTC day changes every seed-bearing tile, pr
   assert.ok(patches.every((patch) => patch.op === 'update'));
 });
 
-test('today patch path: today.html always renders exactly the catalog\'s own daily-utc entries, gated the same way catalog.mjs gates confidence', async () => {
+test('today patch path: today/index.html always renders exactly the catalog\'s own daily-utc entries, gated the same way catalog.mjs gates confidence', async () => {
   const entries = await loadCatalogEntries();
   const dailyIds = new Set(entries.filter((entry) => entry.seedPolicy && entry.seedPolicy.kind === 'daily-utc').map((entry) => entry.id));
   const model = await computeTodayModel(new Date(), (await discovered).catalog.games);

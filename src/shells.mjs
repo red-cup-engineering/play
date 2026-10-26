@@ -1,4 +1,5 @@
-import { shelfValues } from '../js/catalog.mjs';
+import { renderTufteMetadata } from '@red-cup-engineering/web-page-tiling-engine/browser';
+import { shelfValues, hasBrowser, playUrl } from '../js/catalog.mjs';
 
 
 
@@ -98,7 +99,37 @@ function escHtml(value) {
   }[char]));
 }
 
-export function indexHtml(gridFragment, entries = []) {
+export function indexMetadata(entries = []) {
+  // The same authored entries drive visible cards and machine-readable links.
+  // TUFTE owns metadata admission and safe JSON-LD serialization.
+  return {
+    title: 'Cowrie Games — the 561 Group game shelf',
+    description: 'Find your next game: card tables, puzzles, strange worlds, and a shared daily challenge from the 561 Group.',
+    canonical: 'https://play.561.group/',
+    type: 'website',
+    siteName: 'Cowrie Games',
+    structuredData: {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      '@id': 'https://play.561.group/',
+      url: 'https://play.561.group/',
+      name: 'Cowrie Games — the 561 Group game shelf',
+      inLanguage: 'en',
+      mainEntity: {
+        '@type': 'ItemList',
+        numberOfItems: entries.length,
+        itemListElement: entries.map((entry, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: entry.displayName,
+          ...(hasBrowser(entry) ? { url: playUrl(entry) } : {}),
+        })),
+      },
+    },
+  };
+}
+
+export function indexHtml(gridFragment, entries = [], metadata = indexMetadata(entries)) {
   const shelfOptions = shelfValues(entries)
     .map((shelf) => `<option value="${escHtml(shelf)}">${escHtml(shelf)}</option>`)
     .join('');
@@ -108,7 +139,8 @@ export function indexHtml(gridFragment, entries = []) {
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <title>Cowrie Games — the 561 Group game shelf</title>
-  <meta name="description" content="Find your next game: card tables, puzzles, strange worlds, and a shared daily challenge from the 561 Group." />
+  ${renderTufteMetadata(metadata)}
+  <link rel="alternate" type="application/json" title="Authored game catalog" href="https://play.561.group/catalog.json" />
   <link rel="stylesheet" href="css/tufte-touch.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="chrome/shelf-chrome.css" />
@@ -129,7 +161,7 @@ export function indexHtml(gridFragment, entries = []) {
         </p>
       </div>
       <nav class="header-nav" aria-label="Site">
-        <a href="today.html" class="today-nav-link">Today's challenges &rarr;</a>
+        <a href="/today/" class="today-nav-link">Today's challenges &rarr;</a>
         <a href="#support-games" class="support-nav-link">Support the games</a>
       </nav>
     </div>
@@ -175,18 +207,38 @@ export function indexHtml(gridFragment, entries = []) {
 `;
 }
 
-export function todayHtml(gridFragment, date) {
+export function todayMetadata() {
+  return {
+    title: 'Today — Cowrie Games',
+    description: 'Shared UTC daily seeds and game entry links.',
+    canonical: 'https://play.561.group/today/',
+    type: 'website',
+    siteName: 'Cowrie Games',
+    structuredData: {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': 'https://play.561.group/today/',
+      url: 'https://play.561.group/today/',
+      name: 'Today — Cowrie Games',
+      description: 'Shared UTC daily seeds and game entry links.',
+      inLanguage: 'en',
+      isPartOf: { '@type': 'WebSite', url: 'https://play.561.group/', name: 'Cowrie Games' },
+    },
+  };
+}
+
+export function todayHtml(gridFragment, date, metadata = todayMetadata()) {
   return `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>Today -- play.561.group</title>
-  <meta name="description" content="Shared UTC daily seeds and game entry links." />
-  <link rel="stylesheet" href="css/tufte-touch.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="chrome/shelf-chrome.css" />
-  <link rel="icon" href="favicon.svg" />
+  <title>Today — Cowrie Games</title>
+  ${renderTufteMetadata(metadata)}
+  <link rel="stylesheet" href="/css/tufte-touch.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/chrome/shelf-chrome.css" />
+  <link rel="icon" href="/favicon.svg" />
 </head>
 <body>
   <a class="skip-link" href="#today-list">Skip to today's games</a>
@@ -202,7 +254,7 @@ export function todayHtml(gridFragment, date) {
           starts from the same seed. Come back tomorrow for another.
         </p>
       </div>
-      <nav class="header-nav" aria-label="Site"><a href="index.html">Back to the shelf</a></nav>
+      <nav class="header-nav" aria-label="Site"><a href="/">Back to the shelf</a></nav>
     </div>
   </header>
 
@@ -217,7 +269,7 @@ export function todayHtml(gridFragment, date) {
     <p class="today-footnote">
       These games have recovered daily seed formulas. Seeds use the UTC calendar
       day; the displayed date remains explicit when JavaScript is unavailable.
-      Visit <a href="catalog.json">the full catalog</a> for all games and interfaces.
+      Visit <a href="/catalog.json">the full catalog</a> for all games and interfaces.
     </p>
   </main>
 
@@ -229,13 +281,13 @@ export function todayHtml(gridFragment, date) {
         Without it, the published seeds belong to the date printed above.
       </p>
       <p>
-        <a href="index.html">&larr; Back to the shelf</a>
+        <a href="/">&larr; Back to the shelf</a>
       </p>
       ${HOUSE_AD_FOOTER}
     </div>
   </footer>
 
-  <script type="module" src="js/today.js"></script>
+  <script type="module" src="/js/today.js"></script>
 </body>
 </html>
 `;

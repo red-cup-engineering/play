@@ -7,13 +7,13 @@ import { computeTodayModel } from '../js/today.mjs';
 test('shelf and daily pages receive the source-owned TUFTE mobile stylesheet', async () => {
   const [index, today, touchStyles, ownStyles] = await Promise.all([
     readPublication('index.html'),
-    readPublication('today.html'),
+    readPublication('today/index.html'),
     readPublication('css/tufte-touch.css'),
     readPublication('css/style.css'),
   ]);
   for (const html of [index, today]) {
     assert.match(html, /content="width=device-width,initial-scale=1,viewport-fit=cover"/);
-    assert.match(html, /href="css\/tufte-touch\.css"/);
+    assert.match(html, /href="\/?css\/tufte-touch\.css"/);
     assert.ok(html.indexOf('css/tufte-touch.css') < html.indexOf('css/style.css'), 'consumer theme follows supplier geometry');
     assert.match(html, /class="tufte-grid"/);
     assert.match(html, /data-tufte-control href=/);
