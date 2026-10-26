@@ -14,8 +14,8 @@
   "dependencies": {
     "@red-cup-engineering/arnold": "0.3.0",
     "@red-cup-engineering/gaming": "0.1.10",
-    "@red-cup-engineering/web-page-tiling-engine": "0.16.5-dev.0",
-    "@red-cup-engineering/static-site-publisher": "0.1.18",
+    "@red-cup-engineering/web-page-tiling-engine": "0.17.0-dev.1",
+    "@red-cup-engineering/static-site-publisher": "0.1.20-dev.0",
     "@red-cup-engineering/weiqi-engine": "0.3.4",
     "esbuild": "0.28.1"
   },
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/causeway-services/play.git"
+    "url": "git+https://github.com/red-cup-engineering/play.git"
   },
   "exports": {
     "./catalog": "./src/discover-catalog.mjs",

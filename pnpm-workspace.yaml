@@ -1,2 +1,3 @@
 minimumReleaseAgeExclude:
-  - '@red-cup-engineering/web-page-tiling-engine@0.16.5-dev.0'
+  - '@red-cup-engineering/web-page-tiling-engine@0.16.5-dev.0 || 0.17.0-dev.1'
+  - '@red-cup-engineering/static-site-publisher@0.1.20-dev.0'
