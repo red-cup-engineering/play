@@ -14,8 +14,8 @@
   "dependencies": {
     "@red-cup-engineering/arnold": "0.3.0",
     "@red-cup-engineering/gaming": "0.1.10",
-    "@red-cup-engineering/web-page-tiling-engine": "0.17.0-dev.93",
-    "@red-cup-engineering/static-site-publisher": "0.1.20-dev.36",
+    "@red-cup-engineering/web-page-tiling-engine": "0.17.0-dev.95",
+    "@red-cup-engineering/static-site-publisher": "0.1.20-dev.38",
     "@red-cup-engineering/weiqi-engine": "0.3.4",
     "esbuild": "0.28.1"
   },
