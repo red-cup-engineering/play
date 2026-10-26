@@ -1,13 +1,14 @@
 import { readPublication } from './publication.mjs';
 import { discoverCatalog } from '../src/discover-catalog.mjs';
-const discovered = discoverCatalog();
-// A real reading-order check on the built index.html/today.html -- not a grep for whether
+import { catalogSourcesFromEnvironment } from '../src/composition.mjs';
+const discovered = discoverCatalog({ sources: catalogSourcesFromEnvironment() });
+// A real reading-order check on the built index.html/today/index.html -- not a grep for whether
 // a string like "aria-labelledby" merely appears somewhere in the file, but a check of
 // actual document POSITION: landmark order, whether a skip link's target id really exists,
 // whether each TUFTE tile's aria-labelledby actually resolves to a heading physically
 // inside that same tile, and whether the source order of rendered tiles matches the
 // authored order of the data they came from (catalog.json's own entry order for
-// index.html, the daily-utc subset of it for today.html) -- the concrete claim behind
+// index.html, the daily-utc subset of it for today/index.html) -- the concrete claim behind
 // "TUFTE's semantic-order invariant" the design calls for verifying here, not asserting.
 //
 // This has no DOM available -- HTML source-string character offsets stand in for DOM/
@@ -112,15 +113,15 @@ test('index.html: rendered tile source order matches catalog.json\'s own entry o
   assert.deepEqual(tileIdsInSourceOrder(html), entries.map((entry) => entry.id));
 });
 
-test('today.html: skip link, landmark order, and per-tile aria-labelledby all hold under a real position check', async () => {
-  const html = await readPublication('today.html');
+test('today/index.html: skip link, landmark order, and per-tile aria-labelledby all hold under a real position check', async () => {
+  const html = await readPublication('today/index.html');
   await checkLandmarkAndSkipLinkOrder(html, 'today-list');
   checkEachTileLabelledbyResolvesInsideItself(html);
   checkSingleH1PrecedesEveryH2(html);
 });
 
-test("today.html: rendered strip source order matches js/today.mjs's own authored strip order exactly (today.html's ritual ordering is intentionally its own -- not catalog.json's array order, the same way it already was before this rebuild) -- and that set is exactly catalog.json's daily-utc entries", async () => {
-  const html = await readPublication('today.html');
+test("today/index.html: rendered strip source order matches js/today.mjs's own authored strip order exactly (today/index.html's ritual ordering is intentionally its own -- not catalog.json's array order, the same way it already was before this rebuild) -- and that set is exactly catalog.json's daily-utc entries", async () => {
+  const html = await readPublication('today/index.html');
   const entries = await loadCatalogEntries();
   const dailyIds = new Set(entries.filter((entry) => entry.seedPolicy && entry.seedPolicy.kind === 'daily-utc').map((entry) => entry.id));
 
@@ -131,7 +132,7 @@ test("today.html: rendered strip source order matches js/today.mjs's own authore
 });
 
 test('every tufte-tile in both pages carries data-role/data-lifecycle/data-confidence as attributes only -- never leaking into an aria-* attribute, which would be a false accessibility signal with no real screen-reader translation', async () => {
-  for (const file of ['index.html', 'today.html']) {
+  for (const file of ['index.html', 'today/index.html']) {
     const html = await readPublication(file);
     assert.ok(!/aria-role=|aria-lifecycle=|aria-confidence=/.test(html), `${file} must never invent a non-standard aria-* attribute from tile vocabulary fields`);
   }

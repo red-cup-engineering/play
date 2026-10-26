@@ -151,7 +151,7 @@ export async function initTodayPage() {
   const button = document.getElementById('today-refresh');
   let entries;
   try {
-    const response = await fetch('catalog.json');
+    const response = await fetch('/catalog.json');
     if (!response.ok) throw new Error('Catalog unavailable');
     entries = (await response.json()).games;
   } catch {

@@ -1,11 +1,11 @@
-import { readPublication } from './publication.mjs';
+import { readPublication, catalogSources, sourceExport } from './publication.mjs';
 import { discoverCatalog } from '../src/discover-catalog.mjs';
-const discovered = discoverCatalog();
+const discovered = discoverCatalog({ sources: catalogSources });
 // Behavioral tests for play.561.group -- node --test. Verifies: catalog.json parses and every
 // entry is shaped like a CartridgeManifest plus this site's storefront-only extensions
 // (cartridgeWrapped:true entries validated against the real published
 // @red-cup-engineering/gaming/running; no entry may ever explicitly null a field); index.html and
-// today.html reference only local assets; today.mjs's strips match catalog.json's daily-utc
+// today/index.html reference only local assets; today.mjs's strips match catalog.json's daily-utc
 // entries; serve.mjs actually serves its routes over real HTTP (ephemeral port), a 404, and
 // a path-traversal attempt.
 
@@ -193,35 +193,35 @@ test('every catalog entry matches the honest subset of the CartridgeManifest sha
   }
 });
 
-test("index.html loads no remote script/stylesheet (its catalog cards' own play-link anchors may legitimately point at real *.561.group subdomains -- since the TUFTE rebuild, index.html server-renders those links directly, the same honest reason today.html's own anchors are allowed to)", async () => {
+test('index.html uses local script and stylesheet URLs', async () => {
   const html = await readPublication('index.html');
 
   assert.ok(!/<script[^>]+src="https?:/i.test(html), 'index.html must not load a script from a CDN');
-  assert.ok(!/<link[^>]+href="https?:/i.test(html), 'index.html must not load a stylesheet from a CDN');
+  assert.ok(!/<link(?=[^>]*\brel="stylesheet")[^>]+href="https?:/i.test(html), 'index.html must not load a stylesheet from a CDN');
 
-  // Every non-local, non-data href must be a real *.561.group game subdomain -- never some
-  // other external host. script/link[rel=stylesheet] refs must be local outright (checked
-  // above); this checks every OTHER src/href attribute in the document (import map entries,
-  // the favicon data: URI, and every catalog card's own <a> play link included).
-  const refs = [...html.matchAll(/(?:src|href)\s*=\s*"([^"]+)"/g)].map((m) => m[1]);
-  assert.ok(refs.length > 0, 'expected at least one src/href reference to check');
+  // Navigation and metadata use authored absolute addresses, including the
+  // existing support checkout. This asset contract concerns executable and
+  // stylesheet resources, not where a person may choose to navigate.
+  const refs = [
+    ...[...html.matchAll(/<script[^>]+src="([^"]+)"/g)].map(match => match[1]),
+    ...[...html.matchAll(/<link(?=[^>]*\brel="stylesheet")[^>]+href="([^"]+)"/g)].map(match => match[1]),
+  ];
+  assert.ok(refs.length > 0, 'expected script or stylesheet URLs');
   for (const ref of refs) {
-    const isExternal = /^([a-z]+:)?\/\//i.test(ref) && !ref.startsWith('data:');
-    if (!isExternal) continue;
-    assert.match(ref, /^https:\/\/(?:[a-z0-9-]+\.)+561\.group(\/|$)/, `index.html's only allowed external references are real 561.group game links, found: ${ref}`);
+    assert.ok(!/^(?:[a-z][a-z0-9+.-]*:|\/\/)/i.test(ref), `asset URL must be local: ${ref}`);
   }
 });
 
-test('today.html loads no remote script/stylesheet (its anchor hrefs may legitimately point at real *.561.group subdomains -- that is the whole point of the page)', async () => {
-  const html = await readPublication('today.html');
+test('today/index.html loads no remote script/stylesheet (its anchor hrefs may legitimately point at real *.561.group subdomains -- that is the whole point of the page)', async () => {
+  const html = await readPublication('today/index.html');
 
-  assert.ok(!/<script[^>]+src="https?:/i.test(html), 'today.html must not load a script from a CDN');
-  assert.ok(!/<link[^>]+href="https?:/i.test(html), 'today.html must not load a stylesheet from a CDN');
+  assert.ok(!/<script[^>]+src="https?:/i.test(html), 'today/index.html must not load a script from a CDN');
+  assert.ok(!/<link(?=[^>]*\brel="stylesheet")[^>]+href="https?:/i.test(html), 'today/index.html must not load a stylesheet from a CDN');
 
   const scriptSrcs = [...html.matchAll(/<script[^>]+src="([^"]+)"/g)].map((m) => m[1]);
   assert.ok(scriptSrcs.length > 0, 'expected at least one <script src> to check');
   for (const src of scriptSrcs) {
-    assert.ok(!/^([a-z]+:)?\/\//i.test(src), `today.html script src must be local, found: ${src}`);
+    assert.ok(!/^([a-z]+:)?\/\//i.test(src), `today/index.html script src must be local, found: ${src}`);
   }
 });
 
@@ -239,7 +239,7 @@ test("js/today.mjs's strips match exactly catalog.json's daily-utc entries", asy
 });
 
 test('daily Solitaire follows its authored table and variant, with the same seed as the game', async () => {
-  const { dailySeed } = await import('../../solitaire.play.561.group/src/daily.mjs');
+  const { dailySeed } = await sourceExport('red-cup-engineering/solitaire', '@red-cup-engineering/solitaire-561-group/daily');
   const { computeTodayStrips } = await import('../js/today.mjs');
   const game = (await loadCatalog()).games.find((entry) => entry.id === 'solitaire');
   const date = new Date('2026-10-03T23:59:59Z');
@@ -257,7 +257,7 @@ test('daily Solitaire follows its authored table and variant, with the same seed
 
 
 test('daily reel seed agrees with the game bootstrap without an invented config argument', async () => {
-  const { dailySeed } = await import('../../parlor.play.561.group/src/games/reels/daily.mjs');
+  const { dailySeed } = await sourceExport('red-cup-engineering/parlor', '@red-cup-engineering/parlor-service-561-group/reels/daily');
   const { computeTodayStrips } = await import('../js/today.mjs');
   const game = (await loadCatalog()).games.find(entry => entry.id === 'reels');
   const date = new Date('2026-10-04T12:00:00Z');

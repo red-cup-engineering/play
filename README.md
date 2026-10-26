@@ -28,6 +28,22 @@ Keyboard focus, narrow screens, display safe areas and reduced-motion settings
 remain part of the shared layout. Cover glyphs are illustrative symbols, not
 screenshots or promises about game content.
 
+Both public entry pages use the existing TUFTE metadata projection for their
+canonical URLs, social metadata and structured data. The shelf's ordered
+machine-readable list comes from the same authored records as its visible
+cards, and its alternate JSON link points to the complete published catalog.
+The daily page is a native directory publication at `/today/`; the original
+`/today` and `/today.html` addresses redirect there through the existing
+Cloudflare assets target. Its assets and catalog reads use root-relative URLs.
+VICTOR derives the sitemap from the same TUFTE metadata supplied to those page
+renders. These declarations describe the published pages; they do not assert search-engine indexing,
+rankings, completed playthroughs, or independently verified game availability.
+
+Dependency resolution uses the public npm registry for public packages and the
+Group registry for the declared Group scopes. The committed native lock retains
+the exact supplier versions and integrity values; release-age and trust policy
+checks continue to apply.
+
 Catalog cartridge manifests, replay verifiers and schema references resolve
 through the owning game's public package exports, including nested Parlor
 records. An unrelated game package installed beside Play cannot substitute its
