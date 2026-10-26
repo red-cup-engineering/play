@@ -15,11 +15,11 @@ importers:
         specifier: 0.1.10
         version: 0.1.10(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/static-site-publisher':
-        specifier: 0.1.20-dev.36
-        version: 0.1.20-dev.36(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+        specifier: 0.1.20-dev.38
+        version: 0.1.20-dev.38(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/web-page-tiling-engine':
-        specifier: 0.17.0-dev.93
-        version: 0.17.0-dev.93(@red-cup-engineering/computer-serialized-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-text-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section@0.1.1)(@red-cup-engineering/csl-json-services-section@0.2.1)(@red-cup-engineering/html-engineering-services-section@0.1.2)(@red-cup-engineering/knowledge-system-server@0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(@red-cup-engineering/markdown-engineering-services-section@0.5.6)(@red-cup-engineering/web-theming-service@0.0.6)
+        specifier: 0.17.0-dev.95
+        version: 0.17.0-dev.95(@red-cup-engineering/computer-serialized-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-text-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section@0.1.1)(@red-cup-engineering/csl-json-services-section@0.2.1)(@red-cup-engineering/html-engineering-services-section@0.1.2)(@red-cup-engineering/knowledge-system-server@0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(@red-cup-engineering/markdown-engineering-services-section@0.5.6)(@red-cup-engineering/web-theming-service@0.0.6)
       '@red-cup-engineering/weiqi-engine':
         specifier: 0.3.4
         version: 0.3.4(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
@@ -1850,8 +1850,8 @@ packages:
     engines: {node: '>=22.18'}
     hasBin: true
 
-  '@red-cup-engineering/static-site-publisher@0.1.20-dev.36':
-    resolution: {integrity: sha512-IwKALDNdwQmAigW8E7ZkjeU9bKejhDaIAwkPaACQdzbp/+eG7sjpByDD8PAzfSH1pvw/4Tyc9Hapw9KQ0QFi5A==}
+  '@red-cup-engineering/static-site-publisher@0.1.20-dev.38':
+    resolution: {integrity: sha512-47fcD22GRP/fZ3KyYmz1K1Nj1YNlHPRZ9Uvum7qkgjsmIixWD3OCLy8g9acT+mXbQKYSNCJ50hkoJNXomo6mjg==}
     engines: {node: '>=22.18'}
     hasBin: true
 
@@ -1971,8 +1971,8 @@ packages:
     engines: {node: '>=22'}
     hasBin: true
 
-  '@red-cup-engineering/web-page-tiling-engine@0.17.0-dev.93':
-    resolution: {integrity: sha512-xYo6Pq5m510Qd5kb19/qw1ECSkp5KUyggIb54DpUJppt9ADhvKng+RraqvDACSduteQ7GXN0MdYQPO+1dUIhgQ==}
+  '@red-cup-engineering/web-page-tiling-engine@0.17.0-dev.95':
+    resolution: {integrity: sha512-pfaozo3f7ug0iY9s32UyOi69oy+EvCrGTtvlHB7+jhkrkI11VZpeQM+CcH8daqC89PvvlNAk7CLKUJX+I5a29g==}
     engines: {node: '>=22'}
     hasBin: true
     peerDependencies:
@@ -7706,7 +7706,7 @@ snapshots:
       '@red-cup-engineering/uri-services-section': 0.1.1
       '@red-cup-engineering/web-release-candidate-service': 0.3.2
 
-  '@red-cup-engineering/static-site-publisher@0.1.20-dev.36(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@red-cup-engineering/static-site-publisher@0.1.20-dev.38(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@red-cup-engineering/activitypub-services-section': 0.8.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       '@red-cup-engineering/cbor-services-section': 0.1.1
@@ -7723,7 +7723,7 @@ snapshots:
       '@red-cup-engineering/knowledge-system-server': 0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@red-cup-engineering/markdown-engineering-services-section': 0.5.6
       '@red-cup-engineering/static-site-conformance-service': 0.1.2
-      '@red-cup-engineering/web-page-tiling-engine': 0.17.0-dev.93(@red-cup-engineering/computer-serialized-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-text-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section@0.1.1)(@red-cup-engineering/csl-json-services-section@0.2.1)(@red-cup-engineering/html-engineering-services-section@0.1.2)(@red-cup-engineering/knowledge-system-server@0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(@red-cup-engineering/markdown-engineering-services-section@0.5.6)(@red-cup-engineering/web-theming-service@0.0.6)
+      '@red-cup-engineering/web-page-tiling-engine': 0.17.0-dev.95(@red-cup-engineering/computer-serialized-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-text-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section@0.1.1)(@red-cup-engineering/csl-json-services-section@0.2.1)(@red-cup-engineering/html-engineering-services-section@0.1.2)(@red-cup-engineering/knowledge-system-server@0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(@red-cup-engineering/markdown-engineering-services-section@0.5.6)(@red-cup-engineering/web-theming-service@0.0.6)
       '@red-cup-engineering/web-release-candidate-service': 0.3.2
       '@red-cup-engineering/web-theming-service': 0.0.6
       '@red-cup-engineering/workspace-content-graph-service': 0.9.1
@@ -7985,7 +7985,7 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@red-cup-engineering/web-page-tiling-engine@0.17.0-dev.93(@red-cup-engineering/computer-serialized-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-text-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section@0.1.1)(@red-cup-engineering/csl-json-services-section@0.2.1)(@red-cup-engineering/html-engineering-services-section@0.1.2)(@red-cup-engineering/knowledge-system-server@0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(@red-cup-engineering/markdown-engineering-services-section@0.5.6)(@red-cup-engineering/web-theming-service@0.0.6)':
+  '@red-cup-engineering/web-page-tiling-engine@0.17.0-dev.95(@red-cup-engineering/computer-serialized-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-text-content-engineering-services-section@0.1.0)(@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section@0.1.1)(@red-cup-engineering/csl-json-services-section@0.2.1)(@red-cup-engineering/html-engineering-services-section@0.1.2)(@red-cup-engineering/knowledge-system-server@0.2.3(@types/node@26.6.5)(bufferutil@4.1.0)(debug@4.4.3(supports-color@10.2.2))(ethers@6.17.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))(supports-color@10.2.2)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@3.25.76))(@red-cup-engineering/markdown-engineering-services-section@0.5.6)(@red-cup-engineering/web-theming-service@0.0.6)':
     dependencies:
       '@red-cup-engineering/html-structural-projection-service': 0.3.2
       '@red-cup-engineering/http-services-section': 0.6.2
