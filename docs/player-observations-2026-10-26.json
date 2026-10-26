@@ -2,7 +2,7 @@
   "format": "561-player-observations-v1",
   "recordedOn": "2026-10-26",
   "scope": "Live desktop browser observations retained from the Sunday Funday audit. RecordedOn is the date these notes were retained, not a fabricated per-page timestamp. The checks did not verify full game completions, mobile play, payouts or deployed source revisions.",
-  "environment": "Cloud browser desktop session; Aletheon reported WebGL2 unavailable in that environment.",
+  "environment": "Cloud browser desktop session.",
   "games": [
     {
       "id": "solitaire",

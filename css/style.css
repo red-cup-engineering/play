@@ -716,7 +716,7 @@ main { max-width:76rem; padding-top:2rem; }
 .play-observation strong { display:block; }
 .play-observation p { margin:.35rem 0; }
 .play-observation details { margin:.45rem 0; }
-.play-observation summary { cursor:pointer; min-height:44px; display:flex; align-items:center; }
+.play-observation summary { cursor:pointer; min-height:44px; display:list-item; list-style-position:inside; padding:.6rem 0; box-sizing:border-box; }
 .play-observation ul { padding-inline-start:1.15rem; }
 .play-observation .observation-date { color:var(--fg-muted); font-size:.7rem; }
 :where(select,summary):focus-visible { outline:2px solid var(--focus-ring); outline-offset:3px; }
