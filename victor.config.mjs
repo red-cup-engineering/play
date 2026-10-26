@@ -5,5 +5,6 @@ export default {
   home: false,
   archives: false,
   search: false,
+  feeds: false,
   projectors: [createShelfProjector({ sources: catalogSourcesFromEnvironment(), date: publicationDateFromEnvironment() })],
 };

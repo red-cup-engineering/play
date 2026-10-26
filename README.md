@@ -121,6 +121,12 @@ registry. The default publisher performs no page observations; unchecked pages a
 labelled not checked. A programmatic caller may explicitly request observations with
 the boolean `observePages: true`; nonboolean values refuse before source reads.
 
+Play selects `feeds: false` in that same publisher configuration. Its shelf and
+daily page are projections of the authored game catalog, and `content/` has no
+document publication stream. The publisher therefore omits RSS, Atom and JSON
+Feed files and their generated discovery links. Catalog generation dates and
+daily seed dates retain their own meanings.
+
 The terminal application also accepts `PLAY_CATALOG_SOURCES`. Its default is local
 discovery, with no HTTP request. Setting `SHELF_CATALOG_URL` explicitly opts into the
 existing remote-read/local-fallback behavior. `SHELF_DURANTE_TERMINAL_BIN` supplies
@@ -170,10 +176,11 @@ pnpm install --frozen-lockfile --ignore-scripts --registry=https://registry.561.
 ```
 
 `package.json` selects exact published Arnold 0.3.0, Gaming 0.1.10, TUFTE
-0.16.5-dev.0, VICTOR 0.1.18 and Weiqi 0.3.4, plus esbuild 0.28.1 and Wrangler
+0.17.0-dev.1, VICTOR 0.1.20-dev.0 and Weiqi 0.3.4, plus esbuild 0.28.1 and Wrangler
 4.123.0. The native lock preserves their transitive selections. The workspace
-configuration admits only the explicitly selected fresh TUFTE version through
-PNPM's release-age check; it does not override another provider's dependencies.
+configuration admits the exact selected TUFTE 0.17.0-dev.1 and VICTOR
+0.1.20-dev.0 releases through PNPM's release-age check, retaining the earlier
+TUFTE 0.16.5-dev.0 admission. It does not override another provider's dependencies.
 
 Receive the complete authored source set and each selected game's declared
 dependencies before building: discovery executes the actual manifest/verifier
